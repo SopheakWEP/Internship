@@ -8,7 +8,11 @@
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+<<<<<<< HEAD
 	<div class="blog-header fixed-top">
+=======
+	<div class="blog-header fixed">
+>>>>>>> 1716590088e33fa630fc1c8fcef52f3901ccb536
 		<div class="col-lg-5 col-md-5">
 			<h1>RCI Cambodia</h1>
 		</div>
