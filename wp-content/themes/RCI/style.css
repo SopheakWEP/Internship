@@ -29,3 +29,45 @@ li > a:hover {
 #title {
 	color: black;
 }
+/*//footer for RCI site*/
+.footer {
+	width: 100%;
+	padding-top: 20px;
+}
+.widget-title {
+	font-size: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  font-weight: 400;
+}
+.footer-text-1, .footer-text-2, .footer-text-3, .footer-info {
+	color: white;
+	font-size: 15px;
+}
+.footer-info:hover {
+	text-decoration: none;
+}
+.fab{
+	color: white;
+	border-radius: 5px;
+}
+.input-newsletter {
+	border: none;
+	border-radius: none;
+	height: 35px;
+	width: 70%;
+}
+.btn-newsletter {
+	width: 70px;
+	height: 35px;
+	border: none;
+	border-radius: none;
+}
+.btn-newsletter {
+	background: #091926;
+	color: #fff;
+}
+.rci_info {
+	margin-bottom: 10px;
+}
