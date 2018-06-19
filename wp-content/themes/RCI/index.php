@@ -332,5 +332,3 @@
 		</script>		
 
 <?php get_footer(); ?>
-
->>>>>>> a85896a5fede6e8bf3c7554376a05bef1588af03
