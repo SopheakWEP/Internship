@@ -117,11 +117,12 @@
 		</div>
 	</div>
 </section>
+
 <section id="ecom">
 	<div class="container">
 		<div class="row solution-items">
 			<div class="col-xs-12 col-sm-12 col-md-6 solution-image pull-right text-center wow bounceInRight" style="visibility: visible; animation-name: bounceInRight;">
-				<div class="solution-video owl-loaded owl-drag owl-carousel owl-theme">
+				<div class="solution-video owl-loaded owl-drag owl-carousel1 owl-theme">
 					<div class="owl-stage-outer slideWarpaper">
 						<div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: 0s; width: 1620px;">
 							<div class="owl-item active cc" style="width: 540px;">
@@ -153,13 +154,13 @@
 				<p style="text-align: justify;">For retailers who wish to enhance their business and sales through online platform, RCI Global Services provides &nbsp;E-commerce solutions with Salesforce Commerce Cloud or Magento. With an online presence, retailers increase their visibility and reach more customers by offering a large range of products. These items can then be fulfilled by local stores and shipped to their clients. Indeed, integrated with a point of sale (POS) software, customers may also pick up their orders in-store. More than an online platform, the website is connected to local stores and acts as a coordinated whole in the context of an omnichannel retailing strategy.</p>
 				<h3 style="text-align: justify;"></h3>
 				<ul class="nav nav-tabs nav-sm contribe-nav" role="tablist">
-					<li role="presentation" data-target="#pos" class="pre">
+					<li role="presentation" data-target="#pos" class="pre1">
 						<a href="#retail-pro2" aria-controls="retail-pro2" role="tab" data-toggle="tab" aria-expanded="false">
 							<img width="130" height="32" src="http://rciapac.com/wp-content/uploads/2017/04/SFCC-4-130x32.png" class="attachment-contributor-logo-small size-contributor-logo-small wp-post-image" alt="" srcset="http://rciapac.com/wp-content/uploads/2017/04/SFCC-4-130x32.png 130w, http://rciapac.com/wp-content/uploads/2017/04/SFCC-4.png 300w, http://rciapac.com/wp-content/uploads/2017/04/SFCC-4-240x58.png 240w" sizes="(max-width: 130px) 100vw, 130px">
 							<i class="fa fa-play-circle" aria-hidden="true"></i>
 						</a>
 					</li>
-					<li role="presentation" data-target="#pos" class="next">
+					<li role="presentation" data-target="#pos" class="next1">
 						<a href="#ivend2" aria-controls="ivend2" role="tab" data-toggle="tab" aria-expanded="true">
 							<img width="130" height="38" src="http://rciapac.com/wp-content/uploads/2017/04/Magento-130x38.png" class="attachment-contributor-logo-small size-contributor-logo-small wp-post-image" alt="" srcset="http://rciapac.com/wp-content/uploads/2017/04/Magento.png 130w, http://rciapac.com/wp-content/uploads/2017/04/Magento-127x38.png 127w" sizes="(max-width: 130px) 100vw, 130px">
 							<i class="fa fa-play-circle" aria-hidden="true"></i>
@@ -193,7 +194,7 @@
 	<div class="container">
 		<div class="row solution-items">
 			<div class="col-xs-12 col-sm-12 col-md-6 solution-image pull-left text-center wow bounceInRight" style="visibility: visible; animation-name: bounceInRight;">
-				<div class="solution-video owl-loaded owl-drag owl-carousel owl-theme">
+				<div class="solution-video owl-loaded owl-drag owl-carousel2 owl-theme">
 					<div class="owl-stage-outer">
 						<div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: 0s; width: 1620px;"><div class="owl-item active" style="width: 540px;">
 							<div class="background-tv" style="background-image:url('http://rciapac.com/wp-content/uploads/2017/03/OMS-1.png');">
@@ -223,13 +224,13 @@
 			<p style="text-align: justify;">An OMS is a software used by retailers, which mainly allows them to have a 360° view on their business.&nbsp;The software shows in real-time the status of the orders, from the payment to the shipment. It is a solution integrated on both side front-end and back-end, that is the main component for a unified commerce through different channels.&nbsp;Last but not least, an OMS solution can display the real time inventory stock and manage the replenishment.</p>
 			<h3></h3>
 			<ul class="nav nav-tabs nav-sm contribe-nav" role="tablist">
-				<li role="presentation" data-target="#oms" class="pre">
+				<li role="presentation" data-target="#oms" class="pre2">
 					<a href="#oms-pro" aria-controls="oms-pro" role="tab" data-toggle="tab">
 						<img width="84" height="50" src="http://rciapac.com/wp-content/uploads/2017/04/OMS-84x50.png" class="attachment-contributor-logo-small size-contributor-logo-small wp-post-image" alt="" srcset="http://rciapac.com/wp-content/uploads/2017/04/OMS-84x50.png 84w, http://rciapac.com/wp-content/uploads/2017/04/OMS-127x77.png 127w, http://rciapac.com/wp-content/uploads/2017/04/OMS.png 130w" sizes="(max-width: 84px) 100vw, 84px">						    	
 						<i class="fa fa-play-circle" aria-hidden="true"></i>
 					</a>
 				</li>
-				<li role="presentation" data-target="#oms" class="next">
+				<li role="presentation" data-target="#oms" class="next2">
 					<a href="#ibm-sterling" aria-controls="ibm-sterling" role="tab" data-toggle="tab">
 						<img width="130" height="25" src="http://rciapac.com/wp-content/uploads/2017/04/IBM-130x25.png" class="attachment-contributor-logo-small size-contributor-logo-small wp-post-image" alt="" srcset="http://rciapac.com/wp-content/uploads/2017/04/IBM.png 130w, http://rciapac.com/wp-content/uploads/2017/04/IBM-127x25.png 127w" sizes="(max-width: 130px) 100vw, 130px">						    	<i class="fa fa-play-circle" aria-hidden="true"></i>
 					</a>
@@ -261,7 +262,7 @@
 	<div class="container">
 		<div class="row solution-items">
 			<div class="col-xs-12 col-sm-12 col-md-6 solution-image pull-right text-center wow bounceInRight" style="visibility: visible; animation-name: bounceInRight;">
-				<div class="solution-video owl-loaded owl-drag owl-carousel" id="owl-carousel3">
+				<div class="solution-video owl-loaded owl-drag owl-carousel3" id="owl-carousel3">
 					<div class="owl-stage-outer">
 						<div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: 0s; width: 1620px;">
 							<div class="owl-item active" style="width: 540px;">
@@ -293,12 +294,12 @@
 				<p style="text-align: justify;">A POS software&nbsp;manages local stores operations as the daily sales, the inventory, the price or even the accounting. It is an essential&nbsp;tool that centralizes all the store information and increases productivity. Most of the stores are equipped with a POS.&nbsp;RCI Global Services is a Retail Pro Authorized Business Partner and also provides iVend POS from CitiXsys.</p>
 				<h3 style="text-align: justify;"></h3>
 				<ul class="nav nav-tabs nav-sm contribe-nav" role="tablist">
-					<li role="presentation" data-target="#pos" class="pre">
+					<li role="presentation" data-target="#pos" class="pre3">
 						<a href="#retail-pro" aria-controls="retail-pro" role="tab" data-toggle="tab">
 							<img width="110" height="50" src="http://rciapac.com/wp-content/uploads/2017/04/Retail-Pro-110x50.png" class="attachment-contributor-logo-small size-contributor-logo-small wp-post-image" alt="" srcset="http://rciapac.com/wp-content/uploads/2017/04/Retail-Pro-110x50.png 110w, http://rciapac.com/wp-content/uploads/2017/04/Retail-Pro-127x59.png 127w, http://rciapac.com/wp-content/uploads/2017/04/Retail-Pro.png 130w" sizes="(max-width: 110px) 100vw, 110px">						<i class="fa fa-play-circle" aria-hidden="true"></i>
 						</a>
 					</li>
-					<li role="presentation" data-target="#pos" class="next">
+					<li role="presentation" data-target="#pos" class="next3">
 						<a href="#ivend" aria-controls="ivend" role="tab" data-toggle="tab">
 							<img width="127" height="50" src="http://rciapac.com/wp-content/uploads/2017/04/iVend-1-127x50.png" class="attachment-contributor-logo-small size-contributor-logo-small wp-post-image" alt="" srcset="http://rciapac.com/wp-content/uploads/2017/04/iVend-1-127x50.png 127w, http://rciapac.com/wp-content/uploads/2017/04/iVend-1.png 130w" sizes="(max-width: 127px) 100vw, 127px">						    	
 							<i class="fa fa-play-circle" aria-hidden="true"></i>
@@ -362,17 +363,45 @@
 			});
 
 			$(document).ready(function(){
-			    $(".owl-carousel").owlCarousel({
+			    $(".owl-carousel1").owlCarousel({
+			        items: 1
+			    });
+
+			    $(".owl-carousel2").owlCarousel({
+			        items: 1
+			    });
+
+			    $(".owl-carousel3").owlCarousel({
 			        items: 1
 			    });
 			    // tv ecom
-			   $('body').on('click','.pre', function(){
-			       $('.owl-carousel').trigger('to.owl.carousel', 1);
+
+			   $('body').on('click','.pre1', function(){
+			       $('.owl-carousel1').trigger('to.owl.carousel', 1);
 			   });
 
-			   $('body').on('click','.next', function(){
-			        $('.owl-carousel').trigger('to.owl.carousel', 2);
+			   $('body').on('click','.next1', function(){
+			        $('.owl-carousel1').trigger('to.owl.carousel', 2);
 			     });
+
+			   $('body').on('click','.pre2', function(){
+			       $('.owl-carousel2').trigger('to.owl.carousel', 1);
+			   });
+
+			   $('body').on('click','.next2', function(){
+			        $('.owl-carousel2').trigger('to.owl.carousel', 2);
+			     });
+
+			   $('body').on('click','.pre3', function(){
+			       $('.owl-carousel3').trigger('to.owl.carousel', 1);
+			   });
+
+			   $('body').on('click','.next3', function(){
+			        $('.owl-carousel3').trigger('to.owl.carousel', 2);
+			     });
+
+
+			
 			});
 // javascript test		
 		</script>		
