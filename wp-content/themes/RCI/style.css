@@ -1,0 +1,73 @@
+/*
+Theme Name: RCI Cambodia
+Author: RCI trainee
+Version: 1.0
+*/
+li {
+	display: inline-block;
+	font-size: 18px;
+	margin: 20px;
+}
+.blog-header {
+	border-bottom: .5px solid lightgray;
+	background: red;
+}
+ul, .search-bar {
+	margin-right: 25px;
+	margin-bottom: 5px;
+}
+.input-search,.icon-search {
+	border-radius: 10px;
+}
+li > a {
+	color: gray;
+}
+li > a:hover {
+	border-bottom: 3px solid transparent;
+	text-decoration: none;
+}
+#title {
+	color: black;
+}
+/*//footer for RCI site*/
+.footer {
+	width: 100%;
+	padding-top: 20px;
+}
+.widget-title {
+	font-size: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  font-weight: 400;
+}
+.footer-text-1, .footer-text-2, .footer-text-3, .footer-info {
+	color: white;
+	font-size: 15px;
+}
+.footer-info:hover {
+	text-decoration: none;
+}
+.fab{
+	color: white;
+	border-radius: 5px;
+}
+.input-newsletter {
+	border: none;
+	border-radius: none;
+	height: 35px;
+	width: 70%;
+}
+.btn-newsletter {
+	width: 70px;
+	height: 35px;
+	border: none;
+	border-radius: none;
+}
+.btn-newsletter {
+	background: #091926;
+	color: #fff;
+}
+.rci_info {
+	margin-bottom: 10px;
+}
