@@ -19,7 +19,7 @@
 			</div>
 			<div class="col-md-3"></div>
 		</div>
-	</div>
+  </div>
 </section>
 <section style="background: #f5f2f2; padding-bottom: 50px; padding-top: 50px;">
 	<div class="container">
@@ -328,5 +328,9 @@
 			        $('.owl-carousel').trigger('to.owl.carousel', 2);
 			     });
 			});
-// javascript
+// javascript		
 		</script>		
+
+<?php get_footer(); ?>
+
+>>>>>>> a85896a5fede6e8bf3c7554376a05bef1588af03
