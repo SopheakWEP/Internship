@@ -682,3 +682,138 @@ section {
 .fname {
 	border-radius: none;
 }
+/* solution page*/
+
+/* solution page */
+.solution-image {
+    padding-top: 25px;
+}
+.solution-video {
+    overflow: hidden;
+}
+
+.solution-video .owl-item {
+    float: left;
+}
+.background-tv {
+    background-size: 100%;
+    min-height: 465px;
+    background-repeat: no-repeat;
+    padding-top: 6.9%;
+    padding-left: 9.5%;
+    padding-right: 9.5%;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 54%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.video-container iframe, .video-container object, .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*  button click on tv */
+.nav-tabs>li {
+    float: left;
+    margin-bottom: -1px;
+}
+
+.nav>li {
+    position: relative;
+    display: block;
+}
+.contribe-nav li i {
+    position: absolute;
+    bottom: 1px;
+    right: 4px;
+    font-size: 28px;
+    opacity: 0.7;
+}
+.nav-sm > li > a, .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    padding: 10px;
+    border: 1px solid #1e5073;
+    padding-bottom: 20px;
+    height: 70px;
+}
+.contribe-nav li.active a i {
+    color: #337ab7;
+    opacity: 1;
+}
+.nav>li>a>img {
+    max-width: none;
+}
+
+.fa-play-circle:before {
+    content: "\f144";
+}
+.nav-sm li a:before {
+    position: absolute;
+    content: "";
+    left: 50%;
+    bottom: -10px;
+    margin-left: -5px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: #b0c7d8 transparent transparent transparent;
+}
+/* button under TV */
+.solution-btn {
+    color: #1e5073;
+    border: 1px solid #1e5073;
+    padding: 5px 10px;
+    font-size: 14px;
+=======
+#title {
+	color: black;
+}
+/*//footer for RCI site*/
+.footer {
+	width: 100%;
+	padding-top: 20px;
+}
+.widget-title {
+	font-size: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  font-weight: 400;
+}
+.footer-text-1, .footer-text-2, .footer-text-3, .footer-info {
+	color: white;
+	font-size: 15px;
+}
+.footer-info:hover {
+	text-decoration: none;
+}
+.fab{
+	color: white;
+	border-radius: 5px;
+}
+.input-newsletter {
+	border: none;
+	border-radius: none;
+	height: 35px;
+	width: 70%;
+}
+.btn-newsletter {
+	width: 70px;
+	height: 35px;
+	border: none;
+	border-radius: none;
+}
+.btn-newsletter {
+	background: #091926;
+	color: #fff;
+}
+.rci_info {
+	margin-bottom: 10px;
+
+}
