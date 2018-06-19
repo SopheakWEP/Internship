@@ -110,16 +110,16 @@
 				<h3 class="wow fadeInUp" data-wow-delay="0.6s" style="margin-bottom: 35px; margin-top: 30px;">Because each retailer has different purposes.</h3>
 				<div class="container">
 					<div class="row">
-						<div class="col-md-5"></div>
-						<!-- <div class ="col-md-1  wow fadeInUp" data-wow-delay="0.8s" style="border-bottom: 2px solid #fff;"><br>
-						</div> -->
-						<div class="col-md-2">
+						<div class="col-md-4 col-sm-4 col-xs-4"></div>
+						<div class ="col-md-1 col-sm-1 col-xs-1 wow fadeInUp" data-wow-delay="0.8s" style="border-bottom: 2px solid #fff;"><br>
+						</div>
+						<div class="col-md-2 col-sm-2 col-xs-2">
 							<button class="wow fadeInUp" data-wow-delay="0.8s">Read More</button>
 						</div>
-						<!-- <div class="col-md-1 wow fadeInUp" data-wow-delay="0.8s " style="border-bottom: 2px solid #fff;" >
+						<div class="col-md-1 col-sm-1 col-xs-1 wow fadeInUp" data-wow-delay="0.8s " style="border-bottom: 2px solid #fff;" >
 							<br>
-						</div> -->
-						<div class="col-md-5"></div>
+						</div>
+						<div class="col-md-4 col-sm-4 col-xs-4"></div>
 					</div>
 				</div>
 			</div>
