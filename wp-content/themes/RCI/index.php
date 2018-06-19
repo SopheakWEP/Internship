@@ -67,7 +67,7 @@
 					<li class="ecomemrce">Loyalty</li>
 					<li class="ecomemrce">Coupon &amp; voucher</li>
 				</ul>
-			</div>
+			</div> 
 		</div>
 	</div>
 </section>
@@ -328,5 +328,5 @@
 			        $('.owl-carousel').trigger('to.owl.carousel', 2);
 			     });
 			});
-
+// javascript
 		</script>		
