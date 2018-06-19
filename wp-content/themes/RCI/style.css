@@ -3,9 +3,77 @@ Theme Name: RCI Cambodia
 Author: RCI trainee
 Version: 1.0
 */
+/*menu page*/
+.navbar ul li a:link,
+.navbar ul li a:visited {
+	margin: 0;
+	padding: 0;
+}
+.navbar ul:before, 
+.site-nav nav ul:after{
+	content: "";
+	display: table
+}
+.navbar ul li a:after {
+	clear: both;
+}
+.navbar ul {
+	*zoom: 1;
+}
+.navbar ul li {
+	list-style-type: none;
+	float: left;
+	font-size: 20px;
+	background: #fff;
+}
+.navbar ul li a:link,
+.navbar ul li a:visited {
+	display: block;
+	padding: 10px 18px;
+	text-decoration: none;
+	color: #707070;
+}
+.navbar ul li a:hover {
+		border-bottom: 1px solid #C99B65;
+}
+.navbar ul li.current-menu-item a:link,
+.navbar ul li.current-menu-item a:visited {
+	border-bottom: 1px solid #C99B65;
+}
+.list-menu {
+	display: inline-block;
+	font-size: 18px;
+	margin: 10px;
+}
+#main-navbar {
+	margin-left: 10px;
+}
+/*.main-menu {
+	border-bottom: 0.5px solid lightgray;
+	background-color: white;
+}*/
+#menu-list, .search-bar {
+	margin-left: 30px;
+	/*margin-bottom: 5px;*/
+}
+.input-search,.icon-search {
+	border-radius: 10px;
+}
+.list-menu > a {
+	color: gray;
+}
+.list-menu > a:hover {
+	border-bottom: 3px solid transparent;
+	text-decoration: none;
+}
+#title {
+	color: black;
+}
+
+/*devit style home page===========*/
 /* RCIinFigures */
 .rci_service{
-    font-size:17px;
+	font-size:17px;
 }
 .solution-introduction {
     text-align: center;
@@ -13,15 +81,13 @@ Version: 1.0
 .solution-introduction {
     text-align: center;
 }
-.figures_bg{
-    color: #fff;
+.figures-bg{
+	color: #fff;
 }
 .zoomIn{
     padding-bottom: 22px;
 }
 section {
-    width: 100%;
-    float: left;
     margin-bottom: 50px;
 }
 
@@ -32,6 +98,7 @@ section {
     background: #ca9e66;
     max-width: 100%;
     max-height: 100%;
+    /*margin-bottom: 20px;*/
 }
 .blue{
     background: #103752;
@@ -60,28 +127,28 @@ section {
 }       
 /* section tailored */
 .tailored{
-    width: 100%;
+	width: 100%;
 }
 .read-more{
-    border: 1px solid #b0c7d8;
-    border-radius: 17px;
-    padding: 7px;
+	border: 1px solid #b0c7d8;
+	border-radius: 17px;
+	padding: 7px;
 }
 .read-more:hover{
-    border: 1px solid #000;
+	border: 1px solid #000;
 }
 .margin_read{
-    margin-left: 25px;
+	margin-left: 25px;
 }
 /*  hero image */
 .hero_image {
-  background-image: url("http://rciapac.com/wp-content/uploads/2017/03/luca-bravo-207676-e1493709506879.jpg");
+  /*background-image: url("http://rciapac.com/wp-content/uploads/2017/03/luca-bravo-207676-e1493709506879.jpg");*/
   background-position: center;
   height: 33vw;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  -webkit-filter: grayscale(100%);  Safari 6.0 - 9.0 
      filter: grayscale(30%);
 }
 
@@ -93,21 +160,32 @@ section {
   transform: translate(-50%, -50%);
   color: white;
 }
-
-.hero-text button {
-background: none;
-  outline: 0;
-  display: inline-block;
-  padding: 10px 25px;   
-  text-align: center;
-  cursor: pointer;
-  border-radius: 20px;
+#hero-img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.hero-text button,
+#button-readMore-respon {
+    background: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;   
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20px;
 }
 
+#solution-intro {
+    margin-top: 20px;
+}
+.home-services {
+    margin-top: 20px;
+}
 /*  RCILatestNews */
 
 .RCILatestNews{
-    font-size: 17px;
+	font-size: 17px;
 }
 
 /*  home page stylesheet */
@@ -212,7 +290,7 @@ background: none;
 
 /*  service stylesheet */
 .heading_wrapper_img{
-    width: 100%;
+	width: 100%;
 }
 .heading-wrapper {
     width: 100%;
@@ -220,10 +298,10 @@ background: none;
     margin-bottom: 50px;
 }
 .list_service{
-    text-align: left;
+	text-align: left;
 }
 .paragraph_rci{
-    text-align: justify;
+	text-align: justify;
 }
 .tailored-service > img {
     width: 100%;
@@ -233,8 +311,11 @@ background: none;
    max-width: 100%;
 }
 .tailored_title{
-    font-size: 40px;
+	font-size: 40px;
 }
+/*.tailored {
+    margin-bottom: 10px;
+}*/
 .sub-heading {
     display: block;
     font-size: 17px;
@@ -244,11 +325,11 @@ background: none;
     padding-bottom: 50px;
 }
 .manage_process{
-    font-size: 20px;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    text-align: center;
-    color: #1e5073;
+	font-size: 20px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	text-align: center;
+	color: #1e5073;
 }
 .processes_image {
     border: 3px solid #1e5073;
@@ -287,149 +368,11 @@ background: none;
     font-style: normal;
 }
 .text_proccess{
-    text-align: justify;
+	text-align: justify;
 }
 
-
-/*  contact us page styleSheet */
-
-
-.heading_wrapper_imgz_cotact{
-    width: 100%;
-    margin-bottom: 50px;
-}
-.pp_location{
-    background-image: url('http://rciapac.com/wp-content/uploads/2017/06/Phnom-Penh-2-2.png');
-    height: 125px;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-       filter: grayscale(11%);
-}
-.text-center {
-    text-align: center;
-}
-.rci_loction , .location-carousel{
-    margin-top: 50px;
-}
-
-.address-icon {
-    width: 100%;
-    float: left;
-    height: 62px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    background: url(assets/placeholder.svg) center center no-repeat;
-}
-.span{
-    color: #fff;
-    font-size: 18px;
-}
-.phone-icon {
-    width: 100%;
-    float: left;
-    height: 62px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    background: url(assets/phone-call.svg) center center no-repeat;
-}
-.email-icon {
-    width: 100%;
-    float: left;
-    height: 62px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    background: url(assets/mail.svg) center center no-repeat;
-}
-/* solution page */
-.solution-image {
-    padding-top: 25px;
-}
-.solution-video {
-    overflow: hidden;
-}
-
-.solution-video .owl-item {
-    float: left;
-}
-.background-tv {
-    background-size: 100%;
-    min-height: 465px;
-    background-repeat: no-repeat;
-    padding-top: 6.9%;
-    padding-left: 9.5%;
-    padding-right: 9.5%;
-}
-.video-container {
-    position: relative;
-    padding-bottom: 54%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
-}
-.video-container iframe, .video-container object, .video-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-/*  button click on tv */
-.nav-tabs>li {
-    float: left;
-    margin-bottom: -1px;
-}
-
-.nav>li {
-    position: relative;
-    display: block;
-}
-.contribe-nav li i {
-    position: absolute;
-    bottom: 1px;
-    right: 4px;
-    font-size: 28px;
-    opacity: 0.7;
-}
-.nav-sm > li > a, .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-    padding: 10px;
-    border: 1px solid #1e5073;
-    padding-bottom: 20px;
-    height: 70px;
-}
-.contribe-nav li.active a i {
-    color: #337ab7;
-    opacity: 1;
-}
-.nav>li>a>img {
-    max-width: none;
-}
-
-.fa-play-circle:before {
-    content: "\f144";
-}
-.nav-sm li a:before {
-    position: absolute;
-    content: "";
-    left: 50%;
-    bottom: -10px;
-    margin-left: -5px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 10px 10px 0 10px;
-    border-color: #b0c7d8 transparent transparent transparent;
-}
-/* button under TV */
-.solution-btn {
-    color: #1e5073;
-    border: 1px solid #1e5073;
-    padding: 5px 10px;
-    font-size: 14px;
-=======
-#title {
-	color: black;
-}
-/*//footer for RCI site*/
+/*end of devit style============*/
+/*// for RCI site*/
 .footer {
 	width: 100%;
 	padding-top: 20px;
@@ -470,5 +413,272 @@ background: none;
 }
 .rci_info {
 	margin-bottom: 10px;
+}
+/*client page*/
+#background-image-client {
+	/*//background-image: url('assets/645.jpg');*/
+	width: 100%;
+}
+.text-decription-1 {
+	  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.respone-content,
+.outer-heading-company,
+.outer-heading-services,
+.outer-hero {
+	display: none;
+}
+@media screen and (max-width: 768px){
+.respone-content,
+.outer-heading-company,
+.outer-heading-services,
+.outer-hero{
+	display: block;
+    background: #073046;
+    position: relative;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    top: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+	}
+.home-services {
+    padding-top: 45px;
+    }
+    .tailored {
+        margin-bottom: 240px;
+    }
+#background-image-client {
+    margin-top: 50px;
+}
+.outer-heading,
+.innter-heahding-company,
+.inner-heading-services,
+.head-search,
+.inner-hero {
+		display: none;
+	}
+}
+.text-center-1  {
+	text-align: justify;
+	font-size: 16px;
+}
+.per-detail, .rci-client {
+	margin-bottom: 35px;
+}
+.spaec-img {
+	margin-bottom: 35px;
+}
+.button-title {
+	position: absolute;
+    left: 15px;
+    bottom: 0;
+    right: 15px;
+    color: #fff;
+    background: #000;
+	opacity: .6;
+    text-transform: uppercase;
+    font-size: 36px;
+    text-align: center;
+    padding: 10px 0;
+    height: 50px;
+}
+.client-title {
+	font-family: inherit;
+	padding: 0;
+	line-height: 1.1;
+    margin: 0;
+    color: #fff;
+    font-size: 20px;
+}
+.img-head-building {
+	max-width: 100%;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(50%);
+}
+.innter-heading-company {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+.head-text-1 {
+	margin-bottom: 10px;
+}
+#underline-head-text {
+	width: 20%;
+}
+.wrap-history {
+	background: #fff;
+    position: absolute;
+    top: 705px;
+    right: 0;
+}
+.content-history {
+	margin: 50px 100px 48px 35px;
+}
+.title-description {
+	padding: 30px;
+}
+.span-client-head {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+}
+#title-name {
+	font-family: Open Sans;
+	font-size: 50px;
+}
+.span-client-name,.span-client-position {
+	color: #fff;
+	/*font-family: 'Open Sans', sans-serif;*/
+}
+.client-speech {
+	margin-top: 40px;
+}
+/*.text-center{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}*/
+.image-inner {
+	height: 125px;
+	margin-top: 10px;
+}
+#img-resolve {
+	margin-top: 25px;
+}
+#span-description {
+	font-size: 15px;
+}
 
+/*  service stylesheet  */
+
+
+/*  service stylesheet */
+.heading_wrapper_img{
+	width: 100%;
+}
+.heading-wrapper {
+    width: 100%;
+    float: left;
+    margin-bottom: 50px;
+}
+.list_service{
+	text-align: left;
+}
+.paragraph_rci{
+	text-align: justify;
+}
+.tailored-service > img {
+    width: 100%;
+}
+
+.tailored-service img {
+   max-width: 100%;
+}
+.tailored_title{
+	font-size: 40px;
+}
+.sub-heading {
+    display: block;
+    font-size: 17px;
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.manage_process{
+	font-size: 20px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	text-align: center;
+	color: #1e5073;
+}
+.processes_image {
+    border: 3px solid #1e5073;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    text-align: center;
+    padding: 25px;
+    width: 92px;
+    height: 92px;
+    margin: auto;
+    position: relative;
+}
+.processes_order {
+    position: absolute;
+    top: -30px;
+    border: 2px solid #fff;
+    background: #1e5073;
+    color: #fff;
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    left: 50%;
+    margin-left: -23px;
+    font-size: 20px;
+    padding: 8px;
+    font-style: normal;
+}
+.text_proccess{
+	text-align: justify;
+}
+
+/*  contact us page styleSheet */
+.heading_wrapper_imgz_cotact{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.pp_location{
+	background-image: url('http://rciapac.com/wp-content/uploads/2017/06/Phnom-Penh-2-2.png');
+	height: 125px;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	   filter: grayscale(11%);
+}
+.text-center {
+    text-align: center;
+}
+.rci_loction , .location-carousel{
+	margin-top: 50px;
+}
+
+.address-icon {
+    width: 100%;
+    float: left;
+    height: 62px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background: url(assets/placeholder.svg) center center no-repeat;
+}
+.span{
+	color: #fff;
+	font-size: 18px;
+}
+.phone-icon {
+    width: 100%;
+    float: left;
+    height: 62px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background: url(assets/phone-call.svg) center center no-repeat;
+}
+.email-icon {
+    width: 100%;
+    float: left;
+    height: 62px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background: url(assets/mail.svg) center center no-repeat;
+}
+.fname {
+	border-radius: none;
 }

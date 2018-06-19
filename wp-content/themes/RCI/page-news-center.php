@@ -1,5 +1,6 @@
 <?php 
 get_header();
+if (is_page('News-center')) :
 	if (have_posts()) : 
 		while (have_posts()) : the_post(); ?>
 			<article class="post page">
@@ -9,6 +10,7 @@ get_header();
 						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 							<h2><?php the_title() ?></h2>
 							<p><?php the_content() ?></p>
+							<p><?php the_category() ?></p>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"></div>
 						<br>
@@ -26,5 +28,6 @@ get_header();
 	else: 
 		echo "<p>No post found </p>";
 	endif;
+endif;
  get_footer(); 
  ?>
