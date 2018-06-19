@@ -3,29 +3,429 @@ Theme Name: RCI Cambodia
 Author: RCI trainee
 Version: 1.0
 */
-li {
-	display: inline-block;
-	font-size: 18px;
-	margin: 20px;
+/* RCIinFigures */
+.rci_service{
+    font-size:17px;
 }
-.blog-header {
-	border-bottom: .5px solid lightgray;
-	background: red;
+.solution-introduction {
+    text-align: center;
 }
-ul, .search-bar {
-	margin-right: 25px;
-	margin-bottom: 5px;
+.solution-introduction {
+    text-align: center;
 }
-.input-search,.icon-search {
-	border-radius: 10px;
+.figures_bg{
+    color: #fff;
 }
-li > a {
-	color: gray;
+.zoomIn{
+    padding-bottom: 22px;
 }
-li > a:hover {
-	border-bottom: 3px solid transparent;
-	text-decoration: none;
+section {
+    width: 100%;
+    float: left;
+    margin-bottom: 50px;
 }
+
+ .figures{
+     background: #f5f2f2;
+ }
+.yellow{
+    background: #ca9e66;
+    max-width: 100%;
+    max-height: 100%;
+}
+.blue{
+    background: #103752;
+    max-width: 100%;
+    max-height: 100%;
+}
+.figure-img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.service-name{
+    font-size: 17px;
+}
+.services_title{
+    color: #103752;
+    font-size: 23px;
+}
+.about_global_title{
+      color: #103752;
+}
+.type_sys{
+  color: #103752;    
+}
+.outer-wrap{
+    margin-top: 18%;
+}       
+/* section tailored */
+.tailored{
+    width: 100%;
+}
+.read-more{
+    border: 1px solid #b0c7d8;
+    border-radius: 17px;
+    padding: 7px;
+}
+.read-more:hover{
+    border: 1px solid #000;
+}
+.margin_read{
+    margin-left: 25px;
+}
+/*  hero image */
+.hero_image {
+  background-image: url("http://rciapac.com/wp-content/uploads/2017/03/luca-bravo-207676-e1493709506879.jpg");
+  background-position: center;
+  height: 33vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+     filter: grayscale(30%);
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+background: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;   
+  text-align: center;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+/*  RCILatestNews */
+
+.RCILatestNews{
+    font-size: 17px;
+}
+
+/*  home page stylesheet */
+
+.our-client h2 {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 55px;
+    margin-bottom: 0;
+    line-height: 30px;
+}
+.intro {
+    text-align: center;
+    padding: 0;
+    width: 60%;
+    margin: auto;
+}
+.sub-heading {
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.our-client .owl-carousel {
+    position: relative;
+}
+.owl-theme .owl-dots .owl-dot {
+    //display: none;
+    zoom: 1;
+}
+.our-client .owl-carousel {
+    position: relative;
+}
+.no-js .owl-carousel, .owl-carousel.owl-loaded {
+    display: block;
+}
+.owl-carousel {
+    display: none;
+    width: 100%;
+    z-index: 1;
+}
+.owl-carousel, .owl-carousel .owl-item {
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+}
+.our-client .owl-carousel .owl-item {
+    height: 230px;
+    display: table;
+}
+.our-client .client-items.item {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.our-client .client-items.item {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.owl-theme .owl-dots .owl-dot {
+    opacity:  0;
+}
+.our-client .owl-nav .owl-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    left: 0;
+    border-radius: 0;
+    background-color: #16445b;
+    -webkit-border-radius: 0;
+    opacity: 0.6;
+    background-image: url(assets/left-arrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 31px;
+    text-indent: 100px;
+    overflow: hidden;
+}
+
+.our-client .owl-nav .owl-next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    right: 0;
+    border-radius: 0;
+    background-color: #16445b;
+    -webkit-border-radius: 0;
+    opacity: 0.6;
+    background-image: url(assets/right-arrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 31px;
+    text-indent: 100px;
+    overflow: hidden;
+}
+
+/*  service stylesheet */
+.heading_wrapper_img{
+    width: 100%;
+}
+.heading-wrapper {
+    width: 100%;
+    float: left;
+    margin-bottom: 50px;
+}
+.list_service{
+    text-align: left;
+}
+.paragraph_rci{
+    text-align: justify;
+}
+.tailored-service > img {
+    width: 100%;
+}
+
+.tailored-service img {
+   max-width: 100%;
+}
+.tailored_title{
+    font-size: 40px;
+}
+.sub-heading {
+    display: block;
+    font-size: 17px;
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.manage_process{
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+    color: #1e5073;
+}
+.processes_image {
+    border: 3px solid #1e5073;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    text-align: center;
+    padding: 25px;
+    width: 92px;
+    height: 92px;
+    margin: auto;
+    position: relative;
+}
+.our-client .owl-carousel img {
+    width: auto;
+    display: inline-block;
+}
+.slider{
+        background: #111;
+     background: rgba(0,0,0,0.5);
+
+   }
+.processes_order {
+    position: absolute;
+    top: -30px;
+    border: 2px solid #fff;
+    background: #1e5073;
+    color: #fff;
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    left: 50%;
+    margin-left: -23px;
+    font-size: 20px;
+    padding: 8px;
+    font-style: normal;
+}
+.text_proccess{
+    text-align: justify;
+}
+
+
+/*  contact us page styleSheet */
+
+
+.heading_wrapper_imgz_cotact{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.pp_location{
+    background-image: url('http://rciapac.com/wp-content/uploads/2017/06/Phnom-Penh-2-2.png');
+    height: 125px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+       filter: grayscale(11%);
+}
+.text-center {
+    text-align: center;
+}
+.rci_loction , .location-carousel{
+    margin-top: 50px;
+}
+
+.address-icon {
+    width: 100%;
+    float: left;
+    height: 62px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background: url(assets/placeholder.svg) center center no-repeat;
+}
+.span{
+    color: #fff;
+    font-size: 18px;
+}
+.phone-icon {
+    width: 100%;
+    float: left;
+    height: 62px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background: url(assets/phone-call.svg) center center no-repeat;
+}
+.email-icon {
+    width: 100%;
+    float: left;
+    height: 62px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background: url(assets/mail.svg) center center no-repeat;
+}
+/* solution page */
+.solution-image {
+    padding-top: 25px;
+}
+.solution-video {
+    overflow: hidden;
+}
+
+.solution-video .owl-item {
+    float: left;
+}
+.background-tv {
+    background-size: 100%;
+    min-height: 465px;
+    background-repeat: no-repeat;
+    padding-top: 6.9%;
+    padding-left: 9.5%;
+    padding-right: 9.5%;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 54%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.video-container iframe, .video-container object, .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*  button click on tv */
+.nav-tabs>li {
+    float: left;
+    margin-bottom: -1px;
+}
+
+.nav>li {
+    position: relative;
+    display: block;
+}
+.contribe-nav li i {
+    position: absolute;
+    bottom: 1px;
+    right: 4px;
+    font-size: 28px;
+    opacity: 0.7;
+}
+.nav-sm > li > a, .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    padding: 10px;
+    border: 1px solid #1e5073;
+    padding-bottom: 20px;
+    height: 70px;
+}
+.contribe-nav li.active a i {
+    color: #337ab7;
+    opacity: 1;
+}
+.nav>li>a>img {
+    max-width: none;
+}
+
+.fa-play-circle:before {
+    content: "\f144";
+}
+.nav-sm li a:before {
+    position: absolute;
+    content: "";
+    left: 50%;
+    bottom: -10px;
+    margin-left: -5px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: #b0c7d8 transparent transparent transparent;
+}
+/* button under TV */
+.solution-btn {
+    color: #1e5073;
+    border: 1px solid #1e5073;
+    padding: 5px 10px;
+    font-size: 14px;
+=======
 #title {
 	color: black;
 }
@@ -70,4 +470,5 @@ li > a:hover {
 }
 .rci_info {
 	margin-bottom: 10px;
+
 }

@@ -45,7 +45,7 @@
 								<h2 class="widget-title">Stay informed!</h2>
 								<div class="textwidget">
 									<div class="footer-text-3">Sign up to receive RCI's newsletter</div>
-									/r/n
+
 									<div class="newsletter-bar">	<!-- sign up field on the footer -->
 										<div class="footer-input">	
 											<form action="">
@@ -60,11 +60,10 @@
 											</form>
 										</div>
 									</div>
-								</div>
-								/r/n
+								</div> 
 								<br>
 								<br>
-								/r/n
+
 								<div class="row">
 									<div class="col-lg-12 col-md-12 col-sm-4 col-xs-4"></div>
 									<div class="col-lg-12 col-md-12 col-sm-1 col-xs-1"></div>
@@ -94,5 +93,40 @@
 		</div>
 	</div>
 	<?php wp_footer(); ?>
+
+	<script>
+		wow = new WOW(
+		{
+					boxClass:     'wow',      // default
+			  	 	animateClass: 'animated', // default
+    			 	offset:       0,          // default
+    			 	mobile:       true,       // default
+    			 	live:         true        // default
+    			 }
+    			 )
+		wow.init();
+
+		// slide show
+		$('.owl-carousel').owlCarousel({
+			loop:true,
+			margin:10,
+			responsiveClass:true,
+			responsive:{
+				0:{
+					items:1,
+					nav:true
+				},
+				600:{
+					items:3,
+					nav:false
+				},
+				1000:{
+					items:4,
+					nav:true,
+					loop:false
+				}
+			}
+		})
+	</script>
 </body>
 </html>
