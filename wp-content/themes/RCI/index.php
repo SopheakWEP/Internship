@@ -328,7 +328,7 @@
 			        $('.owl-carousel').trigger('to.owl.carousel', 2);
 			     });
 			});
-// javascript		
+// javascript test		
 		</script>		
 
 <?php get_footer(); ?>
