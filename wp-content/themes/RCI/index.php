@@ -19,7 +19,7 @@
 			</div>
 			<div class="col-md-3"></div>
 		</div>
-	</div>
+  </div>
 </section>
 <section style="background: #f5f2f2; padding-bottom: 50px; padding-top: 50px;">
 	<div class="container">
@@ -330,3 +330,5 @@
 			});
 // javascript
 		</script>		
+
+<?php get_footer(); ?>
