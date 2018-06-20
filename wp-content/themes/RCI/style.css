@@ -216,10 +216,7 @@ section {
 .our-client .owl-carousel {
     position: relative;
 }
-.owl-theme .owl-dots .owl-dot {
-    //display: none;
-    zoom: 1;
-}
+
 .our-client .owl-carousel {
     position: relative;
 }
@@ -248,9 +245,6 @@ section {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
-}
-.owl-theme .owl-dots .owl-dot {
-    opacity:  0;
 }
 .our-client .owl-nav .owl-prev {
     position: absolute;
@@ -412,7 +406,12 @@ section {
 .rci_info {
 	margin-bottom: 10px;
 }
-/*client page*/
+
+
+/*==============
+    client page stylesheet n
+    Name: soheak rith ;
+==========*/
 #background-image-client {
 	/*//background-image: url('assets/645.jpg');*/
 	width: 100%;
@@ -556,11 +555,76 @@ section {
 #span-description {
 	font-size: 15px;
 }
+/*  owl js header */
+.chronology .owl-nav .owl-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    border-radius: 0;
+    background-color: #16445b;
+    -webkit-border-radius: 0;
+    opacity: 0.6;
+    background-image: url(assets/left-arrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 41px;
+    text-indent: 100px;
+    overflow: hidden;
+}
+.chronology .owl-nav .owl-next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    border-radius: 0;
+    background-color: #16445b;
+    -webkit-border-radius: 0;
+    opacity: 0.6;
+    background-image: url(assets/right-arrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 41px;
+    text-indent: 100px;
+    overflow: hidden;
+}
 
-/*  service stylesheet  */
+.chronology .description {
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+    left: 50%;
+    background: #fff;
+    text-align: justify;
+    padding: 35px;
+    padding-right: 70px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #1e5073;
+    font-weight: 300;
+}
+
+.chronology .owl-dots {
+    position: absolute;
+    right: 60px;
+    bottom: 60px;
+}
 
 
-/*  service stylesheet */
+
+
+/*
+=
+=
+=
+=service stylesheet 
+= Name : devit chea;
+=
+=
+=
+*/
 .heading_wrapper_img{
 	width: 100%;
 }
@@ -768,7 +832,7 @@ section {
     border: 1px solid #1e5073;
     padding: 5px 10px;
     font-size: 14px;
-=======
+}
 #title {
 	color: black;
 }
