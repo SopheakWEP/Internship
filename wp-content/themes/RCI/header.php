@@ -29,13 +29,6 @@
 				<a href="<?php echo get_option('siteurl'); ?>" class="navbar-brand">
 					<img src="http://rciapac.com/wp-content/uploads/2017/05/cropped-RCI-transparent-logo.png" class="img-responsive custom-logo" style="z-index: 2000;" alt="" itemprop="logo">
 				</a>
-				<!-- <div class="navbar-header"> -->
-			<!-- 	<button class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button> -->
-				<!-- </div> -->
 				<div class="navbar-right" id="myNavbar">
 					
 					<div class="row search-bar">	<!-- search field on the menu -->
