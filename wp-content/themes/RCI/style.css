@@ -92,7 +92,7 @@ section {
 }
 
  .figures{
-     background: #f5f2f2;
+     background: #000;
  }
 .yellow{
     background: #ca9e66;
@@ -347,9 +347,7 @@ section {
     display: inline-block;
 }
 .slider{
-        background: #111;
      background: rgba(0,0,0,0.5);
-
    }
 .processes_order {
     position: absolute;

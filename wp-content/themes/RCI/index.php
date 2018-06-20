@@ -24,7 +24,7 @@
 			<div class="col-md-2"></div>
 		</div>
 	</div><br><br>
-	<section class="figures" style="background: #F5F2F2;">
+	<section class="figures">
 		<div class="col-xs-12 col-sm-12 col-md-8 text-center figures-box" style="display: table-cell;vertical-align: middle;">
 			<div class="outer-wrap">
 				<div class="outer">
@@ -196,7 +196,7 @@
 		</div>
 	</section>
 	<!-- rci's cliend -->
-	<section class="our-client" style="background-image: url(http://rciapac.com/wp-content/uploads/2017/03/376238.jpg);background-size: cover; z-index: -0;">
+	<section class="our-client" style="background-image: url(http://rciapac.com/wp-content/uploads/2017/03/376238.jpg);z-index: -0;">
 		<h2 class="heading wow zoomInDown" style="visibility: visible; animation-name: zoomInDown; font-size: 41px;">RCI Global Services' Clients</h2>
 		<div class="intro">
 			<p style="text-align: center;"><span style="color: #ffffff; font-size: 12pt;">RCI has offered&nbsp;services to the most prestigious international retailers. All these brands are trusting us.</span>
@@ -204,7 +204,7 @@
 		</div>
 		<span class="sub-heading white wow zoomUp animated" style="visibility: visible;"></span>
 		<div class="owl-carousel owl-4items-nav owl-theme owl-loaded owl-drag" style="z-index: -0">
-			<div class="owl-stage-outer owl-height" style="height: 220px;">
+			<div class="owl-stage-outer owl-height" style="height: 200px;">
 				<div class="owl-stage slider" style="transform: translate3d(0px, 0px, 0px); transition: 0s; width: 5059px;">
 					<div class="owl-item active" style="width: 337.25px;"><div class="client-items item">
 						<div class="client-image">
