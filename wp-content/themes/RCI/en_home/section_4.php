@@ -1,4 +1,4 @@
-<section class="solution-introduction">
+<section class="solution-introduction" style="margin-top:500px;">
 	<div class="container figurez-magin">
 		<div class="row"  id="solution-intro">
 			<div class="col-xs-12 col-sm-12 col-md-4 services-items" style="margin-top: 20px;">

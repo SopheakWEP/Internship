@@ -1,4 +1,4 @@
-<section class="home-services">
+<section class="home-services" style="margin-top:50px;">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-4 text-justify services-items">
