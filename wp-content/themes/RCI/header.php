@@ -1,3 +1,6 @@
+<?php 	/* include page in php*/
+	include 'config.php';
+?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -22,7 +25,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<?php wp_head(); ?>
 </head>
-<body <?php body_class(); ?>>
+<body <?php body_class();?>>
 	<header class="site-header">
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
@@ -32,8 +35,13 @@
 				<div class="navbar-right" id="myNavbar">
 					
 					<div class="row search-bar">	<!-- search field on the menu -->
-						<div class="head-search pull-right">	
-							<form class="navbar-form navbar-left">
+						<div class="head-search pull-right">
+							<ul class="navbar-form navbar-left">
+								<li style="background: #F8F8F8;"><a href="?lang=kh"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/cambodia (1).png" alt=""></a></li>
+								<li style="background: #F8F8F8;"><a href="?lang=en"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/united-states.png" alt=""></a></li>
+							</ul>
+							<form class="navbar-form navbar-left" style="margin-top: 18px;">
+								
 								<div class="input-group">
 									<input type="text" class="form-control input-search" placeholder="Search...">
 									<div class="input-group-btn">

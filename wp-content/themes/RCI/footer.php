@@ -1,3 +1,4 @@
+
 	<div class="footer"  style="background: #103852;">		
 		<div class="container">
 			<div class="row">
@@ -91,8 +92,6 @@
 			</div>
 		</div>
 	</div>
-	<?php wp_footer(); ?>
-
 	<script>
 		wow = new WOW(
 		{
