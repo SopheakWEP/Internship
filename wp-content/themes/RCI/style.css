@@ -34,7 +34,7 @@ Version: 1.0
 	color: #707070;
 }
 .navbar ul li a:hover {
-		border-bottom: 1px solid #C99B65;
+  border-bottom: 1px solid #C99B65;
 }
 .navbar ul li.current-menu-item a:link,
 .navbar ul li.current-menu-item a:visited {
@@ -51,31 +51,31 @@ Version: 1.0
 /*.main-menu {
 	border-bottom: 0.5px solid lightgray;
 	background-color: white;
-}*/
-#menu-list, .search-bar {
-	margin-left: 30px;
-	/*margin-bottom: 5px;*/
-}
-.input-search,.icon-search {
-	border-radius: 10px;
-}
-.list-menu > a {
-	color: gray;
-}
-.list-menu > a:hover {
-	border-bottom: 3px solid transparent;
-	text-decoration: none;
-}
-#title {
-	color: black;
-}
+    }*/
+    #menu-list, .search-bar {
+       margin-left: 30px;
+       /*margin-bottom: 5px;*/
+   }
+   .input-search,.icon-search {
+       border-radius: 10px;
+   }
+   .list-menu > a {
+       color: gray;
+   }
+   .list-menu > a:hover {
+       border-bottom: 3px solid transparent;
+       text-decoration: none;
+   }
+   #title {
+       color: black;
+   }
 
-/*devit style home page===========*/
-/* RCIinFigures */
-.rci_service{
-	font-size:17px;
-}
-.solution-introduction {
+   /*devit style home page===========*/
+   /* RCIinFigures */
+   .rci_service{
+       font-size:17px;
+   }
+   .solution-introduction {
     text-align: center;
 }
 .solution-introduction {
@@ -91,9 +91,9 @@ section {
     margin-bottom: 50px;
 }
 
- .figures{
-     background: #000;
- }
+.figures{
+   background: #000;
+}
 .yellow{
     background: #ca9e66;
     max-width: 100%;
@@ -117,7 +117,7 @@ section {
     font-size: 23px;
 }
 .about_global_title{
-      color: #103752;
+  color: #103752;
 }
 .type_sys{
   color: #103752;    
@@ -149,7 +149,7 @@ section {
   background-size: cover;
   position: relative;
   -webkit-filter: grayscale(100%);  Safari 6.0 - 9.0 
-     filter: grayscale(30%);
+  filter: grayscale(30%);
 }
 
 .hero-text {
@@ -283,7 +283,7 @@ section {
 }
 
 /*  service stylesheet */
-.heading_wrapper_img{
+.heading_wrapper_img {
 	width: 100%;
 }
 .heading-wrapper {
@@ -291,10 +291,10 @@ section {
     float: left;
     margin-bottom: 50px;
 }
-.list_service{
+.list_service {
 	text-align: left;
 }
-.paragraph_rci{
+.paragraph_rci {
 	text-align: justify;
 }
 .tailored-service > img {
@@ -302,30 +302,30 @@ section {
 }
 
 .tailored-service img {
-   max-width: 100%;
+ max-width: 100%;
 }
 .tailored_title{
 	font-size: 40px;
 }
 /*.tailored {
     margin-bottom: 10px;
-}*/
-.sub-heading {
-    display: block;
-    font-size: 17px;
-    width: 100%;
-    max-width: 700px;
-    margin: auto;
-    padding-bottom: 50px;
-}
-.manage_process{
-	font-size: 20px;
-	margin-bottom: 50px;
-	margin-top: 50px;
-	text-align: center;
-	color: #1e5073;
-}
-.processes_image {
+    }*/
+    .sub-heading {
+        display: block;
+        font-size: 17px;
+        width: 100%;
+        max-width: 700px;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+    .manage_process{
+       font-size: 20px;
+       margin-bottom: 50px;
+       margin-top: 50px;
+       text-align: center;
+       color: #1e5073;
+   }
+   .processes_image {
     border: 3px solid #1e5073;
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -341,8 +341,8 @@ section {
     display: inline-block;
 }
 .slider{
-     background: rgba(0,0,0,0.5);
-   }
+   background: rgba(0,0,0,0.5);
+}
 .processes_order {
     position: absolute;
     top: -30px;
@@ -411,55 +411,81 @@ section {
 /*==============
     client page stylesheet n
     Name: soheak rith ;
-==========*/
-#background-image-client {
-	/*//background-image: url('assets/645.jpg');*/
-	width: 100%;
-}
-.text-decription-1 {
-	  position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.respone-content,
-.outer-heading-company,
-.outer-heading-services,
-.outer-hero {
-	display: none;
+    ==========*/
+    #background-image-client {
+       /*//background-image: url('assets/645.jpg');*/
+       width: 100%;
+   }
+   .text-decription-1 {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+ .respone-content,
+ .outer-heading-company,
+ .outer-heading-services,
+ .outer-hero {
+   display: none;
 }
 @media screen and (max-width: 768px){
-.respone-content,
-.outer-heading-company,
-.outer-heading-services,
-.outer-hero{
-	display: block;
-    background: #073046;
-    position: relative;
-    left: auto;
-    right: auto;
-    bottom: auto;
-    top: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    color: #fff;
-	}
-.home-services {
-    padding-top: 45px;
+    .respone-content,
+    .outer-heading-company,
+    .outer-heading-services,
+    .outer-hero,
+    .outter-text-carousel {
+       display: block;
+       background: #073046;
+       position: relative;
+       left: auto;
+       right: auto;
+       bottom: auto;
+       top: auto;
+       padding-top: 30px;
+       padding-bottom: 30px;
+       color: #fff;
+   }
+   .home-services {
+        padding-top: 45px;
     }
     .tailored {
-        margin-bottom: 240px;
+       margin-bottom: 240px;
     }
-#background-image-client {
-    margin-top: 50px;
+    #background-image-client {
+        margin-top: 50px;
+    }
+    .outer-heading,
+    .innter-heading-company,
+    .inner-heading-services,
+    .head-search,
+    .inner-hero,
+    .owl-next,
+    .owl-prev,
+    .inner-text-carousel {
+        display: none;
+    }
 }
-.outer-heading,
-.innter-heahding-company,
-.inner-heading-services,
-.head-search,
-.inner-hero {
-		display: none;
-	}
+/*company page click carousel*/
+ .outter-des-carousel {
+   display: none;
+}
+@media only screen and (max-width: 768px)
+{
+    .outter-des-carousel {
+       display: block;
+       position: relative;
+       left: auto;
+       right: auto;
+       bottom: auto;
+       top: auto;
+       padding-top: 30px;
+       padding-bottom: 30px;
+       color: #fff;
+   }
+   .inner-des-carousel,
+   .owl-nav {
+        display: none;
+    }
 }
 .text-center-1  {
 	text-align: justify;
@@ -478,7 +504,7 @@ section {
     right: 15px;
     color: #fff;
     background: #000;
-	opacity: .6;
+    opacity: .6;
     text-transform: uppercase;
     font-size: 36px;
     text-align: center;
@@ -541,10 +567,6 @@ section {
 .client-speech {
 	margin-top: 40px;
 }
-/*.text-center{
-	margin-top: 5px;
-	margin-bottom: 5px;
-}*/
 .image-inner {
 	height: 125px;
 	margin-top: 10px;
@@ -590,7 +612,6 @@ section {
     text-indent: 100px;
     overflow: hidden;
 }
-
 .chronology .description {
     position: absolute;
     right: 0;
@@ -611,10 +632,6 @@ h1, h2, h3, h4, h5, h6 {
     right: 60px;
     bottom: 60px;
 }
-
-
-
-
 /*
 =
 =
@@ -644,7 +661,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .tailored-service img {
-   max-width: 100%;
+ max-width: 100%;
 }
 .tailored_title{
 	font-size: 40px;
@@ -704,7 +721,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-image: url('http://rciapac.com/wp-content/uploads/2017/06/Phnom-Penh-2-2.png');
 	height: 125px;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-	   filter: grayscale(11%);
+    filter: grayscale(11%);
 }
 .text-center {
     text-align: center;
@@ -797,7 +814,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 28px;
     opacity: 0.7;
 }
-.nav-sm > li > a, .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+.nav-sm > li > a, .nav-tabs > li.active > a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
     padding: 10px;
     border: 1px solid #1e5073;
     padding-bottom: 20px;
@@ -807,7 +824,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #337ab7;
     opacity: 1;
 }
-.nav>li>a>img {
+.nav > li > a > img {
     max-width: none;
 }
 
