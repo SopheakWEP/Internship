@@ -1,4 +1,11 @@
+<?php 
+	include 'config.php';
+ ?>
 <section>
+	<h1 class="text-center"><?php echo $lang['welcome']; ?></h1>
+	<p class="text-center">
+		<?php echo $lang['description']; ?>
+	</p>
 	<div class="container">
 		<div class="row per-detail">
 			<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"></div>
