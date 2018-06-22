@@ -896,3 +896,65 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 10px;
 
 }
+
+.heading-wrapper {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.heading-wrapper:before {
+  content: "";
+  background: #073046;
+  opacity: 0.45;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.heading-wrapper img {
+  width: 100%;
+}
+.heading-wrapper .outer-heading {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+.heading-wrapper .middle-heading {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.heading-wrapper .inner-heading {
+  display: table-cell;
+  vertical-align: middle;
+}
+.inner-heading h2 {
+  font-size: 54px;
+  margin-top: 0;
+  line-height: 46px;
+}
+.inner-heading h3 {
+  position: relative;
+  padding-bottom: 20px;
+}
+.inner-heading h3:before {
+  content: "";
+  position: absolute;
+  left: 45%;
+  width: 10%;
+  height: 1px;
+  background: #fff;
+  bottom: 0;
+}
+.heading-wrapper .inner-heading p {
+  width: 100%;
+  margin: auto;
+}

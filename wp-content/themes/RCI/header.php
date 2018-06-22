@@ -26,11 +26,10 @@
 	<header class="site-header">
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
-				<a href="<?php echo get_option('siteurl'); ?>" class="navbar-brand">
-					<img src="http://rciapac.com/wp-content/uploads/2017/05/cropped-RCI-transparent-logo.png" class="img-responsive custom-logo" style="z-index: 2000;" alt="" itemprop="logo">
+				<div class="row">
+					<a href="<?php echo get_option('siteurl'); ?>" class="navbar-brand">
+					<img src="http://rciapac.com/wp-content/uploads/2017/05/cropped-RCI-transparent-logo.png" class="img-responsive custom-logo" style="z-index: 2000;" alt="RCI logo" itemprop="logo">
 				</a>
-				<div class="navbar-right" id="myNavbar">
-					
 					<div class="row search-bar">	<!-- search field on the menu -->
 						<div class="head-search pull-right">	
 							<form class="navbar-form navbar-left">
@@ -45,6 +44,10 @@
 							</form>
 						</div>
 					</div>
+				</div>
+				
+				<div class="navbar-right" id="myNavbar">
+					
 					<br>
 					<?php $args = array('theme_location' => 'primary' ); ?>
 					<?php wp_nav_menu($args); ?>

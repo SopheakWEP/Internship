@@ -12,7 +12,7 @@
 			<div class="col-md-2">
 				<div class="row wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 3.5s; animation-name: fadeInUp;">
 					<div class="col-md-12 col-xs-12 col-sm-12">
-						<p class="RCILatestNews" style="text-align: justify;">RCI Selected by High-End Luxury Brand to roll out Oracle Xstore POS solution in 15 countries in Asia 	Pacific<br>
+						<p class="RCILatestNews" style="text-align: justify;">RCI Selected by High-End Luxury Brand to roll out Oracle Xstore POS solution in 15 countries in Asia Pacific<br>
 						2018.03.28</p>
 					</div>
 				</div><br><hr>
