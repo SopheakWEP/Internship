@@ -35,10 +35,9 @@
 					<img src="http://rciapac.com/wp-content/uploads/2017/05/cropped-RCI-transparent-logo.png" class="img-responsive custom-logo" style="z-index: 2000; margin-top: 14px;" alt="" itemprop="logo">
 				</a>
 				<div class="navbar-right" id="myNavbar">
-
 					<div class="row search-bar">	<!-- search field on the menu -->
 						<div class="head-search pull-right">
-							<ul class="navbar-form navbar-left" style="margin-top: -0px;">
+							<ul class="navbar-form navbar-left" style="margin-top: 0px;">
 								<li style="background: #F8F8F8;"><a title="Khmer Language" href="?lang=kh"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/cambodia (1).png" alt=""></a></li>
 								<li style="background: #F8F8F8;"><a title="English Language" href="?lang=en"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/united-states.png" alt=""></a></li>
 							</ul>
@@ -54,8 +53,6 @@
 							</form>
 						</div>
 					</div>
-				</div>
-				<div class="navbar-right" id="myNavbar">
 					<br>
 
 					<?php 
