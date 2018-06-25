@@ -13,11 +13,17 @@
 	add_action('wp_enqueue_scripts','javaScripta');
 
     //navigation menus
+
 	register_nav_menus(
 		array(
 			'primary' => __('Primary Menu'),
-			'footer' => __('Footer Menu')
+			'footer' => __('Footer Menu'),
+			'primary_kh' => __('Khmer Menu'),
+			'test_menu' => __('testing')
 		)
 	);
+
+	
+
 
 ?>

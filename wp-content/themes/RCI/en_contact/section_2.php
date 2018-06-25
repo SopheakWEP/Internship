@@ -2,10 +2,7 @@
 	include 'config.php';
  ?>
 <section>
-	<h1 class="text-center"><?php echo $lang['welcome']; ?></h1>
-	<p class="text-center">
-		<?php echo $lang['description']; ?>
-	</p>
+	<h2 class="text-center">RCI Cambodia Location</h2>
 	<div class="respone-content">
 		<div class="container text-decription-responsive">
 			<div class="row">
@@ -25,7 +22,7 @@
 		</div>
 	</div>
 </section>
-<section class="location-carousel">
+<section class="location-carousel"">
 	<div class="col-md-6 pp_location" style="height: 500px;">
 		<div class="office-item text-center item">
 			<div>

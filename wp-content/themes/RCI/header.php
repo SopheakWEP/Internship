@@ -1,6 +1,4 @@
-<?php 	/* include page in php*/
-	include 'config.php';
-?>
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -26,21 +24,25 @@
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class();?>>
+	<ul class="left_menu_language">
+		<li><a title="Khmer Language" href="?lang=kh"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/cambodia (1).png" alt=""></a></li>
+		<li style="padding-top: 10px;"><a title="English Language" href="?lang=en"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/united-states.png" alt=""></a></li>
+	</ul>
 	<header class="site-header">
 		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container">
-				<div class="row">
-					<a href="<?php echo get_option('siteurl'); ?>" class="navbar-brand">
-					<img src="http://rciapac.com/wp-content/uploads/2017/05/cropped-RCI-transparent-logo.png" class="img-responsive custom-logo" style="z-index: 2000;" alt="RCI logo" itemprop="logo">
+			<div class="" style="padding: 0px 60px 0px 30px;">
+				<a href="<?php echo get_option('siteurl'); ?>" class="navbar-brand">
+					<img src="http://rciapac.com/wp-content/uploads/2017/05/cropped-RCI-transparent-logo.png" class="img-responsive custom-logo" style="z-index: 2000; margin-top: 14px;" alt="" itemprop="logo">
 				</a>
+				<div class="navbar-right" id="myNavbar">
+
 					<div class="row search-bar">	<!-- search field on the menu -->
 						<div class="head-search pull-right">
-							<ul class="navbar-form navbar-left">
-								<li style="background: #F8F8F8;"><a href="?lang=kh"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/cambodia (1).png" alt=""></a></li>
-								<li style="background: #F8F8F8;"><a href="?lang=en"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/united-states.png" alt=""></a></li>
+							<ul class="navbar-form navbar-left" style="margin-top: -0px;">
+								<li style="background: #F8F8F8;"><a title="Khmer Language" href="?lang=kh"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/cambodia (1).png" alt=""></a></li>
+								<li style="background: #F8F8F8;"><a title="English Language" href="?lang=en"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/united-states.png" alt=""></a></li>
 							</ul>
-							<form class="navbar-form navbar-left" style="margin-top: 18px;">
-								
+							<form class="navbar-form navbar-left" style="margin-top: 13px;">
 								<div class="input-group">
 									<input type="text" class="form-control input-search" placeholder="Search...">
 									<div class="input-group-btn">
@@ -55,8 +57,29 @@
 				</div>
 				<div class="navbar-right" id="myNavbar">
 					<br>
-					<?php $args = array('theme_location' => 'primary' ); ?>
-					<?php wp_nav_menu($args); ?>
+
+					<?php 
+					function en_menu()
+					{
+						$args = array('theme_location' => 'primary' ); 
+						wp_nav_menu($args);
+					}
+					/*===========*/
+					function kh_menu()
+					{
+						$args = array('theme_location' => 'primary_kh' ); 
+						wp_nav_menu($args);
+					}
+					/*===========*/
+					if(isset($_GET['lang'])){
+						$_SESSION['lang'] = $_GET['lang'];
+					}
+					if (!isset($_SESSION['lang']) || $_SESSION['lang'] == 'en') {
+						en_menu();
+					}else{
+						kh_menu();
+					}
+					?>
 				</div>
 			</div>
 		</nav>
