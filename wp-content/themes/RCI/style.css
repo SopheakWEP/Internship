@@ -950,6 +950,21 @@ h1, h2, h3, h4, h5, h6 {
 .heading-wrapper img {
   width: 100%;
 }
+/* company Wrapper*/
+.heading-wrapper1:before {
+  content: "";
+  background: #073046;
+  opacity: 0.45;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.heading-wrapper1 img {
+  width: 100%;
+}
+/* end company wrapper */
 .heading-wrapper .outer-heading {
   position: absolute;
   left: 0;
@@ -978,8 +993,8 @@ h1, h2, h3, h4, h5, h6 {
 .inner-heading h3:before {
   content: "";
   position: absolute;
-  left: 45%;
-  width: 10%;
+  left: 40%;
+  width: 20%;
   height: 1px;
   background: #fff;
   bottom: 0;

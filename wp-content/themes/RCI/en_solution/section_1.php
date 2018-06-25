@@ -12,7 +12,7 @@
 								<h1 class="text-center wow slideInUp" data-wow-duration="0.5s" data-wow-delay="0.2s" style="color: #fff;">Any request?</h1>
 								<div class="wow slideInUp" data-wow-duration="1.5s"data-wow-delay="0.4s" style="">
 									<!-- <hr style="width: 150px;"> -->
-									<hr style="width:10%;">
+									<hr style="width:20%;">
 								</div>
 								<p class="text-center-1 wow slideInUp" data-wow-duration="2s" data-wow-delay="0.5s" style="color: #fff;">
 									Do you need more information? A product demonstration? Or maybe a proposal? Sens us a message!
