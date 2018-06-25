@@ -54,7 +54,6 @@
 						</div>
 					</div>
 					<br>
-
 					<?php 
 					function en_menu()
 					{
