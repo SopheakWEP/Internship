@@ -53,9 +53,7 @@
 						</div>
 					</div>
 				</div>
-				
 				<div class="navbar-right" id="myNavbar">
-					
 					<br>
 					<?php $args = array('theme_location' => 'primary' ); ?>
 					<?php wp_nav_menu($args); ?>
