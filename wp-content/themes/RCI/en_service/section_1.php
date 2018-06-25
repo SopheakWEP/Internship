@@ -9,7 +9,7 @@
 							<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"></div>
 							<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
 								<h1 class="text-center wow slideInUp" data-wow-duration="0.5s" data-wow-delay="0.2s" style="color: #fff;">RCI's Services</h1>
-								<h3 class="text-center text-2 wow slideInUp" data-wow-duration="1s" data-wow-delay="0.3s" id="fade-border" style="color: #fff; line-height: 3;" >An expertise dedicated to your performance.</h3>
+								<h3 class="text-center text-2 wow slideInUp" data-wow-duration="1s" data-wow-delay="0.3s" id="fade-border" style="color: #fff; line-height: 1;" >An expertise dedicated to your performance.</h3>
 								<p class="text-center-1 wow slideInUp" data-wow-duration="2s" data-wow-delay="0.5s" style="color: #fff;">
 									RCI Global Services proposes a large range of services, from the consulting to the support. Its ability to provide customized IT solutions that fit retailers’ purpose makes it a unique firm in APAC.
 								</p>

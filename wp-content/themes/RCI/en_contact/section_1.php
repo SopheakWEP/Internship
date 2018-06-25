@@ -10,7 +10,7 @@
 							<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
 								<h1 class="text-center wow slideInUp" data-wow-duration="0.5s" data-wow-delay="0.2s" style="color: #fff;font-size: 4vw">Any request?</h1>
 								<div class="wow slideInUp" data-wow-duration="1.5s"data-wow-delay="0.4s">
-									<hr style="width: 10%;">
+									<hr style="width: 20%;">
 									<!-- <hr> -->
 								</div>
 								<p class="text-center-1 wow slideInUp" data-wow-duration="2s" data-wow-delay="0.5s" style="color: #fff;">

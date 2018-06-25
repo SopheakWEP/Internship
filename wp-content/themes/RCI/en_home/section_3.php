@@ -1,5 +1,5 @@
 <style>
-	.figures {
+	.figures ,.margin_project {
 	    position: relative;
 	    background: #f5f2f2;
 	}
