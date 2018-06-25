@@ -10,7 +10,7 @@
 					<div class ="col-md-1 col-sm-1 col-xs-1 wow fadeInUp" data-wow-delay="0.8s" style="border-bottom: 2px solid white;"><br>
 					</div>
 					<div class="col-md-2 col-sm-2 col-xs-2">
-						<button class="wow fadeInUp" data-wow-delay="0.8s">Read More</button>
+						<button class="wow fadeInUp" data-wow-delay="0.7s">Read More</button>
 					</div>
 					<div class="col-md-1 col-sm-1 col-xs-1 wow fadeInUp" data-wow-delay="0.8s " style="border-bottom: 2px solid white;" >
 						<br>
