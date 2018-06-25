@@ -4,6 +4,8 @@ Author: RCI trainee
 Version: 1.0
 */
 /*menu page*/
+
+
 .navbar ul li a:link,
 .navbar ul li a:visited {
 	margin: 0;
@@ -47,6 +49,33 @@ Version: 1.0
 }
 #main-navbar {
 	margin-left: 10px;
+}
+.left_menu_language{
+  z-index: 10; 
+  position: absolute; position: fixed; 
+  list-style-type: none; 
+  margin: 260px 0px 100px -40px; 
+  display: none;
+}
+/* menu language left sidebar */
+
+@media only screen and (max-width : 320px) {
+  .left_menu_language{
+    z-index: 10; 
+    position: absolute; position: fixed; 
+    list-style-type: none; 
+    margin: 260px 0px 100px -40px; 
+    display: block;
+  }
+}
+@media only screen and (max-width : 667px) {
+  .left_menu_language{
+    z-index: 10; 
+    position: absolute; position: fixed; 
+    list-style-type: none; 
+    margin: 260px 0px 100px -40px; 
+    display: block;
+  }
 }
 /*.main-menu {
 	border-bottom: 0.5px solid lightgray;
