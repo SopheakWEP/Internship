@@ -35,6 +35,7 @@
 					<img src="http://rciapac.com/wp-content/uploads/2017/05/cropped-RCI-transparent-logo.png" class="img-responsive custom-logo" style="z-index: 2000; margin-top: 14px;" alt="" itemprop="logo">
 				</a>
 				<div class="navbar-right" id="myNavbar">
+
 					<div class="row search-bar">	<!-- search field on the menu -->
 						<div class="head-search pull-right">
 							<ul class="navbar-form navbar-left" style="margin-top: -0px;">
@@ -53,6 +54,8 @@
 							</form>
 						</div>
 					</div>
+				</div>
+				<div class="navbar-right" id="myNavbar">
 					<br>
 
 					<?php 

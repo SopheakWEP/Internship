@@ -2,10 +2,6 @@
 	include 'config.php';
  ?>
 <section>
-	<h1 class="text-center"><?php echo $lang['welcome']; ?></h1>
-	<p class="text-center">
-		<?php echo $lang['description']; ?>
-	</p>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-3"></div>
