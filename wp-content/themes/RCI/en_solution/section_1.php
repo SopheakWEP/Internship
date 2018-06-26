@@ -1,4 +1,3 @@
-<br>
 <section>
 	<div class="rci-client heading-wrapper">
 		<img class="img-responsive" id="background-image-client" src="http://rciapac.com/wp-content/uploads/2017/03/Solutions-1.jpg">
@@ -12,8 +11,7 @@
 								<h1 class="text-center wow slideInUp" data-wow-duration="0.5s" data-wow-delay="0.2s" style="color: #fff;">Many solutions, one objective</h1>
 								<h3 class="text-center wow slideInUp" data-wow-duration="0.6s" data-wow-delay="0.3s" style="color: #fff;">To offer innovative IT solutions to retailers.</h3>
 								<div class="wow slideInUp" data-wow-duration="1.5s"data-wow-delay="0.4s" style="">
-									<!-- <hr style="width: 150px;"> -->
-									<!-- <hr style="width:10%;"> -->
+									<hr style="width:20%;">
 								</div>
 								<p class="text-center-1 wow slideInUp" data-wow-duration="2s" data-wow-delay="0.5s" style="color: #fff;">
 									As technology is in constant evolution, RCI dedicates its work to improve retailers’ productivity in APAC.

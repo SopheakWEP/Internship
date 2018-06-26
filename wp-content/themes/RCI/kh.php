@@ -1,12 +1,19 @@
 <?php 
 	$lang = array(
-		"site" => "ទំព័រប្ដូរភាសា",
-		"Home" => "ទំព័រដើម",
-		"Contact" => "ទំនាក់ទំនង",
-		"Other" => "ផ្សេងៗ",
-		"welcome" => "សូមស្វារគមន៏ទំព័រការប្ដូរភាសា​",
-		"description" => "ទំព័រនេះនឹងបង្ហានូវការប្ដូរភាសា​ក្នុងទំព័រនេះ",
-		"English" => "អង់គ្លេស",
-		"khmer" => "ខ្មែរ"
+		/* footer translate*/
+		/* footer block 1*/
+		"footer1.1" => "",
+		"footer1.2" => "",
+		"footer1.3" => "",
+		/* footer block 2*/
+		"footer2.1" => "",
+		"footer2.2" => "",
+		"footer2.3" => "",
+		"footer2.4" => "",
+		"footer2.5" => "",
+		/* footer block 3*/
+		"footer3.1" => "",
+		"footer3.2" => "",
+		"footer3.3" => ""
 	);
 ?>

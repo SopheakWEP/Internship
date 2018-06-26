@@ -1,0 +1,32 @@
+/* khmer font family */
+@font-face {
+    /* Content font family*/
+    font-family: Khmer OS Content;
+    src: url(font/KhmerOScontent.ttf);
+    
+	/* title font family*/
+    font-family: Koulen;
+    src: url(font/Koulen.ttf);
+
+}
+@font-face{
+    /*title font family*/
+    font-family: Open Sens Light;
+    src: url(font/OpenSans-Light.ttf);
+
+    /*content font family*/
+    font-family: Open Sens;
+    src: url(font/OpenSans-Regular.ttf);
+} 
+
+#myNavbar ,.font_title{
+    font-family: Koulen;
+}
+p{
+   font-family: Khmer OS Content; 
+}
+.font_defualt{
+    font-family: Open Sens;
+}
+
+
