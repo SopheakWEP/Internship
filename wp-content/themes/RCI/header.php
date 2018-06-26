@@ -67,7 +67,6 @@
 					</div>
 					<br>
 					<?php
-
 					function en_menu()
 					{
 						$args = array('theme_location' => 'primary' ); 

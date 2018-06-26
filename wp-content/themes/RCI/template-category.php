@@ -43,7 +43,6 @@
 								<div class="entry-content">
 									<?php the_content(); ?>
 								</div>
-								<?php get_the_author(); ?>
 							</article>
 							<br>
 							<?php

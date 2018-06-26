@@ -24,7 +24,7 @@
 								<div class="textwidget">
 									<strong class="footer-text-2">Headquaters</strong>
 									<p class="footer-text-2">
-										Unit 1302, 13/F, Bangkok Bank Building, 18 Bonham Strand West, Sheung Wan, Hong Kong
+										No 56, Street 390, Village 1, Sangkat Boeung Keng Kang III, Khan Chamkar Morn, Phnom Penh
 									</p>
 									<p class="footer-text-2">
 										<strong class="footer-text-2">E-mail</strong>
@@ -32,7 +32,7 @@
 									</p>
 									<p class="footer-text-2">
 										<strong class="footer-text-2">Phone number</strong>
-										: +852-2351-0371
+										: (+855) 96 445 2656
 									</p>
 								</div>
 							</div>
