@@ -27,8 +27,8 @@
 				</div><br><hr>
 				<div class="row wow fadeInUp" data-wow-delay="1.5s" style="visibility: visible; animation-delay: 1.5s; animation-name: fadeInUp;">
 					<div class="col-md-12 col-xs-12 col-sm-12">
-						<p class="RCILatestNews" style="text-align: justify;"><?php echo $lang['service-8.4']; ?><!-- RCI announces the opening of new office in Singapore in the run up to its expansion in Southeast Asia 	marketplaces
-						2018.02.10 --></p>
+						<p class="RCILatestNews" style="text-align: justify;">RCI announces the opening of new office in Singapore in the run up to its expansion in Southeast Asia 	marketplaces
+						2018.02.10</p>
 					</div>
 				</div><br>
 			</div>

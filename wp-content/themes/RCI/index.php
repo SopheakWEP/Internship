@@ -4,5 +4,5 @@
 		foreach ($pages as  $page) {
 			include 'en_home/'.$page.'.php';
 		}
-	get_footer(); 
+	get_footer();
 ?>

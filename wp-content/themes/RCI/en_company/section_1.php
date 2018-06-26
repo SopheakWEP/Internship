@@ -1,6 +1,6 @@
 <!-- containe infor -->
 <!-- <div class="wrap-content"> -->
-	<div style="margin-top: 38px;">
+	<div>
 	<div class="rci-client1 heading-wrapper1">
 		<img class="img-responsive" id="background-image-client" src="http://rciapac.com/wp-content/uploads/2017/03/OGF8J50.jpg" alt="">
 		<div class="outer-heading">

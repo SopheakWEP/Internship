@@ -1,4 +1,4 @@
-<section style="margin-top: 40px;">
+<section>
 	<div class="rci-client heading-wrapper">
 		<img class="img-responsive" id="background-image-client" src="http://rciapac.com/wp-content/uploads/2017/03/645.jpg" alt="">
 		<div class="outer-heading">

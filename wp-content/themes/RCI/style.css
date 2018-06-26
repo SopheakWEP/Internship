@@ -4,8 +4,12 @@ Author: RCI trainee
 Version: 1.0
 */
 /*menu page*/
-
-
+p {
+  font-size:15px;
+}
+li {
+  font-size:16px;
+}
 .navbar ul li a:link,
 .navbar ul li a:visited {
 	margin: 0;
@@ -103,7 +107,8 @@ Version: 1.0
    /* RCIinFigures */
    
    .rci_service{
-       font-size:17px;
+       font-size: 14px;
+       line-height: 25px;
    }
    .solution-introduction {
     text-align: center;
@@ -135,6 +140,7 @@ section {
     max-width: 100%;
     max-height: 100%;
 }
+
 .figure-img{
     margin-top: 50px;
     margin-bottom: 50px;
@@ -791,9 +797,19 @@ h1, h2, h3, h4, h5, h6 {
 .fname {
 	border-radius: none;
 }
-/* solution page*/
 
-/* solution page */
+
+/* 
+=
+=
+=solution page 
+=
+=
+=*/
+
+.solution_justify{
+  text-align: justify;
+}
 .solution-image {
     padding-top: 25px;
 }
