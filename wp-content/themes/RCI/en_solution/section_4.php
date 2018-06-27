@@ -1,4 +1,5 @@
-<section id="ecom">
+
+<section id="e-commerce">
 	<div class="container">
 		<div class="row solution-items">
 			<div class="col-xs-12 col-sm-12 col-md-6 solution-image pull-right text-center wow bounceInRight" style="visibility: visible; animation-name: bounceInRight;">

@@ -1,55 +1,3 @@
-<style>
-	.figures ,.margin_project {
-	    position: relative;
-	    background: #f5f2f2;
-	}
-	.figures-box {
-	    padding-top: 476px;
-	}
-	.outer-wrap {
-	    left: 0;
-	    top: 0;
-	    right: 0;
-	    bottom: 0;
-	    position: absolute;
-	}
-	@media only screen and (max-width: 320px) {
-
-	   .figures-box {
-	       padding-top: 100.3%;
-	   }
-	}
-	@media only screen and (max-width: 533px) {
-
-	   .figures-box {
-	       padding-top: 60%;
-	   }
-	}
-	@media only screen and (max-width: 768px) {
-
-	   .figures-box {
-	       padding-top: 50%;
-	   }
-	    .blue1{
-	        background: #103752; 
-	   } 
-	    .yellow1{
-	       background: #ca9e66;
-	   } 
-	}
-	@media only screen and (max-width: 800px) {
-
-	   .figures-box {
-	       padding-top: 50%;
-	   }
-	    .blue1{
-	        background: #103752; 
-	   } 
-	    .yellow1{
-	       background: #ca9e66;
-	   } 
-	}
-</style>
 <section class="figures" >
 	<div class="col-xs-12 col-sm-12 col-md-8 text-center figures-box" style="display: table-cell;vertical-align: middle; background: #f5f2f2;">
 		<div class="outer-wrap">
@@ -63,17 +11,17 @@
 	</div>
 	<div class="col-xs-12 col-sm-12 col-md-4 margin_project">
 		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-6 triangle text-center wow zoomIn blue" style="visibility: visible; animation-name: zoomIn;">
+			<div class="col-xs-12 col-sm-6 col-md-6 triangle text-center wow zoomIn blue" style="visibility: visible; animation-name: zoomIn;">
 				<div class="inner"><div class="figure-img"><img src="http://rciapac.com/wp-content/themes/rciglobal/assets/img/office.png"></div>
-				<h4 class="figures-bg">5 offices in APAC</h4></div>
+				<h4 class="figures-bg font_sizeoff" style="font-size: 115%;">5 offices in APAC</h4></div>
 			</div>
-			<div class="col-xs-12 col-sm-12 col-md-6 triangle text-center yellow wow zoomIn" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;">
+			<div class="col-xs-12 col-sm-6 col-md-6 triangle text-center yellow wow zoomIn" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;">
 				<div class="inner"><div class="figure-img"><img src="http://rciapac.com/wp-content/themes/rciglobal/assets/img/client.png"></div>
 				<h4 class="figures-bg">+40 clients</h4></div>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-12  col-sm-12 col-md-6 triangle text-center  yellow blue1 wow zoomIn" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;">
+			<div class="col-xs-12 col-sm-6 col-md-6 triangle text-center  yellow blue1 wow zoomIn" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;">
 				<div class="inner">
 					<div class="figure-img">
 						<img src="http://rciapac.com/wp-content/themes/rciglobal/assets/img/trophy.png">
@@ -81,7 +29,7 @@
 					<h4 class="figures-bg">+50 projects</h4>
 				</div>
 			</div>
-			<div class="col-xs-12  col-sm-12 col-md-6 triangle text-center  wow zoomIn blue yellow1" style="visibility: visible; animation-name: zoomIn;">
+			<div class="col-xs-12 col-sm-6 col-md-6 triangle text-center  wow zoomIn blue yellow1" style="visibility: visible; animation-name: zoomIn;">
 				<div class="inner">
 					<div class="figure-img">
 						<img src="http://rciapac.com/wp-content/themes/rciglobal/assets/img/relationship.png">
