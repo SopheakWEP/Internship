@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-	<title><?php bloginfo('name'); ?> - Retail Consulting and IT Innovation</title>
+	<title><?php bloginfo('name'); ?></title>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/RCI-logo-shortcut.jpg" />
@@ -32,10 +32,33 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	  // Add smooth scrolling to all links
+	  $("a").on('click', function(event) {
+
+	    if (this.hash !== "") {
+
+	      event.preventDefault();
+
+
+	      var hash = this.hash;
+
+
+	      $('html, body').animate({
+	        scrollTop: $(hash).offset().top -170
+	      }, 800, function(){
+	   
+	        window.location.hash = hash;
+	      });
+	    } 
+	  });
+	});
+	</script>
 
 	<?php wp_head(); ?>
 </head>
-<body class="font_defualt"> <?php body_class();?>>
+<body class="font_defualt" <?php body_class();?>>
 	<ul class="left_menu_language">
 		<li><a title="Khmer Language" href="?lang=kh"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/cambodia (1).png" alt=""></a></li>
 		<li style="padding-top: 10px;"><a title="English Language" href="?lang=en"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/united-states.png" alt=""></a></li>
@@ -91,6 +114,7 @@
 				</div>
 			</div>
 		</nav>
+
 	</header>
 	<br>
 	<br>

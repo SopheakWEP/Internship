@@ -161,8 +161,8 @@ include 'config.php';
 				</div>
 			</div>
 			<div class="owl-nav">
-				<div class="owl-prev disabled">prev</div>
-				<div class="owl-next">next</div>
+				<div class="owl-prev disabled" style="height: auto;"></div>
+				<div class="owl-next" style="height: auto;"></div>
 			</div>
 		</div>
 	</div>
