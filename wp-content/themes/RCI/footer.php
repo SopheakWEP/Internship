@@ -59,6 +59,7 @@
 													</div>
 												</div>
 											</form>
+											<!-- <?php es_subbox($namefield = "NO", $desc = "", $group = "Public"); ?> -->
 										</div>
 									</div>
 								</div>
@@ -126,5 +127,6 @@
 			}
 		})
 	</script>
+	<?php wp_footer(); ?>
 </body>
 </html>

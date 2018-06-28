@@ -35,13 +35,13 @@
 
 	<?php wp_head(); ?>
 </head>
-<body class="font_defualt"> <?php body_class();?>>
-	<ul class="left_menu_language">
+<body class="font_defualt" data-spy="scroll" data-target="#mainNavbar" data-offset="70" <?php body_class();?>>
+	<ul class="left-menu-language">
 		<li><a title="Khmer Language" href="?lang=kh"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/cambodia (1).png" alt=""></a></li>
 		<li style="padding-top: 10px;"><a title="English Language" href="?lang=en"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/united-states.png" alt=""></a></li>
 	</ul>
 	<header class="site-header">
-		<nav class="navbar navbar-default navbar-fixed-top">
+		<nav class="navbar navbar-default navbar-fixed-top" id="mainNavbar">
 			<div class="" style="padding: 0px 60px 0px 30px;">
 				<a href="<?php echo get_option('siteurl'); ?>" class="navbar-brand">
 					<img src="http://rciapac.com/wp-content/uploads/2017/05/cropped-RCI-transparent-logo.png" class="img-responsive custom-logo" style="z-index: 2000; margin-top: 14px;" alt="" itemprop="logo">
@@ -71,8 +71,8 @@
 					{
 						$args = array('theme_location' => 'primary' ); 
 						wp_nav_menu($args);
-					}
 
+					}
 					function kh_menu()
 					{
 						$args = array('theme_location' => 'primary_kh' ); 
