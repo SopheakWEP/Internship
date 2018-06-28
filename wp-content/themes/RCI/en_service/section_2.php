@@ -15,7 +15,6 @@
 				<div class="services-description">
 					<h2>Retail expert</h2>
 					<p class="paragraph_rci">Integrated with an E-commerce website, retailers expand the sales possibilities through different touchpoints. With different projects accomplished in Asia-Pacific, RCI gained knowledge in the luxury retail industry with the Kering Group, L’Oreal, Gucci or Pandora.</p>
-					<br>
 					<ul class="list_service" style="list-style-type: square;">
 						<li>Omnichannel retailing strategy</li>
 						<li>Standard store operating procedure</li>

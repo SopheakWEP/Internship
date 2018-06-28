@@ -1,9 +1,13 @@
 <?php
+/**
+ * Template Name: Feed home Template
+ */
 	include 'config.php';
  ?>
 <section>
 	<div class="container">
-		<div class="row">
+
+		<!-- <div class="row">
 			<div class="col-md-6">
 				<h1>RCI's Latest News</h1>
 			</div>
@@ -32,7 +36,7 @@
 					</div>
 				</div><br>
 			</div>
-		</div>	
+		</div>	 -->
 	</div>
 </section>
 <script>	

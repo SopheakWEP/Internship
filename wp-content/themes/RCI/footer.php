@@ -1,4 +1,7 @@
-
+<!-- php -->
+<?php 
+	include 'config.php';
+?>
 	<div class="footer"  style="background: #103852;">		
 		<div class="container">
 			<div class="row">
@@ -6,10 +9,9 @@
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-12">
 							<div class="footer-selection">
-								<h2 class="widget-title">About RCI Global Services</h2>
+								<h2 class="widget-title"><?php echo $lang['footer1.1']; ?></h2>
 								<div class="textwidget">
-									<p class="footer-text-1">
-										RCI Global Services is an IT consulting firm, which has acquired knowledge and expertise in IT services for Retailers. Over the years, it has gained the trust of luxury brands in Asia-Pacific.
+									<p class="footer-text-1"><?php echo $lang['footer1.2']; ?>
 									</p>
 								</div>
 							</div>
@@ -20,18 +22,18 @@
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-12">
 							<div class="footer-selection">
-								<h2 class="widget-title">Contacts</h2>
+								<h2 class="widget-title"><?php echo $lang['footer2.1']; ?></h2>
 								<div class="textwidget">
 									<strong class="footer-text-2">Headquaters</strong>
 									<p class="footer-text-2">
-										No 56, Street 390, Village 1, Sangkat Boeung Keng Kang III, Khan Chamkar Morn, Phnom Penh
+										<?php echo $lang['footer2.2']; ?>
 									</p>
 									<p class="footer-text-2">
-										<strong class="footer-text-2">E-mail</strong>
+										<strong class="footer-text-2"><?php echo $lang['footer2.3']; ?></strong>
 										: contact@rciapac.com
 									</p>
 									<p class="footer-text-2">
-										<strong class="footer-text-2">Phone number</strong>
+										<strong class="footer-text-2"><?php echo $lang['footer2.4']; ?></strong>
 										: (+855) 96 445 2656
 									</p>
 								</div>
@@ -43,9 +45,9 @@
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-12">
 							<div class="footer-selection">
-								<h2 class="widget-title">Stay informed!</h2>
+								<h2 class="widget-title"><?php echo $lang['footer3.1']; ?></h2>
 								<div class="textwidget">
-									<div class="footer-text-3">Sign up to receive RCI's newsletter</div>
+									<div class="footer-text-3"><?php echo $lang['footer3.2']; ?></div>
 									<br>
 									<div class="newsletter-bar">	<!-- sign up field on the footer -->
 										<div class="footer-input">	
@@ -54,7 +56,7 @@
 													<input type="text" class="form-control input-newsletter">
 													<div class="input-group-btn">
 														<button class="btn btn-default btn-newsletter btn-big" type="submit">
-															Enter
+															<?php echo $lang['footer3.3']; ?>
 														</button>
 													</div>
 												</div>

@@ -136,7 +136,7 @@ section {
     background: #ca9e66;
     max-width: 100%;
     max-height: 100%;
-    /*margin-bottom: 20px;*/
+    margin-bottom: -2px;
 }
 .blue{
     background: #103752;
@@ -163,7 +163,10 @@ section {
 }
 .outer-wrap{
     margin-top: 18%;
-}       
+}      
+
+
+
 /* section tailored */
 .tailored{
 	width: 100%;
@@ -226,7 +229,75 @@ section {
 .RCILatestNews{
 	font-size: 17px;
 }
+/* responsive device */
 
+  .figures ,.margin_project {
+      position: relative;
+      background: #f5f2f2;
+  }
+  .figures-box {
+      padding-top: 476px;
+  }
+  .outer-wrap {
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      position: absolute;
+  }
+  @media only screen and (max-width: 320px) {
+     .yellow1{
+      background: #ca9e66;
+     }
+     .blue1{
+        background: #103752;
+     }
+  }
+  @media only screen and (max-width: 533px) {
+
+     .figures-box {
+         padding-top: 40%;
+     }
+     .figures-bg {
+         font-size: 15px;
+     }
+     .yellow1{
+      background: #ca9e66;
+     }
+     .blue1{
+        background: #103752;
+     }
+  }
+
+  @media only screen and (max-width: 768px) {
+
+     .figures-box {
+         padding-top: 50%;
+     }
+     .yellow1{
+      background: #ca9e66;
+     }
+     .blue1{
+        background: #103752;
+     }
+  }
+  @media only screen and (max-width: 800px) {
+
+     .figures-box {
+         padding-top: 60%;
+     }
+  }
+  @media only screen and (max-width: 1024px) {
+
+     .outer-wrap{
+        margin-top: 23%;
+    }   
+  }
+  @media only screen and (max-width: 1004px) {
+    .font_sizeoff{
+      padding-top: -20px;
+      }
+  }
 /*  home page stylesheet */
 
 .our-client h2 {
@@ -301,6 +372,7 @@ section {
     width: 31px;
     text-indent: 100px;
     overflow: hidden;
+    height: auto;
 }
 
 .our-client .owl-nav .owl-next {
@@ -319,6 +391,7 @@ section {
     width: 31px;
     text-indent: 100px;
     overflow: hidden;
+    height: auto;
 }
 
 /*  service stylesheet */
@@ -631,7 +704,7 @@ section {
     background-repeat: no-repeat;
     background-position: center;
     width: 41px;
-    text-indent: 100px;
+    ///text-indent: 100px;
     overflow: hidden;
 }
 .chronology .owl-nav .owl-next {
@@ -648,7 +721,7 @@ section {
     background-repeat: no-repeat;
     background-position: center;
     width: 41px;
-    text-indent: 100px;
+    //text-indent: 100px;
     overflow: hidden;
 }
 .chronology .description {
@@ -795,7 +868,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 62px;
     margin-top: 20px;
     margin-bottom: 30px;
-    background: url(assets/mail.svg) center center no-repeat;
+    background: url(assets/mail.svg) center center no-repeat
 }
 .fname {
 	border-radius: none;
@@ -902,6 +975,7 @@ h1, h2, h3, h4, h5, h6 {
 #title {
 	color: black;
 }
+
 /*//footer for RCI site*/
 .footer {
 	width: 100%;
