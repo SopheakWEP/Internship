@@ -18,7 +18,7 @@
 					$args = array(
 						'post_type' => 'post',
 						'post_status' => 'publish',
-						'category_name' => 'wordpress',
+						'category_name' => 'newscenter',
 						'posts_per_page' => 5,
 						'paged' => $paged,
 					);
