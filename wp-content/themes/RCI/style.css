@@ -71,6 +71,7 @@ li {
     margin: 260px 0px 100px -40px; 
     display: block;
   }
+  
 }
 @media only screen and (max-width : 667px) {
   .left_menu_language{
@@ -80,6 +81,7 @@ li {
     margin: 260px 0px 100px -40px; 
     display: block;
   }
+  
 }
 /*.main-menu {
 	border-bottom: 0.5px solid lightgray;
@@ -102,6 +104,13 @@ li {
    #title {
        color: black;
    }
+  @media only screen and (max-width : 568px) {
+      .services-items{
+        border-bottom: 1px solid lightgray;
+        padding-bottom: 30px;
+      } 
+
+  }
 
    /*devit style home page===========*/
    /* RCIinFigures */
@@ -176,9 +185,7 @@ section {
 .read-more:hover{
 	border: 1px solid #000;
 }
-.margin_read{
-	margin-left: 25px;
-}
+
 /*  hero image */
 .hero_image {
   /*background-image: url("http://rciapac.com/wp-content/uploads/2017/03/luca-bravo-207676-e1493709506879.jpg");*/
@@ -597,8 +604,7 @@ section {
     }
 }
 .text-center-1  {
-	text-align: justify;
-	font-size: 16px;
+	font-size: 19px;
 }
 .per-detail, .rci-client {
 	margin-bottom: 35px;
@@ -827,11 +833,20 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 50px;
 }
 .pp_location{
-	background-image: url('http://rciapac.com/wp-content/uploads/2017/06/Phnom-Penh-2-2.png');
-	height: 125px;
-	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(11%);
+	 
+   height: auto;
 }
+.pp_location1:before{
+  content: "";
+  background: #073046;
+  opacity: 0.1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
 .text-center {
     text-align: center;
 }
@@ -843,9 +858,9 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     float: left;
     height: 62px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    background: url(assets/placeholder.svg) center center no-repeat;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #EA4335;
 }
 .span{
 	color: #fff;
@@ -855,18 +870,39 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     float: left;
     height: 62px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    background: url(assets/phone-call.svg) center center no-repeat;
+    margin-top: 15px;
+    margin-bottom: 48px;
+    color: #286090;
 }
 .email-icon {
     width: 100%;
     float: left;
-    height: 62px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    background: url(assets/mail.svg) center center no-repeat
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #EA4335;
 }
+.main_contact{
+  padding: 15px;
+}
+.cambodia_img{
+
+}   
+
+.show_map{
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+
+   .show_map{
+      display: block;
+   }
+   .address-icon ,.phone-icon{
+       margin-top: 12px;
+       margin-bottom: 12px;
+  }
+}
+
+
 .fname {
 	border-radius: none;
 }

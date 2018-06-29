@@ -30,11 +30,13 @@
 			</div>
 		</div><br>
 		<div class="row">
-			<div class="col-md-5"></div>
-			<div class="col-md-2">		
+			<div class="col-md-4"></div>
+			<div class="col-md-4">
+			<div class="text-center">		
 				<a class="text-center read-more margin_read" href="http://rciapac.com/services/">Read more</a>	
 			</div>
-			<div class="col-md-5"></div>
+			</div>
+			<div class="col-md-4"></div>
 		</div>
 	</div>
 </section>

@@ -10,7 +10,7 @@
 					<div class ="col-md-1 col-sm-1 col-xs-1 wow fadeInUp" data-wow-delay="0.8s" style="border-bottom: 2px solid white;"><br>
 					</div>
 					<div class="col-md-2 col-sm-2 col-xs-2">
-						<button class="wow fadeInUp" data-wow-delay="0.7s"><a style="text-decoration: none; color: #fff;" href="http://localhost/wordpress/services/">Read More</a></button>
+						<button class="wow fadeInUp" data-wow-delay="0.7s"><a class="" style="text-decoration: none; color: #fff;" href="http://localhost/wordpress/services/">Read More</a></button>
 					</div>
 					<div class="col-md-1 col-sm-1 col-xs-1 wow fadeInUp" data-wow-delay="0.8s " style="border-bottom: 2px solid white;" >
 						<br>
@@ -31,7 +31,7 @@
 							<div class="row">
 								<div class="col-md-4 col-sm-4 col-xs-4"></div>
 								<div class="col-md-4 col-sm-4 col-xs-4">
-									<button class="wow fadeInUp" id="button-readMore-respon"  data-wow-delay="0.8s">Read More</button>
+									<button class="wow fadeInUp" id="button-readMore-respon" data-wow-delay="0.8s"><a class="" style="text-decoration: none; color: #fff;" href="http://localhost/wordpress/services/">Read More</a></button>
 								</div>
 								<div class="col-md-4 col-sm-4 col-xs-4"></div>
 							</div>
