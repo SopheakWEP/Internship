@@ -7,10 +7,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/RCI-logo-shortcut.jpg" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css">>
+	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 	<!-- animation -->
 	<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
@@ -37,24 +36,17 @@
 	  // Add smooth scrolling to all links
 	  $("a").on('click', function(event) {
 	    if (this.hash !== "") {
-
 	      event.preventDefault();
-
-
 	      var hash = this.hash;
-
-
 	      $('html, body').animate({
 	        scrollTop: $(hash).offset().top
 	      }, 800, function(){
-	   
 	        window.location.hash = hash;
 	      });
 	    } 
 	  });
 	});
 	</script>
-
 	<?php wp_head(); ?>
 </head>
 <body class="font_defualt" <?php body_class();?>>
@@ -93,14 +85,12 @@
 					{
 						$args = array('theme_location' => 'primary' ); 
 						wp_nav_menu($args);
-
 					}
 					function kh_menu()
 					{
 						$args = array('theme_location' => 'primary_kh' ); 
 						wp_nav_menu($args);
 					}
-
 					if(isset($_GET['lang'])){
 						$_SESSION['lang'] = $_GET['lang'];
 					}
@@ -113,7 +103,6 @@
 				</div>
 			</div>
 		</nav>
-
 	</header>
 	<br>
 	<br>

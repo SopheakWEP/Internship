@@ -985,7 +985,6 @@ h1, h2, h3, h4, h5, h6 {
 .nav > li > a > img {
     max-width: none;
 }
-
 .fa-play-circle:before {
     content: "\f144";
 }
@@ -1011,7 +1010,6 @@ h1, h2, h3, h4, h5, h6 {
 #title {
 	color: black;
 }
-
 /*//footer for RCI site*/
 .footer {
 	width: 100%;
@@ -1055,7 +1053,6 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 10px;
 
 }
-
 .heading-wrapper {
   position: relative;
   text-align: center;
@@ -1065,7 +1062,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
   margin-bottom: 50px;
 }
-
 .heading-wrapper:before {
   content: "";
   background: #073046;
