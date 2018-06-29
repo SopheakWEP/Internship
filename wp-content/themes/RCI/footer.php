@@ -88,7 +88,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="row rci_info"><br><br><br>
+			<div class="row rci_info">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
 					<a class="footer-info" href="http://rciapac.com/">©2017 RCI Global Services</a>
 				</div>
