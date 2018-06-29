@@ -53,7 +53,7 @@
 									the_post_thumbnail();
 								endif;
 								?>
-								<a class="list-group-item" href="#<?php the_title(); ?>"><?php the_title(); ?></a>
+								<a class="list-group-item" href="#<?php the_ID(); ?>"><?php the_title(); ?></a>
 								<?php
 							endwhile;
 						endif;
@@ -86,7 +86,7 @@
 								?>
 								<header class="entry-header">
 									<!-- title position -->
-									<h1 title="<?php the_title_attribute(); ?>" id="<?php the_title(); ?>" style="border-left: 3px solid #1e5073 ; background-color: #e6e6e6">&nbsp;<?php the_title(); ?></h1>
+									<h1 title="<?php the_title_attribute(); ?>" id="<?php the_ID(); ?>" style="border-left: 3px solid #1e5073 ; background-color: #e6e6e6">&nbsp;<?php the_title(); ?></h1>
 								</header>
 								<div class="row">
 									<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
