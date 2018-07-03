@@ -48,9 +48,9 @@
 				<div class="navbar-right" id="myNavbar">
 					<div class="row search-bar">	<!-- search field on the menu -->
 						<div class="head-search pull-right">
-							<ul class="navbar-form navbar-left" style="margin-top: 0px;">
-								<li style="background: #F8F8F8;"><a title="Khmer Language" href="?lang=kh"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/cambodia (1).png" alt=""></a></li>
-								<li style="background: #F8F8F8;"><a title="English Language" href="?lang=en"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/united-states.png" alt=""></a></li>
+							<ul class="navbar-form navbar-left" style="margin-top: 6px;">
+								<li style="background: #F8F8F8;"><a title="Khmer Language" href="?lang=kh"><img style="width: 20px;height: auto;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/cambodia (1).png" alt=""></a></li>
+								<li style="background: #F8F8F8;"><a title="English Language" href="?lang=en"><img style="width: 20px;height: auto;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/united-states.png" alt=""></a></li>
 							</ul>
 							<form class="navbar-form navbar-left" style="margin-top: 13px;">
 								<div class="input-group">
