@@ -13,6 +13,7 @@
 		/* footer block 3*/
 		"footer3.1" => "Stay informed!",
 		"footer3.2" => "Sign up to receive RCI's newsletter",
-		"footer3.3" => "Enter"
+		"footer3.3" => "Enter",
+		"footer3.4" =>"©2017 RCI Global Services"
 	);
 ?>

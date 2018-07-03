@@ -4,6 +4,8 @@ Author: RCI trainee
 Version: 1.0
 */
 /*menu page*/
+
+
 body {
   position: relative;
 }
@@ -226,7 +228,7 @@ section {
       background: #f5f2f2;
   }
   .figures-box {
-      padding-top: 476px;
+      padding-top: 474px;
   }
   .outer-wrap {
       left: 0;
@@ -968,7 +970,9 @@ h1, h2, h3, h4, h5, h6 {
 .footer-text-1, .footer-text-2, .footer-text-3, .footer-info {
 	color: white;
 	font-size: 15px;
+  line-height: 28px;
 }
+
 .footer-info:hover {
 	text-decoration: none;
 }
@@ -1097,3 +1101,33 @@ width: 100%;
 height: 35px;
 border: none;
 }
+/* partners page style */
+.div_height{
+  height: 400px;
+}
+.content{
+  margin-top: 10px;
+}
+/* == */
+#home, #menu2 ,#menu1{
+  margin-top: 50px;
+}
+@media only screen and (max-width: 320px){
+  .img_magento{
+    width: 200px;
+    height: auto;
+    margin-top: 220px;
+  }
+  .img_scc{
+    width: 240px;
+    height: auto;
+    margin-top: 130px;
+  }
+  .margitop{
+    margin-top: 180px;
+  }
+  .img_rp{
+    margin-top: 120px;
+  }
+}
+
