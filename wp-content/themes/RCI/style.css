@@ -114,6 +114,12 @@ li {
   }
    /*devit style home page===========*/
    /* RCIinFigures */
+  .btn_readmore_home{
+    padding: 10px;
+    background: none;
+    border-radius: 20px;
+  }
+
    .rci_service{
        font-size: 14px;
        line-height: 25px;
@@ -662,6 +668,92 @@ section {
 }
 #span-description {
 	font-size: 15px;
+}
+
+.hero-image {
+  background-image: url("http://rciapac.com/wp-content/uploads/2017/03/OGF8J50.jpg");
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+.hero-image:before {
+  content: "";
+  background: #073046;
+  opacity: 0.45;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.span_text_detailt{
+  color: #233;
+}
+.text_title_company{
+  color: #fff;
+}
+.outer_heading ,.services_read_more{
+  display: none;
+}
+@media only screen and (max-width: 768px){
+  .hero-text ,.outer-heading{
+    display: none;
+  }
+  .hero-image{
+    height: 250px;
+  }
+  .outer_heading ,.services_read_more{
+    display: block;
+  }
+  .services_read_more{
+    background: #073046;
+
+  }
+  .bannder_img{
+    height: 250px;
+  }
+  .btn_padding{
+    font-size: 80%;
+  }
+  .btn_readmore_home{
+    padding: 3px;
+    margin-left: 12px;
+  }
+}
+@media only screen and (max-width: 320px){
+  .hero-image{
+    height: 150px;
+  }
+  .btn_readmore_home{
+    margin-left: -8px;
+  }
 }
 /*  owl js header */
 .chronology .owl-nav .owl-prev {
