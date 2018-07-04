@@ -1,7 +1,6 @@
 <?php 
 include 'config.php';
 ?>
-
 <!-- about company slide -->
 
 	<div class="about-company">
