@@ -54,7 +54,7 @@
 									<br>
 									<div class="newsletter-bar">	<!-- sign up field on the footer -->
 										<div class="footer-input">
-										<?php es_subbox($namefield = "NO", $desc = "", $group = "Public"); ?>	
+										<!-- <?php es_subbox($namefield = "NO", $desc = "", $group = "Public"); ?>	 -->
 											<form action="">
 												
 												<!-- <div class="input-group">

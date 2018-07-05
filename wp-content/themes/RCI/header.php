@@ -31,7 +31,6 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	
 	<?php wp_head(); ?>
 </head>
 <body class="font_defualt" <?php body_class();?>>
@@ -52,14 +51,12 @@
 								<li style="background: #F8F8F8;"><a title="Khmer Language" href="?lang=kh"><img style="width: 20px;height: auto;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/cambodia (1).png" alt=""></a></li>
 								<li style="background: #F8F8F8;"><a title="English Language" href="?lang=en"><img style="width: 20px;height: auto;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/united-states.png" alt=""></a></li>
 							</ul>
-							<form class="navbar-form navbar-left" style="margin-top: 13px;">
+							<form role="search" method="get" action="<?php echo home_url('/'); ?>" class="navbar-form navbar-left" style="margin-top: 13px;">
 								<div class="input-group">
-									<input type="text" class="form-control input-search" placeholder="Search...">
-									<div class="input-group-btn">
-										<button class="btn btn-default icon-search" type="submit">
-											<i class="glyphicon glyphicon-search"></i>
-										</button>
-									</div>
+									<input type="search" class="form-control input-search" placeholder="search..." value="<?php echo get_search_query() ?>" name="s" title="Search">
+									<span class="input-group-btn">
+										<button type="submit" class="search-submit btn btn-default icon-search"><i class="fa fa-search" aria-hidden="true"></i></button>
+									</span>
 								</div>
 							</form>
 						</div>
