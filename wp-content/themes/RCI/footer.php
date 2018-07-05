@@ -54,7 +54,7 @@
 									<br>
 									<div class="newsletter-bar">	<!-- sign up field on the footer -->
 										<div class="footer-input">
-										<?php es_subbox($namefield = "NO", $desc = "", $group = "Public"); ?>	
+										<!-- <?php es_subbox($namefield = "NO", $desc = "", $group = "Public"); ?>	 -->
 											<form action="">
 												
 												<!-- <div class="input-group">
@@ -103,15 +103,14 @@
 	<script>
 		wow = new WOW(
 		{
-					boxClass:     'wow',      // default
-			  	 	animateClass: 'animated', // default
-    			 	offset:       0,          // default
-    			 	mobile:       true,       // default
-    			 	live:         true        // default
-    			 }
-    			 )
+			boxClass:     'wow',      // default
+			animateClass: 'animated', // default
+    		offset:       0,          // default
+    		mobile:       true,       // default
+    		live:         true        // default
+    	}
+    )
 		wow.init();
-
 		// slide show
 		$('.owl-carousel').owlCarousel({
 			loop:true,
