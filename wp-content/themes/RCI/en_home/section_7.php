@@ -1,8 +1,8 @@
 <!-- rci's cliend -->
 	<section class="our-client" style="background-image: url(http://rciapac.com/wp-content/uploads/2017/03/376238.jpg);z-index: -0;">
-		<h2 class="heading wow zoomInDown" style="visibility: visible; animation-name: zoomInDown; font-size: 41px;">RCI Global Services' Clients</h2>
+		<h2 class="heading wow zoomInDown font_title" style="visibility: visible; animation-name: zoomInDown; font-size: 41px;">RCI Global Services' Clients</h2>
 		<div class="intro">
-			<p style="text-align: center;"><span style="color: #ffffff; font-size: 12pt;">RCI has offered&nbsp;services to the most prestigious international retailers. All these brands are trusting us.</span>
+			<p style="text-align: center;"><span style="color: #ffffff; font-size: 12pt; " class="font_content">RCI has offered&nbsp;services to the most prestigious international retailers. All these brands are trusting us.</span>
 			</p>
 		</div>
 		<span class="sub-heading white wow zoomUp animated" style="visibility: visible;"></span>

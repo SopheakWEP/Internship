@@ -28,11 +28,11 @@
 					</div>
 					
 				</div>
-				<a href="http://rciapac.com/contact-us/" class="solution-btn">Ask for Demo</a>
+				<a href="http://rciapac.com/contact-us/" class="solution-btn font_content">Ask for Demo</a>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6 solution-description wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-				<h2>Point of sale (POS)</h2>
-				<p style="text-align: justify;">A POS software&nbsp;manages local stores operations as the daily sales, the inventory, the price or even the accounting. It is an essential&nbsp;tool that centralizes all the store information and increases productivity. Most of the stores are equipped with a POS.&nbsp;RCI Global Services is a Retail Pro Authorized Business Partner and also provides iVend POS from CitiXsys.</p>
+				<h2 class="font_title">Point of sale (POS)</h2>
+				<p class="font_content" style="text-align: justify;">A POS software&nbsp;manages local stores operations as the daily sales, the inventory, the price or even the accounting. It is an essential&nbsp;tool that centralizes all the store information and increases productivity. Most of the stores are equipped with a POS.&nbsp;RCI Global Services is a Retail Pro Authorized Business Partner and also provides iVend POS from CitiXsys.</p>
 				<h3 style="text-align: justify;"></h3>
 				<ul class="nav nav-tabs nav-sm contribe-nav" role="tablist">
 					<li role="presentation" data-target="#pos" class="pre3">
@@ -49,20 +49,20 @@
 				</ul>
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane fade" id="retail-pro">
-						<h3 style="text-align: justify;"><span style="font-size: 14pt;">Point of sale and checkout</span></h3>
-						<p style="text-align: justify;">The software manages the sales operations, provides real-time data on current&nbsp;sales and store inventory. In addition, retailers can anticipate future sales with the replenishment feature. Retail Pro&nbsp;can be integrated with an ERP in order to manage the logistics.</p>
-						<h3 style="text-align: justify;"><span style="font-size: 14pt;">Pricing and promotion management</span></h3>
-						<p style="text-align: justify;">One of the most interesting&nbsp;features regarding Retail Pro&nbsp;is the pricing. It allows to set the price for one item according to its SKU (size, color...), to make a special promotion for a period or to create a pricing scenario: a set price for a certain number of item bought. To sum up, Retail Pro&nbsp;creates different ways to set the price, according to the way retailers wish to sell their products (items pack, sales...).</p>
-						<h3 style="text-align: justify;"><span style="font-size: 14pt;">Omnichannel retailing purpose</span></h3>
-						<p style="text-align: justify;">An onmichannel retailing strategy is a business model that uses different channels (web, mobile applications, in-store) and places the customer at the center of the business, to increase customer experience. With its retail expertise, RCI Global Services offers one of the most understanding IT software solution to enhance retailers business. Indeed, POS integration creates a coordinating whole business, allowing online orders and pick up in stores for instance.</p>						   
+						<h3 style="text-align: justify;"><span class="font_title" style="font-size: 14pt;">Point of sale and checkout</span></h3>
+						<p class="font_content" style="text-align: justify;">The software manages the sales operations, provides real-time data on current&nbsp;sales and store inventory. In addition, retailers can anticipate future sales with the replenishment feature. Retail Pro&nbsp;can be integrated with an ERP in order to manage the logistics.</p>
+						<h3 style="text-align: justify;"><span class="font_title" style="font-size: 14pt;">Pricing and promotion management</span></h3>
+						<p class="font_content" style="text-align: justify;">One of the most interesting&nbsp;features regarding Retail Pro&nbsp;is the pricing. It allows to set the price for one item according to its SKU (size, color...), to make a special promotion for a period or to create a pricing scenario: a set price for a certain number of item bought. To sum up, Retail Pro&nbsp;creates different ways to set the price, according to the way retailers wish to sell their products (items pack, sales...).</p>
+						<h3 style="text-align: justify;"><span class="font_title" style="font-size: 14pt;">Omnichannel retailing purpose</span></h3>
+						<p class="font_content" style="text-align: justify;">An onmichannel retailing strategy is a business model that uses different channels (web, mobile applications, in-store) and places the customer at the center of the business, to increase customer experience. With its retail expertise, RCI Global Services offers one of the most understanding IT software solution to enhance retailers business. Indeed, POS integration creates a coordinating whole business, allowing online orders and pick up in stores for instance.</p>						   
 					</div>
 					<div role="tabpanel" class="tab-pane fade" id="ivend">
-						<h4>Multi-task</h4>
-						<p style="text-align: justify;">iVend can manage different operations. For instance, it can quickly handle checkout operations. Also, it displays real-time visibility on the inventory, which allows to have a better replenishment planning depending on the sales.</p>
-						<h4 style="text-align: justify;">A better customer experience</h4>
-						<p style="text-align: justify;">Not only available on terminals, iVend is also available on mobile devices as tablet, which could be used by shop assistants to provide customized services to the in-store clients. By reaching different touchpoints, iVend can maximize the sales by approaching every potential clients. Last but not least, the POS manages the client data base for more tailor-made&nbsp;services.</p>
-						<h4>Easy-to-use</h4>
-						<p style="text-align: justify;">The software provides intuitive features and makes it easy-to-use. Hence, it increases in-store productivity through daily operations as checkouts or inventory check.</p>						  
+						<h4 class="font_title">Multi-task</h4>
+						<p class="font_content" style="text-align: justify;">iVend can manage different operations. For instance, it can quickly handle checkout operations. Also, it displays real-time visibility on the inventory, which allows to have a better replenishment planning depending on the sales.</p>
+						<h4 class="font_title" style="text-align: justify;">A better customer experience</h4>
+						<p class="font_content" style="text-align: justify;">Not only available on terminals, iVend is also available on mobile devices as tablet, which could be used by shop assistants to provide customized services to the in-store clients. By reaching different touchpoints, iVend can maximize the sales by approaching every potential clients. Last but not least, the POS manages the client data base for more tailor-made&nbsp;services.</p>
+						<h4 class="font_title">Easy-to-use</h4>
+						<p class="font_content" style="text-align: justify;">The software provides intuitive features and makes it easy-to-use. Hence, it increases in-store productivity through daily operations as checkouts or inventory check.</p>						  
 					</div>
 				</div>
 			</div>

@@ -19,10 +19,11 @@
     src: url(font/OpenSans-Regular.ttf);
 } 
 
-#myNavbar ,.font_title{
+#myNavbar,
+.font_title{
     font-family: Koulen;
 }
-p{
+.font_content{
    font-family: Khmer OS Content; 
 }
 .font_defualt{
