@@ -23,7 +23,7 @@
 		)
 	);
 
-	
+	add_theme_support('HTML5', array('search-form'));
 
 
 ?>
