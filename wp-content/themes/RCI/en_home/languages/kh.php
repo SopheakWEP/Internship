@@ -14,7 +14,7 @@
 		/* 
 		=
 		=
-		=section 2 RCI SERVICE
+		=section 2 RCI HOMEPAGE
 		=
 		=
 		=*/
@@ -28,7 +28,7 @@
 		/* 
 		=
 		=
-		=section 3 RCI SERVICE
+		=section 3 RCI HOMEPAGE
 		=
 		=
 		=*/
@@ -39,7 +39,7 @@
 		/* 
 		=
 		=
-		=section 4 RCI SERVICE
+		=section 4 RCI HOMEPAGE
 		=
 		=
 		=*/
@@ -58,7 +58,7 @@
 		/* 
 		=
 		=
-		=section 5 RCI SERVICE
+		=section 5 RCI HOMEPAGE
 		=
 		=
 		=*/
@@ -77,7 +77,7 @@
 		/* 
 		=
 		=
-		=section 6 RCI SERVICE
+		=section 6 RCI HOMEPAGE
 		=
 		=
 		=*/
@@ -98,7 +98,7 @@
 		/* 
 		=
 		=
-		=section 7 RCI SERVICE
+		=section 7 RCI HOMEPAGE
 		=
 		=
 		=*/
@@ -109,7 +109,7 @@
 		/* 
 		=
 		=
-		=section 8 RCI SERVICE
+		=section 8 RCI HOMEPAGE
 		=
 		=
 		=*/

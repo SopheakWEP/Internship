@@ -13,8 +13,8 @@ include 'config.php';
 				</div><br>
 				<div class="row">
 					<div class="col-md-12">
-						<p class="rci_service" style="text-align: justify;"><?php echo $lang['home-2.2']; ?></p>
-						<p class="rci_service" style="text-align: justify;"><?php echo $lang['home-2.3']; ?></p>
+						<p class="rci_service font_content" style="text-align: justify;"><?php echo $lang['home-2.2']; ?></p>
+						<p class="rci_service font_content" style="text-align: justify;"><?php echo $lang['home-2.3']; ?></p>
 					</div>
 				</div>
 			</div>
