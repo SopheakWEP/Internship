@@ -1,4 +1,6 @@
-
+<?php 
+include 'config.php';
+?>
 <section id="oms">
 	<div class="container">
 		<div class="row solution-items">

@@ -2,7 +2,6 @@
 <?php 
 	include 'config.php';
 ?>
-
 	<div class="footer"  style="background: #103852;">		
 		<div class="container">
 			<div class="row">
@@ -37,10 +36,8 @@
 										<strong class="footer-text-2"><?php echo $lang['footer2.4']; ?></strong>
 										: (+855) 96 445 2656
 									</p>
-
 								</div>
 							</div>
-							
 						</div>
 					</div>
 				</div>
@@ -54,19 +51,7 @@
 									<br>
 									<div class="newsletter-bar">	<!-- sign up field on the footer -->
 										<div class="footer-input">
-										<!-- <?php es_subbox($namefield = "NO", $desc = "", $group = "Public"); ?>	 -->
-											<form action="">
-												
-												<!-- <div class="input-group">
-													<input type="text" class="form-control input-newsletter">
-													<div class="input-group-btn">
-														<button class="btn btn-default btn-newsletter btn-big" type="submit">
-															<?php //echo $lang['footer3.3']; ?>
-														</button>
-													</div>
-												</div> -->
-											</form>
-											<!-- <?php es_subbox($namefield = "NO", $desc = "", $group = "Public"); ?> -->
+										<?php es_subbox($namefield = "NO", $desc = "", $group = "Public"); ?>	
 										</div>
 									</div>
 								</div>
@@ -102,14 +87,14 @@
 	</div>
 	<script>
 		wow = new WOW(
-		{
-			boxClass:     'wow',      // default
-			animateClass: 'animated', // default
-    		offset:       0,          // default
-    		mobile:       true,       // default
-    		live:         true        // default
-    	}
-    )
+			{
+				boxClass:     'wow',      // default
+				animateClass: 'animated', // default
+				offset:       0,          // default
+				mobile:       true,       // default
+				live:         true        // default
+			}
+    	)
 		wow.init();
 		// slide show
 		$('.owl-carousel').owlCarousel({

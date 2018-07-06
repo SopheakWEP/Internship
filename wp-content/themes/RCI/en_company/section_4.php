@@ -1,3 +1,6 @@
+<?php 
+include 'config.php';
+?>
 <!-- .client say about us -->
 <div class="wrap-2" style="background: #1e5073">
 	<div class="container">	

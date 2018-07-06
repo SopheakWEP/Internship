@@ -1,3 +1,6 @@
+<?php 
+include 'config.php';
+?>
 <!-- rci's cliend -->
 	<section class="our-client" style="background-image: url(http://rciapac.com/wp-content/uploads/2017/03/376238.jpg);z-index: -0;">
 		<h2 class="heading wow zoomInDown font_title" style="visibility: visible; animation-name: zoomInDown; font-size: 41px;">RCI Global Services' Clients</h2>
@@ -114,10 +117,10 @@
 			</div>
 		</div>
 	</div>
-	<div class="owl-nav">
-		<div class="owl-prev disabled">prev</div>
-		<div class="owl-next">next</div>
+		<div class="owl-nav">
+			<div class="owl-prev disabled">prev</div>
+			<div class="owl-next">next</div>
+		</div>
+		<div class="owl-dots disabled"></div>
 	</div>
-	<div class="owl-dots disabled"></div>
-</div>
-</section>
+	</section>

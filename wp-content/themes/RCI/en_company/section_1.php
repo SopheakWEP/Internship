@@ -1,4 +1,7 @@
 
+<?php 
+include 'config.php';
+?>
 <div class="hero-image">
   <div class="hero-text">
     <div class="inner-heading">
@@ -10,7 +13,6 @@
   </div>
 </div>
 </div>
-
 <!-- outside -->
   <div class="outer_heading" style="background: #073046; padding: 20px;">
     <div class="inner-heading ">

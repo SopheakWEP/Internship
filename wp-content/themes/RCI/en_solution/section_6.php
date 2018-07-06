@@ -1,4 +1,6 @@
-
+<?php 
+include 'config.php';
+?>
 <section id="pos">
 	<div class="container">
 		<div class="row solution-items">
@@ -69,19 +71,18 @@
 		</div>
 	</div>
 </section>
-		<script>	
+<script>	
+		// wow js plugin
 			wow = new WOW(
 			{
-					 boxClass:     'wow',      // default
-						animateClass: 'animated', // default
-					 offset:       0,          // default
-					 mobile:       true,       // default
-					 live:         true        // default
-					}
-			)
+				boxClass:     'wow',      
+				animateClass: 'animated', 
+				offset:       0,          
+				mobile:       true,      
+				live:         true        
+			})
 			wow.init(); 
-
-			/* owl js*/
+		/* owl js plugin*/
 			$('.owl-carousel').owlCarousel({
 				loop:true,
 				margin:10,
@@ -115,7 +116,7 @@
 			    $(".owl-carousel3").owlCarousel({
 			        items: 1
 			    });
-			    // tv ecom
+			    // TV ecom
 
 			   $('body').on('click','.pre1', function(){
 			       $('.owl-carousel1').trigger('to.owl.carousel', 1);
@@ -124,7 +125,8 @@
 			   $('body').on('click','.next1', function(){
 			        $('.owl-carousel1').trigger('to.owl.carousel', 2);
 			     });
-
+				
+				// 	TV OMS Slide
 			   $('body').on('click','.pre2', function(){
 			       $('.owl-carousel2').trigger('to.owl.carousel', 1);
 			   });
@@ -132,7 +134,7 @@
 			   $('body').on('click','.next2', function(){
 			        $('.owl-carousel2').trigger('to.owl.carousel', 2);
 			     });
-
+				// TV POS slide
 			   $('body').on('click','.pre3', function(){
 			       $('.owl-carousel3').trigger('to.owl.carousel', 1);
 			   });
@@ -140,9 +142,5 @@
 			   $('body').on('click','.next3', function(){
 			        $('.owl-carousel3').trigger('to.owl.carousel', 2);
 			     });
-
-
-			
 			});
-// javascript test		
-		</script>		
+		</script>				
