@@ -1,9 +1,7 @@
-
 <section>
 	<div class="container client-menu">
 		<div class="row grid-img">
 			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 spaec-img wow slideInUp" data-wow-duration="0.5s" data-wow-delay="0.2s">
-
 				<img src="http://rciapac.com/wp-content/uploads/2017/03/Gucci-2-420x320.jpg" alt="" style="width: 100%; height: auto">
 				<div class="button-title">
 					<h2 class="client-title font_title">gucci</h2>

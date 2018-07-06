@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+
 <section>
 	<div class="rci-client heading-wrapper">
 		<img class="img-responsive" id="background-image-client" src="http://rciapac.com/wp-content/uploads/2017/03/Partners-2.jpg" alt="">
@@ -38,16 +39,29 @@
 		</div>
 	</div>
 </section>
+<section class="description">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1 col-sm-1 col-xs-12"></div>
+            <div class="col-md-10 col-sm-10 col-xs-12">
+                <p class="text-justify">
+                    In order to enhance your omnichannel strategy, RCI Global Services has built the most relevant partnerships to offer a seamless, tailored retail experience across channels from your brick and mortar locations to e-store. These companies and institutions can be categorized in 3 groups: solution partners, consulting partners and institution partners.
+                </p>
+            </div>
+            <div class="col-md-1 col-sm-1 col-xs-12"></div>
+        </div>
+    </div>
+</section>
 <div class="container text-center">
 	<div class="row">
 		<div class="col-md-12">
 			<ul class="nav nav-tabs menu_center">
-			    <li class="active" ><a style="padding-bottom: 9px; line-height: 50px" data-toggle="tab" href="#home">Solution Partners</a></li>
-			    <li ><a style="padding-bottom: 9px; line-height: 50px" data-toggle="tab" href="#menu1">Consulting Partners</a></li>
-			    <li ><a style="padding-bottom: 9px; line-height: 50px" data-toggle="tab" href="#menu2">Institution Partners</a></li>
-			</ul>
-		</div>
-	</div>
+             <li class="active" ><a style="padding-bottom: 9px; line-height: 50px" data-toggle="tab" href="#home">Solution Partners</a></li>
+             <li ><a style="padding-bottom: 9px; line-height: 50px" data-toggle="tab" href="#menu1">Consulting Partners</a></li>
+             <li ><a style="padding-bottom: 9px; line-height: 50px" data-toggle="tab" href="#menu2">Institution Partners</a></li>
+         </ul>
+     </div>
+ </div>
 </div>
 <!-- company -->
 <div class="tab-content">
@@ -83,41 +97,41 @@
     					<h4>Magento</h4>
     					<p>Magento is a global and open source E-commerce platform that mainly serves retailers in B2B and B2C industries. The solution aims to increase user experience based on omnichannel software solutions, especially regarding the shopper’s online and in-store journey.</p>
     				</div>
-    				</div>
-    			<div class="col-md-6 text-center div_height">
-    				<div class="image_partners">
-    					<img class="text-center img_rp" style="max-width: 240px; height: auto;" src="http://rciapac.com/wp-content/uploads/2017/03/RetailProLogo.png" alt="">
-    				</div>
-    				<div class="content">	
-    					<h4>Retail Pro</h4>
-    					<p>Retail Pro is a point of sale (POS) solution provided by Retail Pro International. The solution is widely used as a retail management software that is composed of rich features, available in several languages and can be customized. For 25 years, Retail Pro International developed innovative solutions to answer retailers’ expectations. Available in more than 172 countries, it is the most popular POS solution chosen for an omnichannel retailing strategy.</p>
-    				</div>
-    			</div>
-    		</div>
-    		<div class="row margitop">
-    			<div class="col-md-6 text-center div_height ">
-    				<div class="image_partners">
-    					<img class="text-center" style="max-width: 225px; height: auto;" src="http://rciapac.com/wp-content/uploads/2017/03/iVend.png" alt="">
-    				</div><br>
-    				<div class="content">	
-    					<h4>iVend Retail</h4>
-    					<p>Developed by CitiXsys, iVend Retail is a POS solution available on desktop and mobile. It is an omnichannel retail management suite that improves the shopper’s journey by being integrated to the E-commerce solution. Last but not least, iVend offers easy-to-use features (e.g., pricing management) to better manage retailers’ physical stores.</p>
-    				</div>
-    				</div>
-    			<div class="col-md-6 text-center div_height">
-    				<div class="image_partners">
-    					<img class="text-center" style="max-width: 230px; height: auto;" src="http://rciapac.com/wp-content/uploads/2017/03/logo-venistar-1.png" alt="">
-    				</div>
-    				<div class="content">	
-    					<h4>Venistar</h4>
-    					<p>Created in 2005, Venistar is an IT retail consulting firm specialized in omnichannel retailing expertise and provides IT solutions. The firm has worked with global fashion and luxury retailers in 38 countries, including 100 brands. Venistar is a Retail Pro Authorized Partner and has also expertise in order management system, POS and digital solutions.</p>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
-    </section>
-  </div>
-  <div id="menu1" class="tab-pane fade">
+                </div>
+                <div class="col-md-6 text-center div_height">
+                    <div class="image_partners">
+                       <img class="text-center img_rp" style="max-width: 240px; height: auto;" src="http://rciapac.com/wp-content/uploads/2017/03/RetailProLogo.png" alt="">
+                   </div>
+                   <div class="content">	
+                       <h4>Retail Pro</h4>
+                       <p>Retail Pro is a point of sale (POS) solution provided by Retail Pro International. The solution is widely used as a retail management software that is composed of rich features, available in several languages and can be customized. For 25 years, Retail Pro International developed innovative solutions to answer retailers’ expectations. Available in more than 172 countries, it is the most popular POS solution chosen for an omnichannel retailing strategy.</p>
+                   </div>
+               </div>
+           </div>
+           <div class="row margitop">
+             <div class="col-md-6 text-center div_height ">
+                <div class="image_partners">
+                   <img class="text-center" style="max-width: 225px; height: auto;" src="http://rciapac.com/wp-content/uploads/2017/03/iVend.png" alt="">
+               </div><br>
+               <div class="content">	
+                   <h4>iVend Retail</h4>
+                   <p>Developed by CitiXsys, iVend Retail is a POS solution available on desktop and mobile. It is an omnichannel retail management suite that improves the shopper’s journey by being integrated to the E-commerce solution. Last but not least, iVend offers easy-to-use features (e.g., pricing management) to better manage retailers’ physical stores.</p>
+               </div>
+           </div>
+           <div class="col-md-6 text-center div_height">
+            <div class="image_partners">
+               <img class="text-center" style="max-width: 230px; height: auto;" src="http://rciapac.com/wp-content/uploads/2017/03/logo-venistar-1.png" alt="">
+           </div>
+           <div class="content">	
+               <h4>Venistar</h4>
+               <p>Created in 2005, Venistar is an IT retail consulting firm specialized in omnichannel retailing expertise and provides IT solutions. The firm has worked with global fashion and luxury retailers in 38 countries, including 100 brands. Venistar is a Retail Pro Authorized Partner and has also expertise in order management system, POS and digital solutions.</p>
+           </div>
+       </div>
+   </div>
+</div>
+</section>
+</div>
+<div id="menu1" class="tab-pane fade">
     <section>
     	<div class="container">
     		<div class="row">
@@ -129,21 +143,21 @@
     					<h4>EY</h4>
     					<p>Headquartered in London, UK, EY is a multinational company specialized in professional services. Particularly, the company provides assurance, tax, transaction and advisory services. EY is present in 150 countries and in 2008, it created its Europe, Middle East, India and Africa Area and its Asia-Pacific Area in 2010.</p>
     				</div>
-    				</div>
-    			<div class="col-md-6 text-center div_height">
-    				<div class="image_partners">
-    					<img class="text-center" style="max-width: 300px; height: auto;" src="http://rciapac.com/wp-content/uploads/2017/03/Accenture_logo_logotype.png" alt="">
-    				</div>
-    				<div class="content">	
-    					<h4>Accenture</h4>
-    					<p>Created in 2001 and listed as a Fortune Global 500 company, Accenture is one of the largest management consulting firm. In addition, it provides its clients services in digital and technology with its 4 different branches: Strategy, Consulting, Digital and Technology. Accenture is present in more than 120 countries and has more than 394,000 employees.</p>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
-    </section>
-  </div>
-  <div id="menu2" class="tab-pane fade">
+                </div>
+                <div class="col-md-6 text-center div_height">
+                    <div class="image_partners">
+                       <img class="text-center" style="max-width: 300px; height: auto;" src="http://rciapac.com/wp-content/uploads/2017/03/Accenture_logo_logotype.png" alt="">
+                   </div>
+                   <div class="content">	
+                       <h4>Accenture</h4>
+                       <p>Created in 2001 and listed as a Fortune Global 500 company, Accenture is one of the largest management consulting firm. In addition, it provides its clients services in digital and technology with its 4 different branches: Strategy, Consulting, Digital and Technology. Accenture is present in more than 120 countries and has more than 394,000 employees.</p>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+</div>
+<div id="menu2" class="tab-pane fade">
     <section>
     	<div class="container">
     		<div class="row">
@@ -168,9 +182,5 @@
     		</div>
     	</div>
     </section>
-  </div>		
-
-		  
-
-				
+</div>
 <?php get_footer(); ?>
