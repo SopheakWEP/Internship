@@ -15,16 +15,16 @@
 	<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<?php 
-		if(isset($_GET['lang'])){
-			$_SESSION['lang'] = $_GET['lang'];
-		}
-		if (!isset($_SESSION['lang']) || $_SESSION['lang'] == 'en') {
-			/* none */
-		}else{
-			?>
-			<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/khmer_font.css">
-			<?php
-		}
+	if(isset($_GET['lang'])){
+		$_SESSION['lang'] = $_GET['lang'];
+	}
+	if (!isset($_SESSION['lang']) || $_SESSION['lang'] == 'en') {
+		/* none */
+	}else{
+	?>
+		<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/khmer_font.css">
+	<?php
+	}
 	?>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -55,7 +55,9 @@
 								<div class="input-group">
 									<input type="search" class="form-control input-search" placeholder="search..." value="<?php echo get_search_query() ?>" name="s" title="Search">
 									<span class="input-group-btn">
-										<button type="submit" class="search-submit btn btn-default icon-search"><i class="fa fa-search" aria-hidden="true"></i></button>
+										<button type="submit" class="search-submit btn btn-default icon-search">
+											<i class="fa fa-search" aria-hidden="true"></i>
+										</button>
 									</span>
 								</div>
 							</form>
