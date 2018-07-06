@@ -21,9 +21,9 @@
 	if (!isset($_SESSION['lang']) || $_SESSION['lang'] == 'en') {
 		/* none */
 	}else{
-	?>
+		?>
 		<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/khmer_font.css">
-	<?php
+		<?php
 	}
 	?>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -35,8 +35,16 @@
 </head>
 <body class="font_defualt" <?php body_class();?>>
 	<ul class="left_menu_language">
-		<li><a title="Khmer Language" href="?lang=kh"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/cambodia (1).png" alt=""></a></li>
-		<li style="padding-top: 10px;"><a title="English Language" href="?lang=en"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/united-states.png" alt=""></a></li>
+		<li>
+			<a title="Khmer Language" href="?lang=kh">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/cambodia (1).png" alt="">
+			</a>
+		</li>
+		<li style="padding-top: 10px;">
+			<a title="English Language" href="?lang=en">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/united-states.png" alt="">
+			</a>
+		</li>
 	</ul>
 	<header class="site-header">
 		<nav class="navbar navbar-default navbar-fixed-top" id="mainNavbar">
@@ -48,8 +56,16 @@
 					<div class="row search-bar">	<!-- search field on the menu -->
 						<div class="head-search pull-right">
 							<ul class="navbar-form navbar-left" style="margin-top: 6px;">
-								<li style="background: #F8F8F8;"><a title="Khmer Language" href="?lang=kh"><img style="width: 20px;height: auto;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/cambodia (1).png" alt=""></a></li>
-								<li style="background: #F8F8F8;"><a title="English Language" href="?lang=en"><img style="width: 20px;height: auto;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/united-states.png" alt=""></a></li>
+								<li style="background: #F8F8F8;">
+									<a title="Khmer Language" href="?lang=kh">
+										<img style="width: 20px;height: auto;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/cambodia (1).png" alt="">
+									</a>
+								</li>
+								<li style="background: #F8F8F8;">
+									<a title="English Language" href="?lang=en">
+										<img style="width: 20px;height: auto;" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/united-states.png" alt="">
+									</a>
+								</li>
 							</ul>
 							<form role="search" method="get" action="<?php echo home_url('/'); ?>" class="navbar-form navbar-left" style="margin-top: 13px;">
 								<div class="input-group">

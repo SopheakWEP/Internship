@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-
 <section>
 	<div class="rci-client heading-wrapper">
 		<img class="img-responsive" id="background-image-client" src="http://rciapac.com/wp-content/uploads/2017/03/Partners-2.jpg" alt="">
