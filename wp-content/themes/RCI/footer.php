@@ -104,7 +104,7 @@ include 'config.php';
     		mobile:       true,       // default
     		live:         true        // default
     	}
-    	)
+    	);
 		wow.init();
 		// slide show
 		$('.owl-carousel').owlCarousel({
@@ -126,7 +126,7 @@ include 'config.php';
 					loop:false
 				}
 			}
-		})
+		});
 	</script>
 	<?php wp_footer(); ?>
 </body>
