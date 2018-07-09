@@ -83,10 +83,12 @@ li {
     display: block;
   }
 }
-#menu-list, .search-bar {
-   margin-left: 30px;
+#menu-list, 
+.search-bar {
+  margin-left: 30px;
 }
-.input-search,.icon-search {
+.input-search,
+.icon-search {
   border-radius: 10px;
 }
 .list-menu > a {
@@ -94,11 +96,11 @@ li {
 }
 .list-menu > a:hover {
   border-bottom: 3px solid transparent;
-       text-decoration: none;
-   }
-   #title {
-       color: black;
-   }
+  text-decoration: none;
+}
+#title {
+  color: black;
+}
 @media only screen and (max-width : 568px) {
   .services-items{
     border-bottom: 1px solid lightgray;
@@ -221,7 +223,8 @@ section {
 	font-size: 17px;
 }
 /* responsive device */
-.figures ,.margin_project {
+.figures,
+.margin_project {
   position: relative;
   background: #f5f2f2;
 }
@@ -313,7 +316,8 @@ section {
 .our-client .owl-carousel {
   position: relative;
 }
-.no-js .owl-carousel, .owl-carousel.owl-loaded {
+.no-js .owl-carousel, 
+.owl-carousel.owl-loaded {
   display: block;
 }
 .owl-carousel {
@@ -321,7 +325,8 @@ section {
   width: 100%;
   z-index: 1;
 }
-.owl-carousel, .owl-carousel .owl-item {
+.owl-carousel, 
+.owl-carousel .owl-item {
   -webkit-tap-highlight-color: transparent;
   position: relative;
 }
@@ -464,7 +469,10 @@ section {
   color: #fff;
   font-weight: 400;
 }
-.footer-text-1, .footer-text-2, .footer-text-3, .footer-info {
+.footer-text-1, 
+.footer-text-2, 
+.footer-text-3, 
+.footer-info {
 	color: white;
 	font-size: 15px;
 }
@@ -496,7 +504,7 @@ section {
 }
 /*==============
     client page stylesheet n
-    Name: soheak rith ;
+    Name: Soheak Rith ;
   ===============*/
 #background-image-client {
   width: 100%;
@@ -575,7 +583,8 @@ section {
 .text-center-1  {
 	font-size: 19px;
 }
-.per-detail, .rci-client {
+.per-detail, 
+.rci-client {
 	margin-bottom: 35px;
 }
 .spaec-img {
@@ -644,7 +653,8 @@ section {
 	font-family: Open Sans;
 	font-size: 50px;
 }
-.span-client-name,.span-client-position {
+.span-client-name,
+.span-client-position {
 	color: #fff;
 }
 .client-speech {
@@ -706,7 +716,8 @@ section {
 .text_title_company{
   color: #fff;
 }
-.outer_heading ,.services_read_more{
+.outer_heading,
+.services_read_more{
   display: none;
 }
 @media only screen and (max-width: 768px){
@@ -716,7 +727,8 @@ section {
   .hero-image{
     height: 250px;
   }
-  .outer_heading ,.services_read_more{
+  .outer_heading,
+  .services_read_more{
     display: block;
   }
   .services_read_more{
@@ -830,7 +842,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: auto;
   padding-bottom: 50px;
 }
-.manage_process{
+.manage_process {
 	font-size: 20px;
 	margin-bottom: 50px;
 	margin-top: 50px;
@@ -872,10 +884,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   margin-bottom: 50px;
 }
-.pp_location{
+.pp_location {
   height: auto;
 }
-.pp_location1:before{
+.pp_location1:before {
   content: "";
   background: #073046;
   opacity: 0.1;
@@ -888,7 +900,8 @@ h1, h2, h3, h4, h5, h6 {
 .text-center {
   text-align: center;
 }
-.rci_loction , .location-carousel{
+.rci_loction, 
+.location-carousel{
 	margin-top: 50px;
 }
 .address-icon {
@@ -966,7 +979,9 @@ h1, h2, h3, h4, h5, h6 {
   height: 0;
   overflow: hidden;
 }
-.video-container iframe, .video-container object, .video-container embed {
+.video-container iframe, 
+.video-container object, 
+.video-container embed {
   position: absolute;
   top: 0;
   left: 0;
