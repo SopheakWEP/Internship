@@ -1,3 +1,6 @@
+<?php 
+include 'config.php';
+?>
 <section class="section-services">
 	<div class="container">
 		<div class="row">
@@ -43,9 +46,7 @@
 				</div>
 			</div>						
 		</div>
-				<br> 							
-				<br>
-		<div class="row">
+		<div class="row" style="margin-top: 20px;">
 			<div class="col-xs-12 col-sm-3 col-md-3 text-center processes-items wow fadeIn" data-wow-delay="1.3s" style="visibility: visible; animation-delay: 1.3s; animation-name: fadeIn;">
 				<div class="processes_image text-center">
 					<img width="42" height="43" src="http://rciapac.com/wp-content/uploads/2017/03/test.png" class="attachment-full size-full wp-post-image" alt=""><i class="processes_order">5</i>

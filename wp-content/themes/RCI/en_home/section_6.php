@@ -1,3 +1,6 @@
+<?php 
+include 'config.php';
+?>
 <section class="home-services" style="margin-top:50px;">
 	<div class="container">
 		<div class="row">

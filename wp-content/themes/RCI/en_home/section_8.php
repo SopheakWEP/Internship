@@ -6,7 +6,6 @@
  ?>
 <section>
 	<div class="container">
-
 		<!-- <div class="row">
 			<div class="col-md-6">
 				<h1>RCI's Latest News</h1>
@@ -42,13 +41,12 @@
 <script>	
 	wow = new WOW(
 	{
-			boxClass:     'wow',      // default
-			animateClass: 'animated', // default
-			offset:       0,          // default
-			mobile:       true,       // default
-			live:         true        // default
-		}
-		)
+		boxClass:     'wow',      
+		animateClass: 'animated', 
+		offset:       0,          
+		mobile:       true,       
+		live:         true       
+	})
 	wow.init();   
 		// slide show
 		$('.owl-carousel').owlCarousel({

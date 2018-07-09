@@ -1,3 +1,6 @@
+<?php 
+include 'config.php';
+?>
 <section class="solution-introduction" style="margin-top:500px;">
 	<div class="container figurez-magin">
 		<div class="row"  id="solution-intro">
