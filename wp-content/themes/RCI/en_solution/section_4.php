@@ -1,3 +1,7 @@
+
+<?php 
+include 'config.php';
+?>
 <section id="e-commerce">
 	<div class="container">
 		<div class="row solution-items">

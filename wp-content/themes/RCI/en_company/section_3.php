@@ -1,3 +1,8 @@
+
+<?php 
+include 'config.php';
+?>	
+
 <!-- ------ header section ------ -->
 <section>
 	<div class="container">

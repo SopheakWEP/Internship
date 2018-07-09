@@ -1,3 +1,7 @@
+<?php 
+include 'config.php';
+?>
+
 <div class="hero-image">
   <div class="hero-text">
     <div class="inner-heading">

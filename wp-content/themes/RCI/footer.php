@@ -1,7 +1,8 @@
 <!-- php -->
 <?php 
-include 'config.php';
+	include 'config.php';
 ?>
+<<<<<<< HEAD
 <div class="footer"  style="background: #103852;">		
 	<div class="container">
 		<div class="row">
@@ -20,6 +21,7 @@ include 'config.php';
 						</div>
 					</div>
 				</div>
+<<<<<<< HEAD
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 				<div class="row">
@@ -49,33 +51,17 @@ include 'config.php';
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"">
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-						<div class="footer-selection">
-							<h2 class="widget-title font_title">
-								<?php echo $lang['footer3.1']; ?>
-							</h2>
-							<div class="textwidget">
-								<div class="footer-text-3">
-									<?php echo $lang['footer3.2']; ?>
-								</div>
-								<br>
-								<div class="newsletter-bar">	<!-- sign up field on the footer -->
-									<div class="footer-input">
-										<!-- <?php es_subbox($namefield = "NO", $desc = "", $group = "Public"); ?>	 -->
-										<form action="">
-												<!-- <div class="input-group">
-													<input type="text" class="form-control input-newsletter">
-													<div class="input-group-btn">
-														<button class="btn btn-default btn-newsletter btn-big" type="submit">
-															<?php //echo $lang['footer3.3']; ?>
-														</button>
-													</div>
-												</div> -->
-											</form>
-											<!-- <?php es_subbox($namefield = "NO", $desc = "", $group = "Public"); ?> -->
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+							<div class="footer-selection">
+								<h2 class="widget-title font_title"><?php echo $lang['footer3.1']; ?></h2>
+								<div class="textwidget">
+									<div class="footer-text-3 font_content"><?php echo $lang['footer3.2']; ?></div>
+									<br>
+									<div class="newsletter-bar">	<!-- sign up field on the footer -->
+										<div class="footer-input">
+										<?php es_subbox($namefield = "NO", $desc = "", $group = "Public"); ?>
 										</div>
 									</div>
 								</div>
@@ -102,21 +88,21 @@ include 'config.php';
 			</div>
 			<div class="row rci_info"><br><br><br>
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-					<a class="footer-info" href="http://rciapac.com/">©2017 RCI Global Services</a>
+					<a class="footer-info font_content" href="http://rciapac.com/">©2017 RCI Global Services</a>
 				</div>
 			</div>
 		</div>
 	</div>
 	<script>
 		wow = new WOW(
-		{
-			boxClass:     'wow',      // default
-			animateClass: 'animated', // default
-    		offset:       0,          // default
-    		mobile:       true,       // default
-    		live:         true        // default
-    	}
-    	);
+			{
+				boxClass:     'wow',
+				animateClass: 'animated',
+				offset:       0,
+				mobile:       true, 
+				live:         true 
+			}
+    	)
 		wow.init();
 		// slide show
 		$('.owl-carousel').owlCarousel({
@@ -138,7 +124,7 @@ include 'config.php';
 					loop:false
 				}
 			}
-		});
+		})
 	</script>
 	<?php wp_footer(); ?>
 </body>

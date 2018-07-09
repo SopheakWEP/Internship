@@ -1,6 +1,6 @@
 <?php 
-include 'config.php';
-?>
+	include 'config.php';
+ ?>
 <section>
 	<div class="container">
 		<div class="row">
@@ -48,23 +48,22 @@ include 'config.php';
 			</div>						
 			<div class="col-xs-12 col-sm-12 col-md-4 text-center services-items">
 				<div class="services-image text-center">
-					<img width="86" height="86" src="http://rciapac.com/wp-content/uploads/2017/04/puzzleq.png" class="attachment-full size-full wp-post-image" alt="">
-				</div>
-				<div class="services-description">
-					<h2 class="font_title">System integrator</h2>
-					<p class="paragraph_rci font_content">The system integration is a necessary step to create a unified commerce. RCI Global Services develops interfaces so that the information can be transferred. As online shoppers are increasing, retailers can link their physical stores to their online stores.</p><br>
-					<ul class="list_service" style="list-style-type: square;">
-						<li class="font_content">E-commerce</li>
-						<li class="font_content">Order Management System (OMS)</li>
-						<li class="font_content">Point of sale (POS)</li>
-						<li class="font_content">ERP</li>
-						<li class="font_content">CRM</li>
-						<li class="font_content">Business intelligence</li>
-						<li class="font_content">Reporting &amp; analytics</li>
-						<li class="font_content">WeChat, POSPi, NFC</li>
-					</ul>
-				</div>
-			</div>						
+					<img width="86" height="86" src="http://rciapac.com/wp-content/uploads/2017/04/puzzleq.png" class="attachment-full size-full wp-post-image" alt="">							</div>
+					<div class="services-description">
+						<h2 class="font_title">System integrator</h2>
+						<p class="paragraph_rci font_content">The system integration is a necessary step to create a unified commerce. RCI Global Services develops interfaces so that the information can be transferred. As online shoppers are increasing, retailers can link their physical stores to their online stores.</p><br>
+						<ul class="list_service" style="list-style-type: square;">
+							<li class="font_content">E-commerce</li>
+							<li class="font_content">Order Management System (OMS)</li>
+							<li class="font_content">Point of sale (POS)</li>
+							<li class="font_content">ERP</li>
+							<li class="font_content">CRM</li>
+							<li class="font_content">Business intelligence</li>
+							<li class="font_content">Reporting &amp; analytics</li>
+							<li class="font_content">WeChat, POSPi, NFC</li>
+						</ul>
+					</div>
+				</div>						
+			</div>
 		</div>
-	</div>
-</section>
+	</section>
