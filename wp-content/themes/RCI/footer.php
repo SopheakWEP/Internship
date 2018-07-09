@@ -11,7 +11,7 @@
 							<div class="footer-selection">
 								<h2 class="widget-title font_title"><?php echo $lang['footer1.1']; ?></h2>
 								<div class="textwidget">
-									<p class="footer-text-1"><?php echo $lang['footer1.2']; ?>
+									<p class="footer-text-1 font_content"><?php echo $lang['footer1.2']; ?>
 									</p>
 								</div>
 							</div>
@@ -25,15 +25,15 @@
 								<h2 class="widget-title font_title"><?php echo $lang['footer2.1']; ?></h2>
 								<div class="textwidget">
 									<strong class="footer-text-2">Headquaters</strong>
-									<p class="footer-text-2">
+									<p class="footer-text-2 font_content">
 										<?php echo $lang['footer2.2']; ?>
 									</p>
 									<p class="footer-text-2">
-										<strong class="footer-text-2"><?php echo $lang['footer2.3']; ?></strong>
+										<strong class="footer-text-2 font_content"><?php echo $lang['footer2.3']; ?></strong>
 										: contact@rciapac.com
 									</p>
 									<p class="footer-text-2">
-										<strong class="footer-text-2"><?php echo $lang['footer2.4']; ?></strong>
+										<strong class="footer-text-2 font_content"><?php echo $lang['footer2.4']; ?></strong>
 										: (+855) 96 445 2656
 									</p>
 								</div>
@@ -47,7 +47,7 @@
 							<div class="footer-selection">
 								<h2 class="widget-title font_title"><?php echo $lang['footer3.1']; ?></h2>
 								<div class="textwidget">
-									<div class="footer-text-3"><?php echo $lang['footer3.2']; ?></div>
+									<div class="footer-text-3 font_content"><?php echo $lang['footer3.2']; ?></div>
 									<br>
 									<div class="newsletter-bar">	<!-- sign up field on the footer -->
 										<div class="footer-input">
@@ -80,7 +80,7 @@
 			</div>
 			<div class="row rci_info"><br><br><br>
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-					<a class="footer-info" href="http://rciapac.com/">©2017 RCI Global Services</a>
+					<a class="footer-info font_content" href="http://rciapac.com/">©2017 RCI Global Services</a>
 				</div>
 			</div>
 		</div>
@@ -88,11 +88,11 @@
 	<script>
 		wow = new WOW(
 			{
-				boxClass:     'wow',      // default
-				animateClass: 'animated', // default
-				offset:       0,          // default
-				mobile:       true,       // default
-				live:         true        // default
+				boxClass:     'wow',
+				animateClass: 'animated',
+				offset:       0,
+				mobile:       true, 
+				live:         true 
 			}
     	)
 		wow.init();
