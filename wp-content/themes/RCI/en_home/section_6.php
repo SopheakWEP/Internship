@@ -21,7 +21,7 @@
 			</div>						
 			<div class="col-xs-12 col-sm-12 col-md-4 text-justify services-items">
 				<div class="services-image text-center">
-					<img width="86" height="86" src="http://rciapac.com/wp-content/uploads/2017/04/puzzleq.png" class="attachment-full size-full wp-post-image" alt="">							
+					<img width="86" height="86" src="http://rciapac.com/wp-content/uploads/2017/04/puzzleq.png" class="attachment-full size-full wp-post-image" alt="">
 				</div>
 				<div class="services-description">
 					<h2 class="text-center service-name services_title font_title">System integrator</h2>
@@ -32,8 +32,8 @@
 		<div class="row">
 			<div class="col-md-4"></div>
 			<div class="col-md-4">
-			<div class="text-center">		
-				<a class="text-center read-more margin_read font_content" href="http://rciapac.com/services/">Read more</a>	
+			<div class="text-center">
+				<a class="text-center read-more margin_read font_content" href="http://rciapac.com/services/">Read more</a>
 			</div>
 			</div>
 			<div class="col-md-4"></div>
