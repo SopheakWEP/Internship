@@ -1,3 +1,4 @@
+
 <?php 
 include 'config.php';
 ?>
@@ -52,11 +53,17 @@ include 'config.php';
 				</ul>
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane fade" id="retail-pro2">
-						<h3 style="text-align: justify;"><span style="font-size: 14pt;" class="font_title">Cloud commerce platform</span></h3>
+						<h3 style="text-align: justify;">
+							<span style="font-size: 14pt;" class="font_title">Cloud commerce platform</span>
+						</h3>
 						<p class="font_content" style="text-align: justify;">A commerce cloud platform provides innovative solutions to retailers. It lowers the costs as one single platform can be managed for several brands and countries. Also, it provides innovative extensions with less delays through cloud platform. Finally, it is a secure technology that leads to successful omnichannel retailing by reaching shoppers through multi-channels (web, mobile application, in-sore).</p>
-						<h3 style="text-align: justify;"><span class="font_title" style="font-size: 14pt;">Predictive intelligence</span></h3>
+						<h3 style="text-align: justify;">
+							<span class="font_title" style="font-size: 14pt;">Predictive intelligence</span>
+						</h3>
 						<p class="font_content" style="text-align: justify;">With the predictive intelligence technology called Einstein, the AI can predict the next actions of online shoppers regarding email subscription or online purchasing. Shoppers can receive product recommendations and have a personalized content in their email to enjoy a better experience.</p>
-						<h3 style="text-align: justify;"><span class="font_title" style="font-size: 14pt;">Unified commerce</span></h3>
+						<h3 style="text-align: justify;">
+							<span class="font_title" style="font-size: 14pt;">Unified commerce</span>
+						</h3>
 						<p class="font_content" style="text-align: justify;">The technology provides a better customer experience on web, mobile application and in-store. Since the E-commerce website can be integrated with OMS, POS and other complex solutions, real-time inventory can be displayed and online orders can be fulfilled by local stores.</p>						   
 					</div>
 					<div role="tabpanel" class="tab-pane fade" id="ivend2">

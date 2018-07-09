@@ -20,7 +20,8 @@ include 'config.php';
 				</div>
 				<div class="services-description">
 					<h2 class="text-center service-name type_sys font_title">Order Management System (OMS)</h2>
-					<p class="font_content" style="text-align: justify; font-size:16px;">A software that provides a 360° view on the business. It displays real-time visibility on order status, manages different brands and links E-commerce website with physical stores.</p><br>
+					<p class="font_content" style="text-align: justify; font-size:16px;">A software that provides a 360° view on the business. It displays real-time visibility on order status, manages different brands and links E-commerce website with physical stores.</p>
+					<br>
 					<a class="read-more font_content" href="http://rciapac.com/solutions/#oms">Read more</a>
 				</div>
 			</div>
@@ -30,7 +31,8 @@ include 'config.php';
 				</div>
 				<div class="services-description">
 					<h2 class="text-center service-name type_sys font_title">Point of sale (POS)</h2>
-					<p class="font_content" style="text-align: justify; font-size:16px;">An essential in-store software that manages the daily sales operations as the checkout, the pricing and the inventory. It undeniably contributes to increase retailers’ productivity and sales.</p><br>
+					<p class="font_content" style="text-align: justify; font-size:16px;">An essential in-store software that manages the daily sales operations as the checkout, the pricing and the inventory. It undeniably contributes to increase retailers’ productivity and sales.</p>
+					<br>
 					<a class="read-more font_content font_content" href="http://rciapac.com/solutions/#pos">Read more</a>
 				</div>
 			</div>

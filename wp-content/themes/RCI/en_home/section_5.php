@@ -1,3 +1,4 @@
+
 <?php 
 include 'config.php';
 ?>
@@ -15,7 +16,9 @@ include 'config.php';
 							<div class ="col-md-1 col-sm-1 col-xs-1 wow fadeInUp" data-wow-delay="0.8s" style="border-bottom: 2px solid white;"><br>
 							</div>
 							<div class="col-md-2 col-sm-2 col-xs-2">
-								<button class="wow fadeInUp btn_readmore_home" data-wow-delay="0.7s"><a class="font_content" style="text-decoration: none; color: #fff;" href="http://localhost/wordpress/services/">Read More</a></button>
+								<button class="wow fadeInUp btn_readmore_home" data-wow-delay="0.7s">
+									<a class="font_content" style="text-decoration: none; color: #fff;" href="http://localhost/wordpress/services/">Read More</a>
+								</button>
 							</div>
 							<div class="col-md-1 col-sm-1 col-xs-1 wow fadeInUp" data-wow-delay="0.8s " style="border-bottom: 2px solid white;" >
 								<br>
@@ -38,7 +41,9 @@ include 'config.php';
 						<div class ="col-md-1 col-sm-1 col-xs-1 wow fadeInUp" data-wow-delay="0.8s" style="border-bottom: 2px solid white;"><br>
 						</div>
 						<div class="col-md-2 col-sm-2 col-xs-2">
-							<button class="wow fadeInUp btn_readmore_home" data-wow-delay="0.7s"><a class="btn_padding font_content" style="text-decoration: none; color: #fff;" href="http://localhost/wordpress/services/">Read More</a></button>
+							<button class="wow fadeInUp btn_readmore_home" data-wow-delay="0.7s">
+								<a class="btn_padding font_content" style="text-decoration: none; color: #fff;" href="http://localhost/wordpress/services/">Read More</a>
+							</button>
 						</div>
 							<div class="col-md-1 col-sm-1 col-xs-1 wow fadeInUp" data-wow-delay="0.8s " style="border-bottom: 2px solid white;" >
 								<br>

@@ -1,6 +1,8 @@
+
 <?php 
 include 'config.php';
 ?>
+
 <section id="pos">
 	<div class="container">
 		<div class="row solution-items">
@@ -28,7 +30,6 @@ include 'config.php';
 							</div>
 						</div>
 					</div>
-					
 				</div>
 				<a href="http://rciapac.com/contact-us/" class="solution-btn font_content">Ask for Demo</a>
 			</div>

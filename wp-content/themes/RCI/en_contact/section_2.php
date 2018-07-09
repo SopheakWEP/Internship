@@ -9,12 +9,19 @@
  				<div class="office-item text-center item cambodia_img" style=" background-image: url('http://rciapac.com/wp-content/uploads/2017/06/Phnom-Penh-2-2.png');height: 560px; background-repeat: no-repeat; background-size: cover; padding: 16px;">
  					<div>
  						<h1 class="span location_add font_title">CAMBODIA</h1>
- 						<div class="address-icon"><i class="fas fa-map-marker-alt fa-5x"></i></div>
+ 						<div class="address-icon">
+ 							<i class="fas fa-map-marker-alt fa-5x"></i>
+ 						</div>
  						<div class="span location_add font_content">Retail Consulting International Co., Ltd, Building 63 (9th Floor), Street 440, Sangkat Tuolpong Poung I, Khan Chamkar Morn, Phnom Penh</div>
- 						<div class="phone-icon"><i class="fas fa-phone fa-5x"></i></div>
+ 						<div class="phone-icon">
+ 							<i class="fas fa-phone fa-5x"></i>
+ 						</div>
  						<div class="span location_add font_content">(+855) 93 755 517</div>
- 						<div class="email-icon"><i class="far fa-envelope fa-5x"></i></div>
- 						<div class="span location_add font_content"><a class="span" href="mailto:contact@rciapac.com">contact@rciapac.com</a></div>
+ 						<div class="email-icon">
+ 							<i class="far fa-envelope fa-5x"></i>
+ 						</div>
+ 						<div class="span location_add font_content">
+ 							<a class="span" href="mailto:contact@rciapac.com">contact@rciapac.com</a></div>
  					</div>
  				</div>
  			</div><br>

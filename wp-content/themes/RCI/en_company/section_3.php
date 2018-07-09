@@ -1,7 +1,9 @@
+
 <?php 
 include 'config.php';
 ?>	
-	<!--  header section  -->
+
+<!-- ------ header section ------ -->
 <section>
 	<div class="container">
 		<div class="row">

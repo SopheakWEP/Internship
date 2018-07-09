@@ -5,7 +5,6 @@ include 'config.php';
 	<div class="container client-menu">
 		<div class="row grid-img">
 			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 spaec-img wow slideInUp" data-wow-duration="0.5s" data-wow-delay="0.2s">
-
 				<img src="http://rciapac.com/wp-content/uploads/2017/03/Gucci-2-420x320.jpg" alt="" style="width: 100%; height: auto">
 				<div class="button-title">
 					<h2 class="client-title font_title">gucci</h2>
@@ -17,12 +16,14 @@ include 'config.php';
 					<h2 class="client-title font_title">fendi</h2>
 				</div>
 			</div>
-			<a href="celine.php"><div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 spaec-img wow slideInUp" data-wow-duration="1.5s" data-wow-delay="0.4s">
-				<img src="http://rciapac.com/wp-content/uploads/2017/04/CELINE-CLIENTS-1.jpg" alt="" style="width: 100%; height: auto">
-				<div class="button-title">
-					<h2 class="client-title font_title">CÉLINE</h2>
+			<a href="celine.php">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 spaec-img wow slideInUp" data-wow-duration="1.5s" data-wow-delay="0.4s">
+					<img src="http://rciapac.com/wp-content/uploads/2017/04/CELINE-CLIENTS-1.jpg" alt="" style="width: 100%; height: auto">
+					<div class="button-title">
+						<h2 class="client-title font_title">CÉLINE</h2>
+					</div>
 				</div>
-			</div></a>
+			</a>
 		</div>
 		<div class="row grid-img">
 			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 spaec-img wow slideInUp" data-wow-duration="0.5s" data-wow-delay="0.2s">
@@ -37,12 +38,14 @@ include 'config.php';
 					<h2 class="client-title font_title">ESCADA</h2>
 				</div>
 			</div>
-			<a href=""><div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 spaec-img wow slideInUp" data-wow-duration="1.5s" data-wow-delay="0.4s">
-				<img src="http://rciapac.com/wp-content/uploads/2017/03/Lancome6402-420x320.jpg" alt="" style="width: 100%; height: auto">
-				<div class="button-title">
-					<h2 class="client-title font_title">Lancôme</h2>
+			<a href="">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 spaec-img wow slideInUp" data-wow-duration="1.5s" data-wow-delay="0.4s">
+					<img src="http://rciapac.com/wp-content/uploads/2017/03/Lancome6402-420x320.jpg" alt="" style="width: 100%; height: auto">
+					<div class="button-title">
+						<h2 class="client-title font_title">Lancôme</h2>
+					</div>
 				</div>
-			</div></a>
+			</a>
 		</div>
 		<div class="row grid-img">
 			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 spaec-img wow slideInUp" data-wow-duration="0.5s" data-wow-delay="0.2s">
@@ -71,12 +74,14 @@ include 'config.php';
 					<h2 class="client-title font_title">GODIVA</h2>
 				</div>
 			</div>
-			<a href=""><div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 spaec-img wow slideInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-				<img src="http://rciapac.com/wp-content/uploads/2017/03/Pandora-1.jpg" alt="" style="width: 100%; height: auto">
-				<div class="button-title">
-					<h2 class="client-title font_title">Pandora</h2>
+			<a href="">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 spaec-img wow slideInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+					<img src="http://rciapac.com/wp-content/uploads/2017/03/Pandora-1.jpg" alt="" style="width: 100%; height: auto">
+					<div class="button-title">
+						<h2 class="client-title font_title">Pandora</h2>
+					</div>
 				</div>
-			</div></a>
+			</a>
 			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 spaec-img wow slideInUp" data-wow-duration="1.5s" data-wow-delay="0.4s">
 				<img src="http://rciapac.com/wp-content/uploads/2017/04/Mikmoto-420x320.jpg" alt="" style="width: 100%; height: auto">
 				<div class="button-title">
@@ -97,12 +102,14 @@ include 'config.php';
 					<h2 class="client-title">CRABTREE & EVELYN</h2>
 				</div>
 			</div>
-			<a href=""><div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 spaec-img wow slideInUp" data-wow-duration="1.5s" data-wow-delay="0.4s">
-				<img src="http://rciapac.com/wp-content/uploads/2017/04/Innisfree-1-420x320.jpg" alt="" style="width: 100%; height: auto">
-				<div class="button-title">
-					<h2 class="client-title">Innisfree</h2>
+			<a href="">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 spaec-img wow slideInUp" data-wow-duration="1.5s" data-wow-delay="0.4s">
+					<img src="http://rciapac.com/wp-content/uploads/2017/04/Innisfree-1-420x320.jpg" alt="" style="width: 100%; height: auto">
+					<div class="button-title">
+						<h2 class="client-title">Innisfree</h2>
+					</div>
 				</div>
-			</div></a>
+			</a>
 		</div>
 	</div>
 </section>
