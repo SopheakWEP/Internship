@@ -1,4 +1,3 @@
-
 <?php 
 	get_header();?>
 	<style>
@@ -7,7 +6,6 @@
 		}
 	</style>
 	<?php
-
 		$pages = array('section_1','section_2','section_3','section_4','section_5','section_6');
 		foreach ($pages as  $page) {
 			include 'en_solution/'.$page.'.php';

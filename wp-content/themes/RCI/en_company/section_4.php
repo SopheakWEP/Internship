@@ -35,9 +35,7 @@ include 'config.php';
 			</div>
 			<div class="col-lg-2 col-md-2"></div>
 		</div>
-		<div class="row">
-
-		</div>
+		<div class="row"></div>
 	</div>
 </div>
 <script>

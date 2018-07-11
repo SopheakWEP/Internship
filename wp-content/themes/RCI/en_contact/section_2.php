@@ -14,7 +14,7 @@
  						<div class="phone-icon"><i class="fas fa-phone fa-5x"></i></div>
  						<div class="span location_add font_content"><b class="background_add"><i>(+855) 96 445 2656</i></b></div>
  						<div class="email-icon"><i class="far fa-envelope fa-5x"></i></div>
- 						<div class="span location_add font_content"><a class="span" href="mailto:contact@rciapac.com"><b class="background_add rciemail"><i>contact@rciapac.com</i></b></a></div>
+ 						<div class="span location_add font_content"><a class="span" href="mailto:contact@rciapac.com"><b class="background-size_add rciemail"><i>contact@rciapac.com</i></b></a></div>
  					</div>
  				</div>
  			</div><br>

@@ -1,5 +1,5 @@
 <br>
 <?php
 	include 'config.php';
-	echo do_shortcode ('[contact-form-7 id="182" title="Contact form 1"]');
+	echo do_shortcode ('[contact-form-7 id="155" title="RCI Cambodia contact form"]');
 ?>
