@@ -1,7 +1,7 @@
 <?php 
 include 'config.php';
 ?>
-<section class="section-services">
+<section class="section-services section_top">
 	<div class="container">
 		<div class="row">
 			<div class="co-md-12">

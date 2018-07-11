@@ -1,7 +1,7 @@
 <?php 
 include 'config.php';
 ?>
-<section style="background: #f5f2f2; padding-bottom: 50px; padding-top: 30px;">
+<section class="section_top" style="background: #f5f2f2; padding-bottom: 70px; padding-top: 50px;">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-2"></div>

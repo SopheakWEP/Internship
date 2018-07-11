@@ -2,7 +2,8 @@
 <?php 
 include 'config.php';
 ?>
-<section id="oms">
+<div class="" id="oms" style="height: 115px;"></div>
+<section id="" class="section_top">
 	<div class="container">
 		<div class="row solution-items">
 			<div class="col-xs-12 col-sm-12 col-md-6 solution-image pull-left text-center wow bounceInRight" style="visibility: visible; animation-name: bounceInRight;">
