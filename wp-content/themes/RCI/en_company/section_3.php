@@ -2,7 +2,7 @@
 include 'config.php';
 ?>	
 	<!--  header section  -->
-<section>
+<section class="section_top">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"></div>

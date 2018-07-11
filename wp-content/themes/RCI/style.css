@@ -74,7 +74,7 @@ li {
     display: block;
   }
 }
-@media only screen and (max-width : 667px) {
+@media only screen and (max-width : 767px) {
   .left_menu_language{
     z-index: 10; 
     position: absolute; position: fixed; 
@@ -129,7 +129,7 @@ li {
 .zoomIn{
     padding-bottom: 22px;
 }
-section {
+.section_top {
     margin-bottom: 50px;
 }
 .figures{
@@ -909,8 +909,17 @@ h1, h2, h3, h4, h5, h6 {
   color: #EA4335;
 }
 .span{
-	color: #fff;
+	color: #19ffff;
 	font-size: 18px;
+}
+.background_add{
+  background: #555;
+  background-clip: padding-box;
+  padding: 4px;
+  border-radius: 4px;
+}
+.rciemail:hover{
+  color: #42f4dc;
 }
 .phone-icon {
   width: 100%;

@@ -1,7 +1,7 @@
 <?php 
 include 'config.php';
 ?>
-<section class="home-services" style="margin-top:50px;">
+<section class="home-services section_top" style="margin-top:50px;">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-4 text-justify services-items">

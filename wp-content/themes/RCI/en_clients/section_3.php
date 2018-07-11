@@ -1,7 +1,7 @@
 <?php 
 include 'config.php';
 ?>
-<section>
+<section class="section_top">
 	<div class="container client-menu">
 		<div class="row grid-img">
 			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 spaec-img wow slideInUp" data-wow-duration="0.5s" data-wow-delay="0.2s">

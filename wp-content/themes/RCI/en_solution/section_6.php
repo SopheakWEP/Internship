@@ -1,7 +1,8 @@
 <?php 
 include 'config.php';
 ?>
-<section id="pos">
+<div class="" id="pos" style="height: 115px;"></div>
+<section class="section_top">
 	<div class="container">
 		<div class="row solution-items">
 			<div class="col-xs-12 col-sm-12 col-md-6 solution-image pull-right text-center wow bounceInRight" style="visibility: visible; animation-name: bounceInRight;">
@@ -71,76 +72,76 @@ include 'config.php';
 		</div>
 	</div>
 </section>
-<script>	
-		// wow js plugin
-			wow = new WOW(
-			{
-				boxClass:     'wow',      
-				animateClass: 'animated', 
-				offset:       0,          
-				mobile:       true,      
-				live:         true        
-			})
-			wow.init(); 
-		/* owl js plugin*/
-			$('.owl-carousel').owlCarousel({
-				loop:true,
-				margin:10,
-				responsiveClass:true,
-				responsive:{
-					0:{
-						items:1,
-						nav:true
-					},
-					600:{
-						items:3,
-						nav:false
-					},
-					1000:{
-						items:1,
-						nav:true,
-						loop:false
-					}
+	<script>	
+	// wow js plugin
+		wow = new WOW(
+		{
+			boxClass:     'wow',      
+			animateClass: 'animated', 
+			offset:       0,          
+			mobile:       true,      
+			live:         true        
+		})
+		wow.init(); 
+	/* owl js plugin*/
+		$('.owl-carousel').owlCarousel({
+			loop:true,
+			margin:10,
+			responsiveClass:true,
+			responsive:{
+				0:{
+					items:1,
+					nav:true
+				},
+				600:{
+					items:3,
+					nav:false
+				},
+				1000:{
+					items:1,
+					nav:true,
+					loop:false
 				}
-			});
+			}
+		});
 
-			$(document).ready(function(){
-			    $(".owl-carousel1").owlCarousel({
-			        items: 1
-			    });
+		$(document).ready(function(){
+		    $(".owl-carousel1").owlCarousel({
+		        items: 1
+		    });
 
-			    $(".owl-carousel2").owlCarousel({
-			        items: 1
-			    });
+		    $(".owl-carousel2").owlCarousel({
+		        items: 1
+		    });
 
-			    $(".owl-carousel3").owlCarousel({
-			        items: 1
-			    });
-			    // TV ecom
+		    $(".owl-carousel3").owlCarousel({
+		        items: 1
+		    });
+		    // TV ecom
 
-			   $('body').on('click','.pre1', function(){
-			       $('.owl-carousel1').trigger('to.owl.carousel', 1);
-			   });
+		   $('body').on('click','.pre1', function(){
+		       $('.owl-carousel1').trigger('to.owl.carousel', 1);
+		   });
 
-			   $('body').on('click','.next1', function(){
-			        $('.owl-carousel1').trigger('to.owl.carousel', 2);
-			     });
-				
-				// 	TV OMS Slide
-			   $('body').on('click','.pre2', function(){
-			       $('.owl-carousel2').trigger('to.owl.carousel', 1);
-			   });
+		   $('body').on('click','.next1', function(){
+		        $('.owl-carousel1').trigger('to.owl.carousel', 2);
+		     });
+			
+			// 	TV OMS Slide
+		   $('body').on('click','.pre2', function(){
+		       $('.owl-carousel2').trigger('to.owl.carousel', 1);
+		   });
 
-			   $('body').on('click','.next2', function(){
-			        $('.owl-carousel2').trigger('to.owl.carousel', 2);
-			     });
-				// TV POS slide
-			   $('body').on('click','.pre3', function(){
-			       $('.owl-carousel3').trigger('to.owl.carousel', 1);
-			   });
+		   $('body').on('click','.next2', function(){
+		        $('.owl-carousel2').trigger('to.owl.carousel', 2);
+		     });
+			// TV POS slide
+		   $('body').on('click','.pre3', function(){
+		       $('.owl-carousel3').trigger('to.owl.carousel', 1);
+		   });
 
-			   $('body').on('click','.next3', function(){
-			        $('.owl-carousel3').trigger('to.owl.carousel', 2);
-			     });
-			});
-		</script>				
+		   $('body').on('click','.next3', function(){
+		        $('.owl-carousel3').trigger('to.owl.carousel', 2);
+		     });
+		});		
+	</script>				
