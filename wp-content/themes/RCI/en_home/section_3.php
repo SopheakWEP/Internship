@@ -1,7 +1,7 @@
 <?php 
 include 'config.php';
 ?>		
-<section class="figures" >
+<section class="figures section_top" >
 	<div class="col-xs-12 col-sm-12 col-md-8 text-center figures-box" style="display: table-cell;vertical-align: middle; background: #f5f2f2;">
 		<div class="outer-wrap">
 			<div class="outer">

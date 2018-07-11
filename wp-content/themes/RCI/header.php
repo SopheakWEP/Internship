@@ -35,16 +35,8 @@
 </head>
 <body class="font_defualt" <?php body_class();?>>
 	<ul class="left_menu_language">
-		<li>
-			<a title="Khmer Language" href="?lang=kh">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/cambodia (1).png" alt="">
-			</a>
-		</li>
-		<li style="padding-top: 10px;">
-			<a title="English Language" href="?lang=en">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/united-states.png" alt="">
-			</a>
-		</li>
+		<li><a title="Khmer Language" href="?lang=kh"><img style="width: 25px;height: auto;"  src="<?php echo get_stylesheet_directory_uri(); ?>/assets/cambodia (1).png" alt=""></a></li>
+		<li style="padding-top: 10px;"><a title="English Language" href="?lang=en"><img style="width: 25px;height: auto;"  src="<?php echo get_stylesheet_directory_uri(); ?>/assets/united-states.png" alt=""></a></li>
 	</ul>
 	<header class="site-header">
 		<nav class="navbar navbar-default navbar-fixed-top" id="mainNavbar">

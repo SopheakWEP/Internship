@@ -1,7 +1,7 @@
 <?php 
 include 'config.php';
 ?>
-<section class="tailored-service">
+<section class="tailored-service section_top">
 	<img src="http://rciapac.com/wp-content/uploads/2017/03/OB81YW0.jpg">
 	<div class="container" style="margin-top: 50px;">
 		<div class="row">

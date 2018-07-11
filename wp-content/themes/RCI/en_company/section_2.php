@@ -164,7 +164,6 @@ include 'config.php';
 			</div>
 		</div>
 	</div>
-
 <!-- end of heading banner -->
 <!-- start slide click -->
 

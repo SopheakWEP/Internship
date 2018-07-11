@@ -1,7 +1,7 @@
 <?php 
 include 'config.php';
 ?>
-<section>
+<section class="section_top">
     <div class="container text-center">
     <div class="row">
         <div class="col-md-12">

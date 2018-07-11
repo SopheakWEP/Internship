@@ -16,7 +16,8 @@
 				while ( have_posts()) : the_post() ; 
 					?>
 					<article class="post-page-career text-center">
-						<h3><?php the_title(); ?></h3>
+						<h3 style="font-size: 300%;"><b><?php the_title(); ?></b></h3>
+						<hr>
 						<p><?php the_content(); ?></p>
 					</article>
 					<?php

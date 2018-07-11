@@ -2,7 +2,7 @@
 <?php 
 include 'config.php';
 ?>
-<section>
+<section class="section_top">
 	<div class="rci-client heading-wrapper">
 		<img class="img-responsive" id="background-image-client" src="http://rciapac.com/wp-content/uploads/2017/03/Solutions-1.jpg">
 		<div class="outer-heading">
