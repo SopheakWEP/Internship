@@ -2,51 +2,44 @@
 <?php 
 	include 'config.php';
 ?>
-<<<<<<< HEAD
-<div class="footer"  style="background: #103852;">		
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-						<div class="footer-selection">
-							<h2 class="widget-title font_title">
-								<?php echo $lang['footer1.1']; ?>
-							</h2>
-							<div class="textwidget">
-								<p class="footer-text-1">
-									<?php echo $lang['footer1.2']; ?>
-								</p>
+	<div class="footer"  style="background: #103852;">		
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+							<div class="footer-selection">
+								<h2 class="widget-title font_title">
+									<?php echo $lang['footer1.1']; ?>
+									</h2>
+								<div class="textwidget">
+									<p class="footer-text-1 font_content">
+										<?php echo $lang['footer1.2']; ?>
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-<<<<<<< HEAD
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-						<div class="footer-selection">
-							<h2 class="widget-title font_title">
-								<?php echo $lang['footer2.1']; ?>
-							</h2>
-							<div class="textwidget">
-								<strong class="footer-text-2">Headquaters</strong>
-								<p class="footer-text-2">
-									<?php echo $lang['footer2.2']; ?>
-								</p>
-								<p class="footer-text-2">
-									<strong class="footer-text-2">
-										<?php echo $lang['footer2.3']; ?>
-									</strong>
-									: contact@rciapac.com
-								</p>
-								<p class="footer-text-2">
-									<strong class="footer-text-2">
-										<?php echo $lang['footer2.4']; ?>
-									</strong>
-									: (+855) 96 445 2656
-								</p>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+							<div class="footer-selection">
+								<h2 class="widget-title font_title"><?php echo $lang['footer2.1']; ?></h2>
+								<div class="textwidget">
+									<strong class="footer-text-2">Headquaters</strong>
+									<p class="footer-text-2 font_content">
+										<?php echo $lang['footer2.2']; ?>
+									</p>
+									<p class="footer-text-2">
+										<strong class="footer-text-2 font_content"><?php echo $lang['footer2.3']; ?></strong>
+										: contact@rciapac.com
+									</p>
+									<p class="footer-text-2">
+										<strong class="footer-text-2 font_content"><?php echo $lang['footer2.4']; ?></strong>
+										: (+855) 96 445 2656
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -125,6 +118,12 @@
 				}
 			}
 		})
+		// $(function(){
+		// // $('#<?php the_ID(); ?>').click(function(){
+		// $('#<?php the_ID(); ?>').css('margin-top','300px');
+		// // $('#<?php the_ID(); ?>').css('height','100px');
+		// // });
+		// });
 	</script>
 	<?php wp_footer(); ?>
 </body>
