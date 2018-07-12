@@ -20,16 +20,18 @@
 						<hr>
 						<p><?php the_content(); ?></p>
 					</article>
-					<?php 
+					<?php
 				endwhile;
 			endif;
 			?>
 		</div>
 		<div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div>
 	</div>
+	<!-- end declaration description -->
 	<div class="row">
-		<!-- on the left side  -->
-		<!-- dashboard list all position need to hire -->
+		<!-- table list position on the left side  -->
+		<!--  list all position need to hire on left side -->
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"></div>
 		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 			<div class="typeOfJob">
 				<ul>
@@ -54,60 +56,16 @@
 									the_post_thumbnail();
 								endif;
 								?>
-								<a class="list-group-item" href="#<?php the_ID(); ?>"><?php the_title(); ?></a>
+								<a class="list-group-item" target="_blank" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 								<?php
 							endwhile;
 						endif;
 						?>
 					</ul>
 				</div>
-			</div>
-			<!-- contain position and decrtion and requirement -->
-			<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-				<div class="list-carre">
-					<?php
-					$paged = (get_query_var( 'paged' )) ? get_query_var( 'paged' ) : 1;
-					$args = array(
-						'post_type' => 'post',
-						'post_status' => 'publish',
-						'category_name' => 'career',
-						'posts_per_page' => 5,
-						'paged' => $paged,
-					);
-					$arr_posts = new WP_Query( $args );
-					if ( $arr_posts->have_posts() ) :
-						while ( $arr_posts->have_posts() ) :
-							$arr_posts->the_post();
-							?>
-							<article class="article-post-career container-fluid" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-								<?php
-								if ( has_post_thumbnail() ) :
-									the_post_thumbnail();
-								endif;
-								?>
-								<div id="<?php the_ID(); ?>" style="height: 123px;" ></div>
-								<header class="entry-header">
-									<!-- title position -->
-									<h1 title="<?php the_title_attribute(); ?>" style="margin-top: 20px;border-left: 3px solid #1e5073 ; background-color: #e6e6e6">&nbsp;<?php the_title(); ?></h1>
-								</header>
-								<div class="row">
-									<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
-									<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
-										<div class="entry-content">
-											<!-- requirement and job decription -->
-											<?php the_content(); ?>
-										</div>
-									</div>
-									<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
-								</div>
-								<hr>
-							</article>
-							<?php
-						endwhile;
-					endif;
-					?>
-				</div>
-			</div>
+			</div> <!-- end of table list position on the left side -->
+			<!-- contain position and descrption and requirement -->
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"></div>
 		</div>
 	</div>
 	<?php get_footer(); ?>

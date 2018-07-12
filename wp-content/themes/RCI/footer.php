@@ -44,6 +44,7 @@ include 'config.php';
 					</div>
 				</div>
 			</div>
+
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"">
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-12">
@@ -120,6 +121,12 @@ include 'config.php';
 				}
 			}
 		})
+		// $(function(){
+		// // $('#<?php the_ID(); ?>').click(function(){
+		// $('#<?php the_ID(); ?>').css('margin-top','300px');
+		// // $('#<?php the_ID(); ?>').css('height','100px');
+		// // });
+		// });
 	</script>
 	<?php wp_footer(); ?>
 </body>

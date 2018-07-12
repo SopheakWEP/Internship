@@ -20,7 +20,7 @@
 	}
 	if (!isset($_SESSION['lang']) || $_SESSION['lang'] == 'en') {
 		/* none */
-	}else{
+	} else {
 		?>
 		<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/khmer_font.css">
 		<?php
