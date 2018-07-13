@@ -6,7 +6,7 @@ include 'config.php';
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-4 text-justify services-items">
 				<div class="services-image text-center">
-					<img width="86" height="86" src="http://rciapac.com/wp-content/uploads/2017/04/shop.png" class="attachment-full size-full wp-post-image" alt="">
+					<img width="86" height="86" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/home_images/shop.png" class="attachment-full size-full wp-post-image" alt="">
 				</div>
 				<div class="services-description">
 					<h2 class="text-center service-name services_title font_title">Retail expert</h2>
@@ -15,7 +15,7 @@ include 'config.php';
 			</div>						
 			<div class="col-xs-12 col-sm-12 col-md-4 text-justify services-items">
 				<div class="services-image text-center">
-					<img width="86" height="86" src="http://rciapac.com/wp-content/uploads/2017/03/consulting.png" class="attachment-full size-full wp-post-image" alt="">							
+					<img width="86" height="86" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/home_images/consulting.png" class="attachment-full size-full wp-post-image" alt="">							
 				</div>
 				<div class="services-description">
 					<h2 class="text-center service-name services_title font_title">IT consultant</h2>
@@ -24,7 +24,7 @@ include 'config.php';
 			</div>						
 			<div class="col-xs-12 col-sm-12 col-md-4 text-justify services-items">
 				<div class="services-image text-center">
-					<img width="86" height="86" src="http://rciapac.com/wp-content/uploads/2017/04/puzzleq.png" class="attachment-full size-full wp-post-image" alt="">
+					<img width="86" height="86" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/home_images/puzzleq.png" class="attachment-full size-full wp-post-image" alt="">
 				</div>
 				<div class="services-description">
 					<h2 class="text-center service-name services_title font_title">System integrator</h2>

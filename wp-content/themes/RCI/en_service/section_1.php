@@ -3,7 +3,7 @@ include 'config.php';
 ?>
 <section class="section_top">
 	<div class="rci-client heading-wrapper">
-		<img class="img-responsive" id="background-image-client" src="http://rciapac.com/wp-content/uploads/2017/03/Services-2.jpg" alt="">
+		<img class="img-responsive" id="background-image-client" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/services_images/Services-2.jpg" alt="">
 		<div class="outer-heading">
 			<div class="middle-heading">
 				<div class="inner-heading text-decription-1">

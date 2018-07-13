@@ -19,7 +19,7 @@ include 'config.php';
 				<div class="row image-inner">
 					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
 					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-						<img class="img-responsive center-block wow fadeIn" data-wow-duration="0.4s" data-wow-delay="0.1s"src="http://rciapac.com/wp-content/uploads/2017/03/staff.png" alt="staff.png">
+						<img class="img-responsive center-block wow fadeIn" data-wow-duration="0.4s" data-wow-delay="0.1s" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/company_images/staff.png" alt="staff.png">
 					</div>
 					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
 				</div>
@@ -34,7 +34,7 @@ include 'config.php';
 				<div class="row image-inner">
 					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
 					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-						<img class="img-responsive center-block wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.2s" src="http://rciapac.com/wp-content/uploads/2017/03/expertise.png">
+						<img class="img-responsive center-block wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.2s" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/company_images/expertise.png">
 					</div>
 					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"></div>
 				</div>
@@ -51,7 +51,7 @@ include 'config.php';
 				<div class="row image-inner">
 					<div class="col-md-4 col-sm-4 col-xs-4"></div>
 					<div class="col-md-4 col-sm-4 col-xs-4">
-						<img class="img-responsive center-block wow fadeIn" data-wow-duration="0.4s" data-wow-delay="0.1s" src="http://rciapac.com/wp-content/uploads/2017/03/building.png" alt="">
+						<img class="img-responsive center-block wow fadeIn" data-wow-duration="0.4s" data-wow-delay="0.1s" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/company_images/building.png" alt="">
 					</div>
 					<div class="col-md-4 col-sm-4 col-xs-4"></div>
 				</div>
@@ -66,7 +66,7 @@ include 'config.php';
 				<div class="row image-inner">
 					<div class="col-md-4 col-sm-4 col-xs-4"></div>
 					<div class="col-md-4 col-sm-4 col-xs-4">
-						<img class="img-responsive center-block wow fadeIn" data-wow-duration="0.4s" data-wow-delay="0.1s" id="img-resolve" src="http://rciapac.com/wp-content/uploads/2017/03/intergrate.png">
+						<img class="img-responsive center-block wow fadeIn" data-wow-duration="0.4s" data-wow-delay="0.1s" id="img-resolve" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/company_images/intergrate.png">
 					</div>
 					<div class="col-md-4 col-sm-4 col-xs-4"></div>
 				</div>

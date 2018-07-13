@@ -11,7 +11,7 @@ include 'config.php';
 		<div class="row ">
 			<div class="col-xs-12 col-sm-3 col-md-3 text-center processes-items wow fadeIn" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeIn;">
 				<div class="processes_image text-center">
-					<img width="42" height="43" src="http://rciapac.com/wp-content/uploads/2017/03/consult.png" class="attachment-full size-full wp-post-image" alt=""><i class="processes_order">1</i>
+					<img width="42" height="43" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/services_images/consult.png" class="attachment-full size-full wp-post-image" alt=""><i class="processes_order">1</i>
 				</div>
 				<div class="processes-description  angle backward">
 					<h2 class="font_title">Consult</h2>
@@ -20,7 +20,7 @@ include 'config.php';
 			</div>			
 			<div class="col-xs-12 col-sm-3 col-md-3 text-center processes-items wow fadeIn" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeIn;">
 				<div class="processes_image text-center">
-					<img width="42" height="43" src="http://rciapac.com/wp-content/uploads/2017/03/define.png" class="attachment-full size-full wp-post-image" alt=""><i class="processes_order">2</i>
+					<img width="42" height="43" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/services_images/define.png" class="attachment-full size-full wp-post-image" alt=""><i class="processes_order">2</i>
 				</div>
 				<div class="processes-description  angle backward">
 					<h2 class="font_title">Define</h2>
@@ -29,7 +29,7 @@ include 'config.php';
 			</div>			
 			<div class="col-xs-12 col-sm-3 col-md-3 text-center processes-items wow fadeIn" data-wow-delay="0.9s" style="visibility: visible; animation-delay: 0.9s; animation-name: fadeIn;">
 				<div class="processes_image text-center">
-					<img width="45" height="36" src="http://rciapac.com/wp-content/uploads/2017/03/plan.png" class="attachment-full size-full wp-post-image" alt=""><i class="processes_order">3</i>
+					<img width="45" height="36" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/services_images/plan.png" class="attachment-full size-full wp-post-image" alt=""><i class="processes_order">3</i>
 				</div>
 				<div class="processes-description  angle backward">
 					<h2 class="font_title">Plan</h2>
@@ -38,7 +38,7 @@ include 'config.php';
 			</div>			
 			<div class="col-xs-12 col-sm-3 col-md-3 text-center processes-items wow fadeIn" data-wow-delay="1.1s" style="visibility: visible; animation-delay: 1.1s; animation-name: fadeIn;">
 				<div class="processes_image text-center">
-					<img width="42" height="43" src="http://rciapac.com/wp-content/uploads/2017/03/develop.png" class="attachment-full size-full wp-post-image" alt="">								<i class="processes_order">4</i>
+					<img width="42" height="43" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/services_images/develop.png" class="attachment-full size-full wp-post-image" alt="">								<i class="processes_order">4</i>
 				</div>
 				<div class="processes-description  angle down">
 					<h2 class="font_title">Develop</h2>
@@ -49,7 +49,7 @@ include 'config.php';
 		<div class="row" style="margin-top: 20px;">
 			<div class="col-xs-12 col-sm-3 col-md-3 text-center processes-items wow fadeIn" data-wow-delay="1.3s" style="visibility: visible; animation-delay: 1.3s; animation-name: fadeIn;">
 				<div class="processes_image text-center">
-					<img width="42" height="43" src="http://rciapac.com/wp-content/uploads/2017/03/test.png" class="attachment-full size-full wp-post-image" alt=""><i class="processes_order">5</i>
+					<img width="42" height="43" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/services_images/test.png" class="attachment-full size-full wp-post-image" alt=""><i class="processes_order">5</i>
 				</div>
 				<div class="processes-description  angle down">
 					<h2 class="font_title">Test</h2>
@@ -58,7 +58,7 @@ include 'config.php';
 			</div>
 			<div class="col-xs-12 col-sm-3 col-md-3 text-center processes-items wow fadeIn" data-wow-delay="1.5s" style="visibility: visible; animation-delay: 1.5s; animation-name: fadeIn;">
 				<div class="processes_image text-center">
-					<img width="45" height="36" src="http://rciapac.com/wp-content/uploads/2017/03/implement.png" class="attachment-full size-full wp-post-image" alt=""><i class="processes_order">6</i>
+					<img width="45" height="36" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/services_images/implement.png" class="attachment-full size-full wp-post-image" alt=""><i class="processes_order">6</i>
 				</div>
 				<div class="processes-description  angle backward">
 					<h2 class="font_title">Emplement</h2>
@@ -67,7 +67,7 @@ include 'config.php';
 			</div>
 			<div class="col-xs-12 col-sm-3 col-md-3 text-center processes-items wow fadeIn" data-wow-delay="1.7s" style="visibility: visible; animation-delay: 1.7s; animation-name: fadeIn;">
 				<div class="processes_image text-center">
-					<img width="42" height="43" src="http://rciapac.com/wp-content/uploads/2017/03/deploy.png" class="attachment-full size-full wp-post-image" alt=""><i class="processes_order">7</i>
+					<img width="42" height="43" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/services_images/deploy.png" class="attachment-full size-full wp-post-image" alt=""><i class="processes_order">7</i>
 				</div>
 				<div class="processes-description  angle backward">
 					<h2 class="font_title">Deploy</h2>
@@ -76,7 +76,7 @@ include 'config.php';
 			</div>	
 			<div class="col-xs-12 col-sm-3 col-md-3 text-center processes-items wow fadeIn" data-wow-delay="1.9s" style="visibility: visible; animation-delay: 1.9s; animation-name: fadeIn;">
 				<div class="processes_image text-center">
-					<img width="42" height="43" src="http://rciapac.com/wp-content/uploads/2017/03/support.png" class="attachment-full size-full wp-post-image" alt=""><i class="processes_order">8</i>
+					<img width="42" height="43" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/services_images/support.png" class="attachment-full size-full wp-post-image" alt=""><i class="processes_order">8</i>
 				</div>
 				<div class="processes-description  angle backward">
 					<h2 class="font_title">Support</h2>

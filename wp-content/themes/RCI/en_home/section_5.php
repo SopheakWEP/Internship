@@ -4,7 +4,7 @@ include 'config.php';
 ?>
 <section class="tailored section_top">
 	<div class="heading-wrapper no-margin">
-		<img class="bannder_img" width="100%" height="500" src="http://rciapac.com/wp-content/uploads/2017/03/luca-bravo-207676-e1493709506879.jpg" class="attachment-full size-full wp-post-image" alt="">				
+		<img class="bannder_img" width="100%" height="500" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/home_images/luca-bravo-207676-e1493709506879.jpg" class="attachment-full size-full wp-post-image" alt="">				
 		<div class="outer-heading">
 			<div class="middle-heading">
 				<div class="inner-heading">

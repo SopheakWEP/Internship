@@ -2,7 +2,7 @@
 include 'config.php';
 ?>
 <section class="tailored-service section_top">
-	<img src="http://rciapac.com/wp-content/uploads/2017/03/OB81YW0.jpg">
+	<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/services_images/OB81YW0.jpg">
 	<div class="container" style="margin-top: 50px;">
 		<div class="row">
 			<div class="col-md-1"></div>
@@ -15,7 +15,7 @@ include 'config.php';
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-4 text-center services-items">
 				<div class="services-image text-center">
-					<img width="86" height="86" src="http://rciapac.com/wp-content/uploads/2017/03/consulting-1.png" class="attachment-full size-full wp-post-image" alt="">
+					<img width="86" height="86" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/services_images/consulting.png" class="attachment-full size-full wp-post-image" alt="">
 				</div>
 				<div class="services-description">
 					<h2 class="font_title">Consulting</h2>
@@ -24,7 +24,7 @@ include 'config.php';
 			</div>						
 			<div class="col-xs-12 col-sm-12 col-md-4 text-center services-items">
 				<div class="services-image text-center">
-					<img width="87" height="86" src="http://rciapac.com/wp-content/uploads/2017/03/project-implement.png" class="attachment-full size-full wp-post-image" alt="">							
+					<img width="87" height="86" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/services_images/project-implement.png" class="attachment-full size-full wp-post-image" alt="">							
 				</div>
 				<div class="services-description">
 					<h2 class="font_title">Implementation</h2>
@@ -33,7 +33,7 @@ include 'config.php';
 			</div>						
 			<div class="col-xs-12 col-sm-12 col-md-4 text-center services-items">
 				<div class="services-image text-center">
-					<img width="90" height="77" src="http://rciapac.com/wp-content/uploads/2017/03/Support-2.png" class="attachment-full size-full wp-post-image" alt="">
+					<img width="90" height="77" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/services_images/Support-2.png" class="attachment-full size-full wp-post-image" alt="">
 				</div>
 				<div class="services-description">
 					<h2 class="font_title">Support</h2>

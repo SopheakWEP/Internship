@@ -8,7 +8,7 @@ include 'config.php';
 				<div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: 0s; width: 8154px;">
 					<div class="owl-item active" style="width: 1349px; margin-right: 10px;">
 						<div class="chronology-item text-center item">
-							<img class="img-responsive" width="1366" height="626" src="http://rciapac.com/wp-content/uploads/2017/03/HK-3.jpg" class="attachment-1366x676 size-1366x676 wp-post-image" alt="" srcset="http://rciapac.com/wp-content/uploads/2017/03/HK-3.jpg 1440w, http://rciapac.com/wp-content/uploads/2017/03/HK-3-300x140.jpg 300w, http://rciapac.com/wp-content/uploads/2017/03/HK-3-768x357.jpg 768w, http://rciapac.com/wp-content/uploads/2017/03/HK-3-1024x476.jpg 1024w, http://rciapac.com/wp-content/uploads/2017/03/HK-3-193x90.jpg 193w, http://rciapac.com/wp-content/uploads/2017/03/HK-3-107x50.jpg 107w" sizes="(max-width: 1366px) 100vw, 1366px">
+							<img class="img-responsive" width="1366" height="626" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/company_images/HK-3.jpg" class="attachment-1366x676 size-1366x676 wp-post-image" alt="" sizes="(max-width: 1366px) 100vw, 1366px">
 							<div class="inner-des-carousel description">
 								<h3 class="font_title">History of RCI Global Services – 2010</h3>
 								<div class="description-text"><p style="text-align: justify; color:#838383; font-size: 16px;">RCI Global Services was created in 2010 after realizing the lack of IT expertise in Asia-Pacific’s luxury retail industry. Its mission is to offer European and US technology and proficiency, combined with local knowledge and awareness. In merely 7 years, RCI Global Services has gained the unwavering trust of the most prestigious international retailers including Gucci, Fendi, Valentino, Céline, Bottega Veneta or&nbsp;Godiva.</p>
@@ -37,7 +37,7 @@ include 'config.php';
 					</div>
 					<div class="owl-item" style="width: 1349px; margin-right: 10px;">
 						<div class="chronology-item text-center item">
-							<img class="img-responsive" width="1366" height="626" src="http://rciapac.com/wp-content/uploads/2017/03/Gucci-3.jpg" class="attachment-1366x676 size-1366x676 wp-post-image" alt="" srcset="http://rciapac.com/wp-content/uploads/2017/03/Gucci-3.jpg 1440w, http://rciapac.com/wp-content/uploads/2017/03/Gucci-3-300x140.jpg 300w, http://rciapac.com/wp-content/uploads/2017/03/Gucci-3-768x357.jpg 768w, http://rciapac.com/wp-content/uploads/2017/03/Gucci-3-1024x476.jpg 1024w, http://rciapac.com/wp-content/uploads/2017/03/Gucci-3-193x90.jpg 193w, http://rciapac.com/wp-content/uploads/2017/03/Gucci-3-107x50.jpg 107w" sizes="(max-width: 1366px) 100vw, 1366px">					
+							<img class="img-responsive" width="1366" height="626" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/company_images/Gucci-3.jpg" class="attachment-1366x676 size-1366x676 wp-post-image" alt="" sizes="(max-width: 1366px) 100vw, 1366px">					
 							<div class="inner-des-carousel description">
 								<h3 class="font_title">Project Gucci – 2012</h3>
 								<div class="span-des">
@@ -63,7 +63,7 @@ include 'config.php';
 					</div>
 					<div class="owl-item" style="width: 1349px; margin-right: 10px;">
 						<div class="chronology-item text-center item">
-							<img class="img-responsive" width="1366" height="626" src="http://rciapac.com/wp-content/uploads/2017/04/Shenzhen.jpg" class="attachment-1366x676 size-1366x676 wp-post-image" alt="" srcset="http://rciapac.com/wp-content/uploads/2017/04/Shenzhen.jpg 1440w, http://rciapac.com/wp-content/uploads/2017/04/Shenzhen-300x140.jpg 300w, http://rciapac.com/wp-content/uploads/2017/04/Shenzhen-768x357.jpg 768w, http://rciapac.com/wp-content/uploads/2017/04/Shenzhen-1024x476.jpg 1024w, http://rciapac.com/wp-content/uploads/2017/04/Shenzhen-193x90.jpg 193w, http://rciapac.com/wp-content/uploads/2017/04/Shenzhen-107x50.jpg 107w" sizes="(max-width: 1366px) 100vw, 1366px">					
+							<img class="img-responsive" width="1366" height="626" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/company_images/Shenzhen.jpg" class="attachment-1366x676 size-1366x676 wp-post-image" alt="" sizes="(max-width: 1366px) 100vw, 1366px">					
 							<div class="inner-des-carousel description">
 								<h3 class="font_title">New office in Shenzhen, China – 2013</h3>
 								<div class="span"><p style="text-align: justify; color:#838383;"><span class=" font_content" style="font-size: 12pt;">RCI opens its first office abroad in Shenzhen, China.</span></p>
@@ -86,7 +86,7 @@ include 'config.php';
 					</div>
 					<div class="owl-item" style="width: 1349px; margin-right: 10px;">
 						<div class="chronology-item text-center item">
-							<img class="img-responsive" width="1366" height="626" src="http://rciapac.com/wp-content/uploads/2017/04/Seoul-1.jpg" class="attachment-1366x676 size-1366x676 wp-post-image" alt="" srcset="http://rciapac.com/wp-content/uploads/2017/04/Seoul-1.jpg 1440w, http://rciapac.com/wp-content/uploads/2017/04/Seoul-1-300x140.jpg 300w, http://rciapac.com/wp-content/uploads/2017/04/Seoul-1-768x357.jpg 768w, http://rciapac.com/wp-content/uploads/2017/04/Seoul-1-1024x476.jpg 1024w, http://rciapac.com/wp-content/uploads/2017/04/Seoul-1-193x90.jpg 193w, http://rciapac.com/wp-content/uploads/2017/04/Seoul-1-107x50.jpg 107w" sizes="(max-width: 1366px) 100vw, 1366px">					
+							<img class="img-responsive" width="1366" height="626" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/company_images/Seoul-1.jpg" class="attachment-1366x676 size-1366x676 wp-post-image" alt="" sizes="(max-width: 1366px) 100vw, 1366px">					
 							<div class="inner-des-carousel description">
 								<!-- <h2>Chronology</h2> -->
 								<h3 class="font_title">New office in Seoul, South Korea – 2014</h3>
@@ -111,7 +111,7 @@ include 'config.php';
 					</div>
 					<div class="owl-item" style="width: 1349px; margin-right: 10px;">
 						<div class="chronology-item text-center item">
-							<img class="img-responsive" width="1366" height="626" src="http://rciapac.com/wp-content/uploads/2017/04/OB82160.jpg" class="attachment-1366x676 size-1366x676 wp-post-image" alt="" srcset="http://rciapac.com/wp-content/uploads/2017/04/OB82160.jpg 1440w, http://rciapac.com/wp-content/uploads/2017/04/OB82160-300x140.jpg 300w, http://rciapac.com/wp-content/uploads/2017/04/OB82160-768x357.jpg 768w, http://rciapac.com/wp-content/uploads/2017/04/OB82160-1024x476.jpg 1024w, http://rciapac.com/wp-content/uploads/2017/04/OB82160-193x90.jpg 193w, http://rciapac.com/wp-content/uploads/2017/04/OB82160-107x50.jpg 107w" sizes="(max-width: 1366px) 100vw, 1366px">
+							<img class="img-responsive" width="1366" height="626" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/company_images/OB82160.jpg" class="attachment-1366x676 size-1366x676 wp-post-image" alt="" sizes="(max-width: 1366px) 100vw, 1366px">
 							<div class="inner-des-carousel description">
 								<h3 class="font_title">RCI is Demandware’s LINK Service Partner – 2015</h3>
 								<div class="span"><p style="text-align: justify; color:#838383;"><span class=" font_content" style="font-size: 12pt;">In 2015, Demandware (now Salesforce Commerce Cloud) certified RCI as a LINK Service Partner. Thanks to their expertise, RCI can propose to its clients the Salesforce Commerce Cloud E-commerce solution to build online stores.</span></p>
@@ -134,7 +134,7 @@ include 'config.php';
 					</div>
 					<div class="owl-item" style="width: 1349px; margin-right: 10px;">
 						<div class="chronology-item text-center item">
-							<img class="img-responsive" width="1366" height="626" src="http://rciapac.com/wp-content/uploads/2017/04/OMS-Pro-Chronology.jpg" class="attachment-1366x676 size-1366x676 wp-post-image" alt="" srcset="http://rciapac.com/wp-content/uploads/2017/04/OMS-Pro-Chronology.jpg 1440w, http://rciapac.com/wp-content/uploads/2017/04/OMS-Pro-Chronology-300x140.jpg 300w, http://rciapac.com/wp-content/uploads/2017/04/OMS-Pro-Chronology-768x357.jpg 768w, http://rciapac.com/wp-content/uploads/2017/04/OMS-Pro-Chronology-1024x476.jpg 1024w, http://rciapac.com/wp-content/uploads/2017/04/OMS-Pro-Chronology-193x90.jpg 193w, http://rciapac.com/wp-content/uploads/2017/04/OMS-Pro-Chronology-107x50.jpg 107w" sizes="(max-width: 1366px) 100vw, 1366px">					
+							<img class="img-responsive" width="1366" height="626" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/company_images/OMS-Pro-Chronology.jpg" class="attachment-1366x676 size-1366x676 wp-post-image" alt="" sizes="(max-width: 1366px) 100vw, 1366px">					
 							<div class="inner-des-carousel description">
 								<!-- <h2>Chronology</h2> -->
 								<h3 class="font_title">RCI develops OMS Pro – 2016</h3>

@@ -6,7 +6,7 @@
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-4 text-center services-items">
 				<div class="services-image text-center">
-					<img width="86" height="86" src="http://rciapac.com/wp-content/uploads/2017/04/shop.png" class="attachment-full size-full wp-post-image" alt="">
+					<img width="86" height="86" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/services_images/shop.png" class="attachment-full size-full wp-post-image" alt="">
 				</div>
 				<div class="services-description">
 					<h2 class="font_title">Retail expert</h2>
@@ -28,7 +28,7 @@
 			</div>						
 			<div class="col-xs-12 col-sm-12 col-md-4 text-center services-items">
 				<div class="services-image text-center">
-					<img width="86" height="86" src="http://rciapac.com/wp-content/uploads/2017/03/consulting.png" class="attachment-full size-full wp-post-image" alt="">
+					<img width="86" height="86" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/services_images/consulting.png" class="attachment-full size-full wp-post-image" alt="">
 				</div>
 				<div class="services-description">
 					<h2 class="font_title">IT consultant</h2>
@@ -48,7 +48,7 @@
 			</div>						
 			<div class="col-xs-12 col-sm-12 col-md-4 text-center services-items">
 				<div class="services-image text-center">
-					<img width="86" height="86" src="http://rciapac.com/wp-content/uploads/2017/04/puzzleq.png" class="attachment-full size-full wp-post-image" alt="">							</div>
+					<img width="86" height="86" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/services_images/puzzleq.png" class="attachment-full size-full wp-post-image" alt="">							</div>
 					<div class="services-description">
 						<h2 class="font_title">System integrator</h2>
 						<p class="paragraph_rci font_content">The system integration is a necessary step to create a unified commerce. RCI Global Services develops interfaces so that the information can be transferred. As online shoppers are increasing, retailers can link their physical stores to their online stores.</p><br>

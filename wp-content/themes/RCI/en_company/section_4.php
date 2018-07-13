@@ -14,7 +14,7 @@ include 'config.php';
 		<div class="row">
 			<div class="col-lg-5 col-md-5 col-sm-5 col-xs-4"></div>
 			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
-				<img width="170" height="170" src="http://rciapac.com/wp-content/uploads/2017/03/AAEAAQAAAAAAAAjNAAAAJDkyZDIzZGVhLWY5MWMtNDQzMi04NTM2LTk4MDA0NDk2NjE4Mw.jpg" class="attachment-170x170 size-170x170 wp-post-image" alt="" srcset="http://rciapac.com/wp-content/uploads/2017/03/AAEAAQAAAAAAAAjNAAAAJDkyZDIzZGVhLWY5MWMtNDQzMi04NTM2LTk4MDA0NDk2NjE4Mw.jpg 220w, http://rciapac.com/wp-content/uploads/2017/03/AAEAAQAAAAAAAAjNAAAAJDkyZDIzZGVhLWY5MWMtNDQzMi04NTM2LTk4MDA0NDk2NjE4Mw-150x150.jpg 150w" sizes="(max-width: 170px) 100vw, 170px" style="border-radius: 50%">
+				<img width="170" height="170" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/company_images/rain_lau.jpg" class="attachment-170x170 size-170x170 wp-post-image" alt="" sizes="(max-width: 170px) 100vw, 170px" style="border-radius: 50%">
 			</div>
 			<div class="col-lg-5 col-md-5 col-sm-5 col-xs-4"></div>
 		</div>

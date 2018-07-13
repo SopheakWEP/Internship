@@ -11,18 +11,18 @@ include 'config.php';
 					<div class="owl-stage-outer">
 						<div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: 0s; width: 1620px;">
 							<div class="owl-item active" style="width: 540px;">
-								<div class="background-tv" style="background-image:url('http://rciapac.com/wp-content/uploads/2017/03/OMS-1.png');">
+								<div class="background-tv" style="background-image:url('<?php echo get_stylesheet_directory_uri(); ?>/assets/solution_images/E-co.png');">
 								</div>
 							</div>
 							<div class="owl-item" style="width: 540px;">
-								<div class="background-tv" style="background-image:url('http://rciapac.com/wp-content/uploads/2017/03/OMS-1.png');">
+								<div class="background-tv" style="background-image:url('<?php echo get_stylesheet_directory_uri(); ?>/assets/solution_images/E-co.png');">
 									<div class="video-container">
 										<iframe class="youtube-iframe-713" style="max-width: 100%" width="540" height="280" src="https://www.youtube.com/embed/ojfNgP0eyLc?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
 									</div>
 								</div>
 							</div>
 							<div class="owl-item" style="width: 540px;">
-								<div class="background-tv" style="background-image:url('http://rciapac.com/wp-content/uploads/2017/03/OMS-1.png');">
+								<div class="background-tv" style="background-image:url('<?php echo get_stylesheet_directory_uri(); ?>/assets/solution_images/E-co.png');">
 									<div class="video-container">
 										<iframe class="youtube-iframe-714" style="max-width: 100%" width="540" height="280" src="https://www.youtube.com/embed/ojfNgP0eyLc?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe> 
 									</div>
@@ -40,13 +40,13 @@ include 'config.php';
 				<ul class="nav nav-tabs nav-sm contribe-nav" role="tablist">
 					<li role="presentation" data-target="#oms" class="pre2">
 						<a href="#oms-pro" aria-controls="oms-pro" role="tab" data-toggle="tab">
-							<img width="84" height="50" src="http://rciapac.com/wp-content/uploads/2017/04/OMS-84x50.png" class="attachment-contributor-logo-small size-contributor-logo-small wp-post-image" alt="" srcset="http://rciapac.com/wp-content/uploads/2017/04/OMS-84x50.png 84w, http://rciapac.com/wp-content/uploads/2017/04/OMS-127x77.png 127w, http://rciapac.com/wp-content/uploads/2017/04/OMS.png 130w" sizes="(max-width: 84px) 100vw, 84px">						    	
+							<img width="84" height="50" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/solution_images/OMS-84x50.png" class="attachment-contributor-logo-small size-contributor-logo-small wp-post-image" alt=""  sizes="(max-width: 84px) 100vw, 84px">						    	
 							<i class="fa fa-play-circle" aria-hidden="true"></i>
 						</a>
 					</li>
 					<li role="presentation" data-target="#oms" class="next2">
 						<a href="#ibm-sterling" aria-controls="ibm-sterling" role="tab" data-toggle="tab">
-							<img width="130" height="25" src="http://rciapac.com/wp-content/uploads/2017/04/IBM-130x25.png" class="attachment-contributor-logo-small size-contributor-logo-small wp-post-image" alt="" srcset="http://rciapac.com/wp-content/uploads/2017/04/IBM.png 130w, http://rciapac.com/wp-content/uploads/2017/04/IBM-127x25.png 127w" sizes="(max-width: 130px) 100vw, 130px">						    	<i class="fa fa-play-circle" aria-hidden="true"></i>
+							<img width="130" height="25" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/solution_images/IBM.png" class="attachment-contributor-logo-small size-contributor-logo-small wp-post-image" alt=""  sizes="(max-width: 130px) 100vw, 130px"><i class="fa fa-play-circle" aria-hidden="true"></i>
 						</a>
 					</li>
 				</ul>
