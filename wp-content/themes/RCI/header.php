@@ -83,13 +83,15 @@
 						$args = array('theme_location' => 'primary_kh' ); 
 						wp_nav_menu($args);
 					}
+
 					if(isset($_GET['lang'])){
 						$_SESSION['lang'] = $_GET['lang'];
 					}
-					if (!isset($_SESSION['lang']) || $_SESSION['lang'] == 'en') {
-						en_menu();
-					}else{
+					if (!isset($_SESSION['lang']) || $_SESSION['lang'] == 'kh') {
 						kh_menu();
+					}else{
+						
+						en_menu();
 					}
 					?>
 				</div>

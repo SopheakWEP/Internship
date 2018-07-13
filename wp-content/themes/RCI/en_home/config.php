@@ -16,5 +16,5 @@ elseif (isset($_GET['lang']) && $_SESSION['lang'] != $_GET['lang'] && !empty($_G
 		$_SESSION['lang'] = "kh";
 	}
 }
-require_once "languages/".$_SESSION['lang'].".php";
+require_once 'languages/'.$_SESSION['lang'].".php";
 ?>
