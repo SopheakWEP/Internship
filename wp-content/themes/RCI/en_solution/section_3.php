@@ -13,7 +13,7 @@ include 'config.php';
 		</div>
 		<div class="row">
 			<div class="col-md-12">
-				<img style="max-width: 100%;" class="oms_proccess" src="http://rciapac.com/wp-content/uploads/2017/03/RCI-O2O-architecture-V3-1.png" alt="">
+				<img style="max-width: 100%;" class="oms_proccess" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/solution_images/RCI-O2O-architecture-V3-1.png" alt="">
 			</div>	
 		</div>
 		<div class="row">

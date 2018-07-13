@@ -11,18 +11,18 @@ include 'config.php';
 					<div class="owl-stage-outer">
 						<div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: 0s; width: 1620px;">
 							<div class="owl-item active" style="width: 540px;">
-								<div class="background-tv" style="background-image:url('http://rciapac.com/wp-content/uploads/2017/03/POS-1.png');">
+								<div class="background-tv" style="background-image:url('<?php echo get_stylesheet_directory_uri(); ?>/assets/solution_images/E-co.png');">
 								</div>
 							</div>
 							<div class="owl-item" style="width: 540px;">
-								<div class="background-tv" style="background-image:url('http://rciapac.com/wp-content/uploads/2017/03/POS-1.png');">
+								<div class="background-tv" style="background-image:url('<?php echo get_stylesheet_directory_uri(); ?>/assets/solution_images/E-co.png');">
 									<div class="video-container">
 										<iframe class="youtube-iframe-715" style="max-width: 100%" width="540" height="280" src="https://www.youtube.com/embed/k2iI-5DSCQQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
 									</div>
 								</div>
 							</div>
 							<div class="owl-item" style="width: 540px;">
-								<div class="background-tv" style="background-image:url('http://rciapac.com/wp-content/uploads/2017/03/POS-1.png');">
+								<div class="background-tv" style="background-image:url('<?php echo get_stylesheet_directory_uri(); ?>/assets/solution_images/E-co.png');">
 									<div class="video-container">
 										<iframe class="youtube-iframe-716" style="max-width: 100%" width="540" height="280" src="https://www.youtube.com/embed/5BCitYscfEY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
 									</div>
@@ -40,12 +40,12 @@ include 'config.php';
 				<ul class="nav nav-tabs nav-sm contribe-nav" role="tablist">
 					<li role="presentation" data-target="#pos" class="pre3">
 						<a href="#retail-pro" aria-controls="retail-pro" role="tab" data-toggle="tab">
-							<img width="110" height="50" src="http://rciapac.com/wp-content/uploads/2017/04/Retail-Pro-110x50.png" class="attachment-contributor-logo-small size-contributor-logo-small wp-post-image" alt="" srcset="http://rciapac.com/wp-content/uploads/2017/04/Retail-Pro-110x50.png 110w, http://rciapac.com/wp-content/uploads/2017/04/Retail-Pro-127x59.png 127w, http://rciapac.com/wp-content/uploads/2017/04/Retail-Pro.png 130w" sizes="(max-width: 110px) 100vw, 110px">						<i class="fa fa-play-circle" aria-hidden="true"></i>
+							<img width="110" height="50" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/solution_images/Retail-Pro-110x50.png" class="attachment-contributor-logo-small size-contributor-logo-small wp-post-image" alt="" sizes="(max-width: 110px) 100vw, 110px"><i class="fa fa-play-circle" aria-hidden="true"></i>
 						</a>
 					</li>
 					<li role="presentation" data-target="#pos" class="next3">
 						<a href="#ivend" aria-controls="ivend" role="tab" data-toggle="tab">
-							<img width="127" height="50" src="http://rciapac.com/wp-content/uploads/2017/04/iVend-1-127x50.png" class="attachment-contributor-logo-small size-contributor-logo-small wp-post-image" alt="" srcset="http://rciapac.com/wp-content/uploads/2017/04/iVend-1-127x50.png 127w, http://rciapac.com/wp-content/uploads/2017/04/iVend-1.png 130w" sizes="(max-width: 127px) 100vw, 127px">						    	
+							<img width="127" height="50" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/solution_images/iVend-1-127x50.png" class="attachment-contributor-logo-small size-contributor-logo-small wp-post-image" alt="" sizes="(max-width: 127px) 100vw, 127px">						    	
 							<i class="fa fa-play-circle" aria-hidden="true"></i>
 						</a>
 					</li>

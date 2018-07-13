@@ -17,7 +17,7 @@ include 'config.php';
 			<div class="col-xs-12 col-sm-6 col-md-6 triangle text-center wow zoomIn blue" style="visibility: visible; animation-name: zoomIn;">
 				<div class="inner">
 					<div class="figure-img">
-						<img src="http://rciapac.com/wp-content/themes/rciglobal/assets/img/office.png">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/home_images/office.png">
 					</div>
 					<h4 class="figures-bg font_sizeoff font_title" style="font-size: 115%;">5 offices in APAC</h4>
 				</div>
@@ -25,7 +25,7 @@ include 'config.php';
 			<div class="col-xs-12 col-sm-6 col-md-6 triangle text-center yellow wow zoomIn" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;">
 				<div class="inner">
 					<div class="figure-img">
-						<img src="http://rciapac.com/wp-content/themes/rciglobal/assets/img/client.png">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/home_images/client.png">
 					</div>
 					<h4 class="figures-bg font_title">+40 clients</h4>
 				</div>
@@ -35,7 +35,7 @@ include 'config.php';
 			<div class="col-xs-12 col-sm-6 col-md-6 triangle text-center  yellow blue1 wow zoomIn" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;">
 				<div class="inner">
 					<div class="figure-img">
-						<img src="http://rciapac.com/wp-content/themes/rciglobal/assets/img/trophy.png">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/home_images/trophy.png">
 					</div>
 					<h4 class="figures-bg font_title">+50 projects</h4>
 				</div>
@@ -43,7 +43,7 @@ include 'config.php';
 			<div class="col-xs-12 col-sm-6 col-md-6 triangle text-center  wow zoomIn blue yellow1" style="visibility: visible; animation-name: zoomIn;">
 				<div class="inner">
 					<div class="figure-img">
-						<img src="http://rciapac.com/wp-content/themes/rciglobal/assets/img/relationship.png">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/home_images/relationship.png">
 					</div>
 					<h4 class="figures-bg font_title">+10 partners</h4>
 				</div>

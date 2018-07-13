@@ -354,7 +354,7 @@ li {
   background-color: #16445b;
   -webkit-border-radius: 0;
   opacity: 0.6;
-  background-image: url(assets/left-arrow.png);
+  background-image: url(assets/home_images/left-arrow.png);
   background-repeat: no-repeat;
   background-position: center;
   width: 31px;
@@ -372,7 +372,7 @@ li {
   background-color: #16445b;
   -webkit-border-radius: 0;
   opacity: 0.6;
-  background-image: url(assets/right-arrow.png);
+  background-image: url(assets/home_images/right-arrow.png);
   background-repeat: no-repeat;
   background-position: center;
   width: 31px;
@@ -919,7 +919,7 @@ h1, h2, h3, h4, h5, h6 {
 .background_add{
   background: #555;
   background-clip: padding-box;
-  padding: 4px;
+  padding: 1px;
   border-radius: 4px;
 }
 .rciemail:hover{

@@ -6,7 +6,7 @@ include 'config.php';
 		<div class="row"  id="solution-intro">
 			<div class="col-xs-12 col-sm-12 col-md-4 services-items" style="margin-top: 20px;">
 				<div class="services-image text-center">
-					<img width="235" height="90" src="http://rciapac.com/wp-content/uploads/2017/04/E-commerce-Home-2-235x90.png" class="attachment-solution_introduction_thumb size-solution_introduction_thumb wp-post-image" alt="" srcset="http://rciapac.com/wp-content/uploads/2017/04/E-commerce-Home-2-235x90.png 235w, http://rciapac.com/wp-content/uploads/2017/04/E-commerce-Home-2.png 240w" sizes="(max-width: 235px) 100vw, 235px">
+					<img width="235" height="90" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/home_images/E-commerce-Home-2-235x90.png" class="attachment-solution_introduction_thumb size-solution_introduction_thumb wp-post-image" alt="">
 				</div>
 				<div class="services-description">
 					<h2 class="text-center service-name type_sys font_title">E-commerce</h2>
@@ -16,7 +16,7 @@ include 'config.php';
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-4 services-items" style="margin-top: 24px;">
 				<div class="services-image text-center">
-					<img width="240" height="87" src="http://rciapac.com/wp-content/uploads/2017/04/OMS-Home-2-1.png" class="attachment-solution_introduction_thumb size-solution_introduction_thumb wp-post-image" alt="">
+					<img width="240" height="87" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/home_images/OMS-Home-2-1.png" class="attachment-solution_introduction_thumb size-solution_introduction_thumb wp-post-image" alt="">
 				</div>
 				<div class="services-description">
 					<h2 class="text-center service-name type_sys font_title">Order Management System (OMS)</h2>
@@ -27,7 +27,7 @@ include 'config.php';
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-4 services-items" style="margin-top: 20px;">
 				<div class="services-image text-center">
-					<img width="210" height="90" src="http://rciapac.com/wp-content/uploads/2017/04/POS-Home-2.png" class="attachment-solution_introduction_thumb size-solution_introduction_thumb wp-post-image" alt="">	
+					<img width="210" height="90" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/home_images/POS-Home-2.png" class="attachment-solution_introduction_thumb size-solution_introduction_thumb wp-post-image" alt="">	
 				</div>
 				<div class="services-description">
 					<h2 class="text-center service-name type_sys font_title">Point of sale (POS)</h2>

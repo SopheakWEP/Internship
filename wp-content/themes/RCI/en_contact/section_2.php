@@ -6,15 +6,15 @@
  	<div class="main_contact">
  		<div class="row">
  			<div class="col-md-6 col-xs-12 col-sm-6 pp_location"><br><br>
- 				<div class="office-item text-center item cambodia_img" style=" background-image: url('http://rciapac.com/wp-content/uploads/2017/06/Phnom-Penh-2-2.png');height: 560px; background-repeat: no-repeat; background-size: cover; padding: 16px; opacity: 0.9;">
+ 				<div class="office-item text-center item cambodia_img" style=" background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/contact_images/Phnom-Penh-2-2.png');height: 560px; background-repeat: no-repeat; background-size: cover; padding: 16px; opacity: 0.9;">
  					<div>
  						<h1 class="span location_add font_title"><b class="background_add">CAMBODIA</b></h1>
  						<div class="address-icon"><i class="fas fa-map-marker-alt fa-5x"></i></div>
- 						<div class="span location_add font_content"><b class="background_add"><i>Retail Consulting International Co., Ltd, No 56, Street 390, Village 1, Sangkat Boeung Keng Kang III, Khan Chamkar Morn, Phnom Penh</i></b></div>
+ 						<div class="span location_add font_content"><b class="background_add">Retail Consulting International Co., Ltd, No 56, Street 390, Village 1, Sangkat Boeung Keng Kang III, Khan Chamkar Morn, Phnom Penh</b></div>
  						<div class="phone-icon"><i class="fas fa-phone fa-5x"></i></div>
- 						<div class="span location_add font_content"><b class="background_add"><i>(+855) 96 445 2656</i></b></div>
+ 						<div class="span location_add font_content"><b class="background_add">(+855) 96 445 2656</b></div>
  						<div class="email-icon"><i class="far fa-envelope fa-5x"></i></div>
- 						<div class="span location_add font_content"><a class="span" href="mailto:contact@rciapac.com"><b class="background-size_add rciemail"><i>contact@rciapac.com</i></b></a></div>
+ 						<div class="span location_add font_content"><a class="span" href="mailto:contact@rciapac.com"><b class="background_add background-size_add rciemail">contact@rciapac.com</b></a></div>
  					</div>
  				</div>
  			</div><br>
