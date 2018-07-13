@@ -31,7 +31,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<?php wp_head(); ?>
+	<?php wp_head() ?>
 </head>
 <body class="font_defualt" <?php body_class();?>>
 	<ul class="left_menu_language">
