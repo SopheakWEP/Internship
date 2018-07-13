@@ -1,4 +1,3 @@
-<!-- php -->
 <?php 
 include 'config.php';
 ?>
@@ -121,14 +120,7 @@ include 'config.php';
 				}
 			}
 		})
-		// $(function(){
-		// // $('#<?php the_ID(); ?>').click(function(){
-		// $('#<?php the_ID(); ?>').css('margin-top','300px');
-		// // $('#<?php the_ID(); ?>').css('height','100px');
-		// // });
-		// });
 	</script>
-
 </body>
 </html>
 
